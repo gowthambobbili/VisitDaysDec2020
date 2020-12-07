@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EmptyStateVerificationWhenNoSearchResultsFoundInLocations</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>987c8c49-17f5-4274-aaff-8fb0f004d5e8</testCaseGuid>
+   <variable>
+      <defaultValue>'Unmatched Search text 123'</defaultValue>
+      <description></description>
+      <id>b4fa8919-8d96-4fc3-9c1d-cce8a8d8d4ee</id>
+      <masked>false</masked>
+      <name>RandomSearchText</name>
+   </variable>
+</TestCaseEntity>

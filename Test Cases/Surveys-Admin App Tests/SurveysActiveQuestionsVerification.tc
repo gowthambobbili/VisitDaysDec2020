@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SurveysActiveQuestionsVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4ee7f430-d28f-4cd9-9039-733f07696846</testCaseGuid>
+   <variable>
+      <defaultValue>'/survey/questions'</defaultValue>
+      <description></description>
+      <id>7a3ff501-3fa2-45d3-a326-c0694f77d228</id>
+      <masked>false</masked>
+      <name>ConfigurationPageUrlEndPoint</name>
+   </variable>
+</TestCaseEntity>

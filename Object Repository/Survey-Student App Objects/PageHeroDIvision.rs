@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PageHeroDIvision</name>
+   <tag></tag>
+   <elementGuidId>365edc4c-3c10-4ae2-8823-84da03b7d382</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id=&quot;ember527&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;vd-survey use-institution-colors __3fbae ember-view&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.use-institution-colors</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id=&quot;ember527&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

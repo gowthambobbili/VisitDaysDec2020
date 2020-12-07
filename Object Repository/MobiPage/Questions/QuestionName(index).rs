@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>QuestionName(index)</name>
+   <tag></tag>
+   <elementGuidId>6531295f-c01c-4811-8f99-8f0283115605</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//div[@class=&quot;mobi-question-card__question-text&quot;])[${index}]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//div[@class=&quot;mobi-question-card__question-text&quot;])[${index}]</value>
+   </webElementProperties>
+</WebElementEntity>

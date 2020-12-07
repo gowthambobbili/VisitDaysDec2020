@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will creates a visit with the date which is very first day in calendar month view and verifies the visits </description>
+   <name>VerificationOfVisitsInCalenderForTheVeryFirstDayInMonthView (Daily Visit)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4609faf-7c3e-4c58-b298-66b3d15d0fc5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>StarIcon(element)</name>
+   <tag></tag>
+   <elementGuidId>16837aa7-6c9d-4548-b50f-c74c78a009f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[text()='${element}']//span[text()='stars']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[text()='${element}']//span[text()='stars']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ThreeDotMenuOfInstance(instance)</name>
+   <tag></tag>
+   <elementGuidId>f0849fcc-5203-48c0-8805-45d3782373ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[text()='${instance}']/..//i[text()=&quot;more_vert&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//td[text()='${instance}']/..//i[text()=&quot;more_vert&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

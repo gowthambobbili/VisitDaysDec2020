@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FilterHeader</name>
+   <tag></tag>
+   <elementGuidId>65deccb9-d103-47ba-8a68-0da7c40cf3d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@role=&quot;presentation&quot;]/preceding::div[contains(@class,'MuiPaper-rounded')]//p[text()='FILTER']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@role=&quot;presentation&quot;]/preceding::div[contains(@class,'MuiPaper-rounded')]//p[text()='FILTER']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EditButtonInVideosPage</name>
+   <tag></tag>
+   <elementGuidId>6b9052db-5a84-4225-bd4c-f7f07fd0b1da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[text()=&quot;${videoName}&quot;]/../..//div//div[@class=&quot;conventions-video-card__actions-right&quot;]//a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

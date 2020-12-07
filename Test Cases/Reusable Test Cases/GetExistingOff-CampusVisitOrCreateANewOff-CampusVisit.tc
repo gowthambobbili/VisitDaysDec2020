@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetExistingOff-CampusVisitOrCreateANewOff-CampusVisit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>839b5fc3-7d2e-48a9-889d-9a1f27a43a46</testCaseGuid>
+</TestCaseEntity>

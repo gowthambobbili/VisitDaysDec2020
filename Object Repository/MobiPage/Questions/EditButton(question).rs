@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EditButton(question)</name>
+   <tag></tag>
+   <elementGuidId>4f7aab92-a3b3-4b59-ada9-0ed476333b30</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[text()=&quot;${question}&quot;]/../../..//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[text()=&quot;${question}&quot;]/../../..//a</value>
+   </webElementProperties>
+</WebElementEntity>

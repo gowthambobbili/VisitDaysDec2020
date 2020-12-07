@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InstanceId(instance)</name>
+   <tag></tag>
+   <elementGuidId>8bde0aac-0b9b-4c7e-bc84-edc17eaa2f1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//td[text()='${instance}']/..//td)[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//td[text()='${instance}']/..//td)[3]</value>
+   </webElementProperties>
+</WebElementEntity>

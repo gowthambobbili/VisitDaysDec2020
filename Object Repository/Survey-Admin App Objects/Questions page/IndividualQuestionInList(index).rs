@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IndividualQuestionInList(index)</name>
+   <tag></tag>
+   <elementGuidId>c5878f47-9bbb-41a7-ab3e-ab2419734c4b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//div[@class=&quot;question-card__question-text&quot;])[${index}]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//div[@class=&quot;question-card__question-text&quot;])[${index}]</value>
+   </webElementProperties>
+</WebElementEntity>

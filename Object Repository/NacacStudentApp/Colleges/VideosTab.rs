@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VideosTab</name>
+   <tag></tag>
+   <elementGuidId>3c96532f-7b0f-46a6-8b2f-1f7d0b5940e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;css-kum87f&quot;]//div[text()='VIDEOS']/../..</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;css-kum87f&quot;]//div[text()='VIDEOS']/../..</value>
+   </webElementProperties>
+</WebElementEntity>

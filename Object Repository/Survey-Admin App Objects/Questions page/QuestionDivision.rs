@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>QuestionDivision</name>
+   <tag></tag>
+   <elementGuidId>13cc1f11-3886-4d9a-8ea6-7d2ca32dbd45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;admin-survey-question-card__content&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;admin-survey-question-card__content&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

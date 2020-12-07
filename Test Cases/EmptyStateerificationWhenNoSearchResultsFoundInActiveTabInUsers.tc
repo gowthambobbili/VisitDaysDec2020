@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EmptyStateerificationWhenNoSearchResultsFoundInActiveTabInUsers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>372839da-d140-49d3-ab4d-5664091be5b4</testCaseGuid>
+   <variable>
+      <defaultValue>'EmptyStateTestRandomtext'</defaultValue>
+      <description></description>
+      <id>aa19c9c5-9195-4888-80d4-e7b9ffcb5172</id>
+      <masked>false</masked>
+      <name>RandomSearchText</name>
+   </variable>
+</TestCaseEntity>

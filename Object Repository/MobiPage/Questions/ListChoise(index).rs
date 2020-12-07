@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ListChoise(index)</name>
+   <tag></tag>
+   <elementGuidId>fa6a6bba-4219-430d-bbc9-1fdb8d733f0b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//div[@class=&quot;mobi-question-form__answer-choice-controls&quot;]//input[@type=&quot;text&quot;])[${index}]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//div[@class=&quot;mobi-question-form__answer-choice-controls&quot;]//input[@type=&quot;text&quot;])[${index}]</value>
+   </webElementProperties>
+</WebElementEntity>

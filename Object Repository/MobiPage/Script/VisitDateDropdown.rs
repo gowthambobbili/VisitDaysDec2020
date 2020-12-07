@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VisitDateDropdown</name>
+   <tag></tag>
+   <elementGuidId>b56f49dc-fa72-413a-a9ca-3c5017ccca45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;mobi-instance-form__visit-date-picker&quot;]//input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;mobi-instance-form__visit-date-picker&quot;]//input</value>
+   </webElementProperties>
+</WebElementEntity>

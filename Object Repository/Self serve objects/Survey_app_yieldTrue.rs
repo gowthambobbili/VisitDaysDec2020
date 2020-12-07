@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Survey_app_yieldTrue</name>
+   <tag></tag>
+   <elementGuidId>9ff1dff7-1224-4bce-8ccc-fd7b566a50c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[text()='surveys_app_yield']/..//td[text()='true']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//td[text()='surveys_app_yield']/..//td[text()='true']</value>
+   </webElementProperties>
+</WebElementEntity>

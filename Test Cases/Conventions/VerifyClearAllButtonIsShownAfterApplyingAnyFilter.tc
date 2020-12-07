@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyClearAllButtonIsShownAfterApplyingAnyFilter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22330e1c-d7b2-4d7f-b980-1dd2679c2337</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Off-CampusVisitsShouldNotShowInotherVisitCategoryIndexPage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>890fe8aa-17b1-4b0c-8cf7-58d65d05697a</testCaseGuid>
+</TestCaseEntity>

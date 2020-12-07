@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SearchhResult(studentName)</name>
+   <tag></tag>
+   <elementGuidId>39a5990a-ed82-41be-a9ef-fcf5ac29f8e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;search-subheader&quot;]//strong[text()='${studentName}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;search-subheader&quot;]//strong[text()='${studentName}']</value>
+   </webElementProperties>
+</WebElementEntity>

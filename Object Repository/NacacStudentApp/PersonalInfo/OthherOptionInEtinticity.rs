@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OthherOptionInEtinticity</name>
+   <tag></tag>
+   <elementGuidId>aae9d769-5bac-43b5-ba4c-528277d7b721</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[text()='Ethnicity']/../..//span[text()='Other']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[text()='Ethnicity']/../..//span[text()='Other']</value>
+   </webElementProperties>
+</WebElementEntity>

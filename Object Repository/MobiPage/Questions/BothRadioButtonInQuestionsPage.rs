@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BothRadioButtonInQuestionsPage</name>
+   <tag></tag>
+   <elementGuidId>6ee70a0e-324f-4856-bdd4-68d037b716ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@value=&quot;both&quot;]/..</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@value=&quot;both&quot;]/..</value>
+   </webElementProperties>
+</WebElementEntity>

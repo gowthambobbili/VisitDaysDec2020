@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RequestAndScheduleWhenitIneraryIsCombinationOfRequestAndInstantDailyVisit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6242925e-268f-4735-b831-10176ce5b430</testCaseGuid>
+</TestCaseEntity>

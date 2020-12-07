@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will navigate to the survey page and answers one question and again navigates to the same survey link then verifies the previously answerd responce is cleared</description>
+   <name>SurveyQuestionShouldNotSaveThePreviousResponcesUntilSubmittingTheSurvey</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da673ffa-174d-4da1-a285-efb6e1541a7a</testCaseGuid>
+</TestCaseEntity>

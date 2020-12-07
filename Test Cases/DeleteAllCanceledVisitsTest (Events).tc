@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DeleteAllCanceledVisitsTest (Events)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2e58ba0-35f2-411c-9af2-e18f3a651bfc</testCaseGuid>
+</TestCaseEntity>

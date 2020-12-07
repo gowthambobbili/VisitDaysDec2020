@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UnsavedEditsWarningModalVerificationInAdminUserProfile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>319fdb65-0d7c-4591-9682-47102eab1597</testCaseGuid>
+   <variable>
+      <defaultValue>'TestTeamBio'</defaultValue>
+      <description></description>
+      <id>3b327ccc-2ef3-4721-9fab-44bfd579ec77</id>
+      <masked>false</masked>
+      <name>TeamBio</name>
+   </variable>
+</TestCaseEntity>

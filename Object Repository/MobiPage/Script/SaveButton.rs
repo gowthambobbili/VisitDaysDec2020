@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SaveButton</name>
+   <tag></tag>
+   <elementGuidId>786cfc7c-5f49-4ce9-9782-57b0e959e8bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;mobi-instance-form__banner-save&quot;]//button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;mobi-instance-form__banner-save&quot;]//button</value>
+   </webElementProperties>
+</WebElementEntity>

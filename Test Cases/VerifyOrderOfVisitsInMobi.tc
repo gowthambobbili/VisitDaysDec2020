@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will verifies the order of the order of visits in the Mobi</description>
+   <name>VerifyOrderOfVisitsInMobi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>30a5246f-463c-4e59-9981-d7cdd3670685</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>UserNameOfFirstConversation</name>
+   <tag></tag>
+   <elementGuidId>7b8c72c3-2445-4995-ba60-2f3695be36fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//span[@class=&quot;chat-conversations-list__conversation-name&quot;])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//span[@class=&quot;chat-conversations-list__conversation-name&quot;])[1]</value>
+   </webElementProperties>
+</WebElementEntity>

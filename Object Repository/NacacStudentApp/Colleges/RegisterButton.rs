@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>RegisterButton</name>
+   <tag></tag>
+   <elementGuidId>c2218a59-87d0-46e4-b60e-eddc3e6f2424</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;css-1haozpm&quot;]//div[@class=&quot;css-1dbjc4n&quot;]//button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;css-1haozpm&quot;]//div[@class=&quot;css-1dbjc4n&quot;]//button</value>
+   </webElementProperties>
+</WebElementEntity>

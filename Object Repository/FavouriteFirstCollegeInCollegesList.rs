@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FavouriteFirstCollegeInCollegesList</name>
+   <tag></tag>
+   <elementGuidId>04bba160-4d0b-49a3-8662-ebc9af0f5465</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div//div[text()=&quot;${College}&quot;]/../../..//div[2]//button//span[@class=&quot;MuiIconButton-label&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EnableAndDisableAdminDigestEmailsTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7b3297e-73b2-4994-9195-b4cca20f81e2</testCaseGuid>
+   <variable>
+      <defaultValue>'Email preferences header is not present'</defaultValue>
+      <description></description>
+      <id>5406a8a5-4bfd-4daf-966b-88f4506fcf76</id>
+      <masked>false</masked>
+      <name>EmailPreferancesErrorMessage</name>
+   </variable>
+</TestCaseEntity>

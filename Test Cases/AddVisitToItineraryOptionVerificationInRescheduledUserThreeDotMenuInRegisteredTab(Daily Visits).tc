@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddVisitToItineraryOptionVerificationInRescheduledUserThreeDotMenuInRegisteredTab(Daily Visits)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de33bf5d-6e3a-4702-9d37-8fbf24493e2e</testCaseGuid>
+</TestCaseEntity>

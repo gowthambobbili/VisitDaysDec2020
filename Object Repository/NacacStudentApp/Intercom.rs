@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Intercom</name>
+   <tag></tag>
+   <elementGuidId>10745032-7514-4f38-b568-8c041fb91681</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.intercom-lightweight-app-launcher.intercom-launcher</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>.intercom-lightweight-app-launcher.intercom-launcher</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This tests case will merge a user with another user of same visit and then verifies the visits &amp; status message in the merged profile</description>
+   <name>MergeUserInTheSameVisitAndVerifyStatusMessageInProfile (Daily Visit)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2bc4a50-df6e-4cd7-a3be-1af1c5a0ee5b</testCaseGuid>
+</TestCaseEntity>

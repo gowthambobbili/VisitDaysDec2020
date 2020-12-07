@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NewSurevyUiTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>680e5228-2a5e-479c-bf5f-eaeff1983a5e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>29df1a17-62eb-4670-80ec-c5800f225322</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a4269493-2915-4557-98cc-e2260e585295</id>
+      <masked>false</masked>
+      <name>variable_0</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6f1bf7fe-7103-4067-ab50-a73eab979187</id>
+      <masked>false</masked>
+      <name>variable_1</name>
+   </variable>
+</TestCaseEntity>

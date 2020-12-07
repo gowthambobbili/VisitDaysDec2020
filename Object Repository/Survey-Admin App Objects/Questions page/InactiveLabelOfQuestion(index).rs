@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InactiveLabelOfQuestion(index)</name>
+   <tag></tag>
+   <elementGuidId>3694ec25-7e4f-4a5f-bbe7-7fe1095019ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//div[@class=&quot;question-card__question-text&quot;])[${index}]/../..//span[text()='watch']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//div[@class=&quot;question-card__question-text&quot;])[${index}]/../..//span[text()='watch']</value>
+   </webElementProperties>
+</WebElementEntity>

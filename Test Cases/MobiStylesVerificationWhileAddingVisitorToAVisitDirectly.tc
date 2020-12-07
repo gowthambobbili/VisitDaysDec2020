@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MobiStylesVerificationWhileAddingVisitorToAVisitDirectly</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da4ee825-8935-4d59-9f1a-b2a10575ace3</testCaseGuid>
+   <variable>
+      <defaultValue>'rgba(16, 59, 92, 1)'</defaultValue>
+      <description></description>
+      <id>75bbaca0-d4dc-48e6-a2ca-a10eeb6d6436</id>
+      <masked>false</masked>
+      <name>ExpectedHeaderColor</name>
+   </variable>
+   <variable>
+      <defaultValue>'rgba(42, 156, 241, 1)'</defaultValue>
+      <description></description>
+      <id>6eac8cbf-bbc9-4bd4-a152-565af3696bd0</id>
+      <masked>false</masked>
+      <name>ExpectedButtonColor</name>
+   </variable>
+</TestCaseEntity>

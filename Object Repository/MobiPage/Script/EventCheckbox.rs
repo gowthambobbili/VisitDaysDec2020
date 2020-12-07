@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EventCheckbox</name>
+   <tag></tag>
+   <elementGuidId>b317efff-0724-4b29-a70e-106b187a59d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id=&quot;input-mobiinstancecategories-event&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id=&quot;input-mobiinstancecategories-event&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

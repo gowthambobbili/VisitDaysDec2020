@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EditTeamDetailsVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5549a625-ac7a-495c-b65c-581d1fa06373</testCaseGuid>
+   <variable>
+      <defaultValue>'Modify12'</defaultValue>
+      <description></description>
+      <id>53f5873c-780b-4950-85e8-184e742a9b64</id>
+      <masked>false</masked>
+      <name>TextToModifyTheName</name>
+   </variable>
+</TestCaseEntity>

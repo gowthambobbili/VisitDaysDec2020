@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ReadOnlyUserVerificationForDuplicateVisitButton</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d005fe62-986a-45ae-a278-ae7bfeb2ad99</testCaseGuid>
+</TestCaseEntity>

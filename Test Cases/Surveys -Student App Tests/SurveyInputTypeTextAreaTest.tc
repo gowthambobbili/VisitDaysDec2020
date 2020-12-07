@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will verify the text area count</description>
+   <name>SurveyInputTypeTextAreaTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>302058d7-1033-4f00-b03c-0ec69c34b830</testCaseGuid>
+   <variable>
+      <defaultValue>'https://metapod-student.visitdays.com/albrightsandbox/surv/NXHT5HEB'</defaultValue>
+      <description></description>
+      <id>3e20c99c-77ac-47bf-b736-d3df16b31bee</id>
+      <masked>false</masked>
+      <name>SurveyLink1</name>
+   </variable>
+</TestCaseEntity>

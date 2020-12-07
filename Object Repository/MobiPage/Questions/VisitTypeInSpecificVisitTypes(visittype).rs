@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VisitTypeInSpecificVisitTypes(visittype)</name>
+   <tag></tag>
+   <elementGuidId>f17357b9-84e7-421f-aa70-af4511a32a4e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;mobi-question-form__visit-types&quot;]//label[text()='${visittype}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;mobi-question-form__visit-types&quot;]//label[text()='${visittype}']</value>
+   </webElementProperties>
+</WebElementEntity>

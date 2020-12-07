@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>MobiUrls</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging-s.visitdays.com/bbtesting/mobi'</initValue>
+      <name>MainStagingMobiUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://charizard-student.visitdays.com/bbtesting/mobi'</initValue>
+      <name>CharizardMobiUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://pikachu-student.visitdays.com/bbtesting/mobi'</initValue>
+      <name>PikachuMobiUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://pikachu-student.visitdays.com/bbtesting/mobi'</initValue>
+      <name>ReusableMobiUrl</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

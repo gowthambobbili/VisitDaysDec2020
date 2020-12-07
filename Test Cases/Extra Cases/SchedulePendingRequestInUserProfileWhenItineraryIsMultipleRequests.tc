@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SchedulePendingRequestInUserProfileWhenItineraryIsMultipleRequests</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e72db3a-5ebd-4d43-8b2e-df822a1d39e9</testCaseGuid>
+</TestCaseEntity>

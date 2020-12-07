@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddVisitToItineraryVerificationOfQuestionsWhichArePreviouslyNotCaptured</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>384994de-5505-477b-8f87-55adc8cdfc73</testCaseGuid>
+</TestCaseEntity>

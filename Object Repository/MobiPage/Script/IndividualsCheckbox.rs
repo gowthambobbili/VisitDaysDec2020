@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IndividualsCheckbox</name>
+   <tag></tag>
+   <elementGuidId>c21d8cb9-1e6b-48f7-8e18-029b194bae15</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id=&quot;input-mobiinstanceaudiences-individuals&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id=&quot;input-mobiinstanceaudiences-individuals&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

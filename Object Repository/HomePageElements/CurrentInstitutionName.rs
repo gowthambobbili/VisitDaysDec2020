@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CurrentInstitutionName</name>
+   <tag></tag>
+   <elementGuidId>a226a837-f6d0-4adf-84c1-d65654301b75</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@class=&quot;app-navigation__institution-switcher&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@class=&quot;app-navigation__institution-switcher&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

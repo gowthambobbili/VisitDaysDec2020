@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ViewAttendiesButtonInLiveSessionsPage</name>
+   <tag></tag>
+   <elementGuidId>11f7a02e-6692-4390-8daf-f77466ab8e29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[text()=&quot;${SessionName}&quot;]/../..//div[@class=&quot;conventions-session-card__actions-left&quot;]//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

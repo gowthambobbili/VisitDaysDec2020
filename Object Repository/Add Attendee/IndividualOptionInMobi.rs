@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IndividualOptionInMobi</name>
+   <tag></tag>
+   <elementGuidId>1532a40b-2574-4cd5-b568-6d9027045eb3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@class=&quot;mobi-card-description&quot;])[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//strong[text()='Individual']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//strong[text()='Individual']</value>
+   </webElementProperties>
+</WebElementEntity>

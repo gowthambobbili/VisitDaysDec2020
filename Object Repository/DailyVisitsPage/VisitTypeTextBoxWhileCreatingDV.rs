@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VisitTypeTextBoxWhileCreatingDV</name>
+   <tag></tag>
+   <elementGuidId>48fcb0a0-b908-44aa-8acd-0a7224a6c97d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@class=&quot;ember-power-select-search-input&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

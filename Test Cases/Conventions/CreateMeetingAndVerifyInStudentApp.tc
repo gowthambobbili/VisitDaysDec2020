@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateMeetingAndVerifyInStudentApp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d817201b-25a8-4b48-97a4-6f3d6e4dd73a</testCaseGuid>
+</TestCaseEntity>

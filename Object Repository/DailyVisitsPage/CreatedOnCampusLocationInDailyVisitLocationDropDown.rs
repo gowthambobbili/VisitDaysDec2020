@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CreatedOnCampusLocationInDailyVisitLocationDropDown</name>
+   <tag></tag>
+   <elementGuidId>0d00672f-5aaf-4161-bc1a-d3d102c6a110</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@class='location-dropdown']//strong[text()=&quot;${LocationName}&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p[@class='location-dropdown']//strong[text()=&quot;${LocationName}&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

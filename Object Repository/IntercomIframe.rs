@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IntercomIframe</name>
+   <tag></tag>
+   <elementGuidId>c47aa8c5-0b24-4a2f-977f-dc5f807ece14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//iframe[@name=&quot;intercom-messenger-frame&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//iframe[@name=&quot;intercom-messenger-frame&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

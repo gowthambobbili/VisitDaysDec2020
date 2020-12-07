@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddRequestToItineraryOnMobi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e55d3bf5-6c9e-4f3c-a4d3-47e1b7099912</testCaseGuid>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>e991c831-fe9b-454a-b08c-f7bf56a7e93d</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Name'</defaultValue>
+      <description></description>
+      <id>594d42f0-007c-4d4f-aede-10203afc804c</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'testemail@gmail.com'</defaultValue>
+      <description></description>
+      <id>90d3fb66-d341-4cc7-a440-e075857e14b7</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'9898989898'</defaultValue>
+      <description></description>
+      <id>8b749cd0-8591-4b5a-b9ed-734361f94a39</id>
+      <masked>false</masked>
+      <name>CellPhoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'TestAdress123'</defaultValue>
+      <description></description>
+      <id>27f1fba8-0059-42e1-9532-afe4c112c1fa</id>
+      <masked>false</masked>
+      <name>HomeAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test City'</defaultValue>
+      <description></description>
+      <id>1c4ba32d-be4a-4fdc-97fa-fc5ed99cdb1e</id>
+      <masked>false</masked>
+      <name>City</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test State'</defaultValue>
+      <description></description>
+      <id>d911b808-9d4e-486a-8d1c-15a72b5154b1</id>
+      <masked>false</masked>
+      <name>State</name>
+   </variable>
+   <variable>
+      <defaultValue>'50001'</defaultValue>
+      <description></description>
+      <id>d07f109d-830b-4724-9456-5d70c11e1a03</id>
+      <masked>false</masked>
+      <name>ZipCode</name>
+   </variable>
+</TestCaseEntity>

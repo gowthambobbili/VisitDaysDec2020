@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SchedulePendingRequestOfOffCampusWhenOtherRequestsExistOnThatDay</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee557943-e6df-43b2-b690-2e0bb25a1015</testCaseGuid>
+</TestCaseEntity>

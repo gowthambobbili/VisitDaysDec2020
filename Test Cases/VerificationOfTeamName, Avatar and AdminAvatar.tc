@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerificationOfTeamName, Avatar and AdminAvatar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0f6b5e19-5635-4bd0-907e-fc16ac04cd7c</testCaseGuid>
+   <variable>
+      <defaultValue>'Test team Bio'</defaultValue>
+      <description></description>
+      <id>e66d7e6e-2210-457b-ae36-feb97a18a429</id>
+      <masked>false</masked>
+      <name>TeamBio</name>
+   </variable>
+</TestCaseEntity>

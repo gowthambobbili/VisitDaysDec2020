@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddVisitorDirectlyToAVisitWhichStartTimeIs30MinutesLessThanCurrentTime</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa48d1ff-b96f-4266-8bef-4107a7d1b0aa</testCaseGuid>
+</TestCaseEntity>

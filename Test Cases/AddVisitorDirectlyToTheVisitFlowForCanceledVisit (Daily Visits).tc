@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddVisitorDirectlyToTheVisitFlowForCanceledVisit (Daily Visits)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aff4de78-8193-487f-b7ee-f427f5605e11</testCaseGuid>
+</TestCaseEntity>

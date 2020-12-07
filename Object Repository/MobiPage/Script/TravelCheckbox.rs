@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TravelCheckbox</name>
+   <tag></tag>
+   <elementGuidId>2320fb88-a994-4a9e-bf0c-3cb23bdc0096</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id=&quot;input-mobiinstancecategories-travel&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id=&quot;input-mobiinstancecategories-travel&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

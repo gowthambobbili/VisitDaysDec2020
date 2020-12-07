@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will verifies the conflicting channel and visit adding to itineray or not</description>
+   <name>AddVisitToItineraryWithChannelTestAndVerificationOfVisitAddingToTheItinerary</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65ed0c44-2f9e-4c5c-8352-e5b9ca6c4afd</testCaseGuid>
+   <variable>
+      <defaultValue>'Phone'</defaultValue>
+      <description></description>
+      <id>5f5d80a3-7867-444c-b732-4e1dbb7499e0</id>
+      <masked>false</masked>
+      <name>PhoneCheckbox</name>
+   </variable>
+   <variable>
+      <defaultValue>'Online'</defaultValue>
+      <description></description>
+      <id>39a0d418-9fa5-44a2-9beb-942f741f07ed</id>
+      <masked>false</masked>
+      <name>OnlineCheckbox</name>
+   </variable>
+   <variable>
+      <defaultValue>'In Person'</defaultValue>
+      <description></description>
+      <id>fff348a2-c00d-40b7-8608-e1d3eaa19c90</id>
+      <masked>false</masked>
+      <name>InPersonCheckbox</name>
+   </variable>
+   <variable>
+      <defaultValue>'PhoneCheckboxInAddVisitToItineraryModal'</defaultValue>
+      <description></description>
+      <id>b67475f1-0b01-429d-b1dd-557c83a3048e</id>
+      <masked>false</masked>
+      <name>PhoneCheckboxInAddVisitToItineraryModal</name>
+   </variable>
+   <variable>
+      <defaultValue>'OnlineCheckboxInAddVisitToItineraryModal'</defaultValue>
+      <description></description>
+      <id>cc995bb4-afdc-48f6-bd33-ec247ae7cf7e</id>
+      <masked>false</masked>
+      <name>OnlineCheckboxInAddVisitToItineraryModal</name>
+   </variable>
+   <variable>
+      <defaultValue>'InPersonCheckboxInAddVisitToItineraryModal'</defaultValue>
+      <description></description>
+      <id>ca80c27e-3e3c-4596-b016-175407ddbfae</id>
+      <masked>false</masked>
+      <name>InPersonCheckboxInAddVisitToItineraryModal</name>
+   </variable>
+</TestCaseEntity>

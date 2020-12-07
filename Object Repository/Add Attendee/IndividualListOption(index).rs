@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IndividualListOption(index)</name>
+   <tag></tag>
+   <elementGuidId>182e1a0a-1549-43ca-99eb-ce1678892bb6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//li[@role=&quot;option&quot;])[${index}]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//li[@role=&quot;option&quot;])[${index}]</value>
+   </webElementProperties>
+</WebElementEntity>

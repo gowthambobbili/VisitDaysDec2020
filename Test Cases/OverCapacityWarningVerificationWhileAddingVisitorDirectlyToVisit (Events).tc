@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OverCapacityWarningVerificationWhileAddingVisitorDirectlyToVisit (Events)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>734168f2-2324-4f2f-9974-68463196549c</testCaseGuid>
+</TestCaseEntity>

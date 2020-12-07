@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AnswerChoicesErrorField</name>
+   <tag></tag>
+   <elementGuidId>a07c78cf-1198-4c3d-986e-f402ed4729fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;mobi-question-form__answer-choice-controls&quot;]//input/../..//div[@class=&quot;mobi-question-form__error&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;mobi-question-form__answer-choice-controls&quot;]//input/../..//div[@class=&quot;mobi-question-form__error&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DailyVisitsShouldNotShowInotherVisitCategoryIndexPage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>11fe042a-cdbd-4aac-9f53-77d00f4a6dcb</testCaseGuid>
+</TestCaseEntity>

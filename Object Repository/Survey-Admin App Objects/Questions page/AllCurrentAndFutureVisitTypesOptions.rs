@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AllCurrentAndFutureVisitTypesOptions</name>
+   <tag></tag>
+   <elementGuidId>d7b41c7f-e606-42be-a9e5-ca41f29f4ffa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@for=&quot;input-status-enabled-all&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[@for=&quot;input-status-enabled-all&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

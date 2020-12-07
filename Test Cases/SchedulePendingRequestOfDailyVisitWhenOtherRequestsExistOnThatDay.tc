@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SchedulePendingRequestOfDailyVisitWhenOtherRequestsExistOnThatDay</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df2670fa-e855-420f-a0d8-5c9d994b74d6</testCaseGuid>
+</TestCaseEntity>

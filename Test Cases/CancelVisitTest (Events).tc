@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will create a visit type and visit and register a group and individual to the visit and then cancels the visit, after that it will verifies the cancelation of visit as well as the students</description>
+   <name>CancelVisitTest (Events)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2213761d-7fa3-45d2-97dd-e358b1ff9a97</testCaseGuid>
+</TestCaseEntity>

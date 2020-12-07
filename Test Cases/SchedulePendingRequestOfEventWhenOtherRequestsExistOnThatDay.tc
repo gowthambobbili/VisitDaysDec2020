@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SchedulePendingRequestOfEventWhenOtherRequestsExistOnThatDay</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a53cc49-1a7d-48b1-b66e-5b960d5d3f2f</testCaseGuid>
+</TestCaseEntity>

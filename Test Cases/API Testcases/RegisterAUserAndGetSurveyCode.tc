@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RegisterAUserAndGetSurveyCode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3da1862e-24ba-4ac1-b8da-95126f8b46d2</testCaseGuid>
+   <variable>
+      <defaultValue>'https://metapod-student.visitdays.com/bbtesting/surv/\r\n'</defaultValue>
+      <description></description>
+      <id>80ed6470-d7b7-4436-8eb5-d7739aadc053</id>
+      <masked>false</masked>
+      <name>SurveyLink</name>
+   </variable>
+</TestCaseEntity>

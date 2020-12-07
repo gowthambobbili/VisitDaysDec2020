@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CheckingForCreateVisitTypeButtonHiddenForEditorUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca79b88f-7feb-44f4-a861-6cafc26d40ad</testCaseGuid>
+</TestCaseEntity>

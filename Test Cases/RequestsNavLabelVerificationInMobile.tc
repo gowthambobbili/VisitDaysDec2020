@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will resize the browser to mobile view and verifies the request nav label which should not present</description>
+   <name>RequestsNavLabelVerificationInMobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b82f3ecc-2889-4898-8b4d-03daecfbfc56</testCaseGuid>
+</TestCaseEntity>

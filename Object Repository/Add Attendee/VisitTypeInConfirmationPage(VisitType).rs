@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VisitTypeInConfirmationPage(VisitType)</name>
+   <tag></tag>
+   <elementGuidId>f0482f5c-7ba3-4e1f-99eb-bd7d8186663a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h4[text()='${VisitType}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h4[text()='${VisitType}']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EmptyStateVerificationWhenNoSearchResultsFoundInTeams</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aff756e8-a333-42bf-8f38-a2b474c3da12</testCaseGuid>
+   <variable>
+      <defaultValue>'Unmatched Search text'</defaultValue>
+      <description></description>
+      <id>f5050bcf-f7aa-461e-8170-221dbade6a43</id>
+      <masked>false</masked>
+      <name>RandomSearchText</name>
+   </variable>
+   <variable>
+      <defaultValue>'No teams match your search.'</defaultValue>
+      <description></description>
+      <id>780f2670-de95-4b29-8fe6-36e9567bd430</id>
+      <masked>false</masked>
+      <name>EmptyStateMessgewhenNoSearhResultsFound</name>
+   </variable>
+</TestCaseEntity>

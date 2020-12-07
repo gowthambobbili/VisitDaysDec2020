@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EditButtonOfSpecifiedInstitutioinSetting(setting)</name>
+   <tag></tag>
+   <elementGuidId>17273145-3cc8-4eeb-acb0-fea17d31d35b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[text()='${setting}']/..//a[text()='Edit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//td[text()='${setting}']/..//a[text()='Edit']</value>
+   </webElementProperties>
+</WebElementEntity>

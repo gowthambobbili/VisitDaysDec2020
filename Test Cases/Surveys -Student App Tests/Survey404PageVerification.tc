@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will verifies, when user navigates to invalid survey link then it should show 404-page</description>
+   <name>Survey404PageVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c890cdc6-4762-4299-8794-cb9c8262a410</testCaseGuid>
+   <variable>
+      <defaultValue>'https://staging-s.visitdays.com/albrightsandbox/surv/HFXUPD51'</defaultValue>
+      <description></description>
+      <id>a711006c-b9b8-42b9-88a7-6bc6c7f81ded</id>
+      <masked>false</masked>
+      <name>SurveyLink</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://staging-s.visitdays.com/albrightsandbox/surv/HFX'</defaultValue>
+      <description></description>
+      <id>b6af1318-91f5-4cb7-a328-06caec210baf</id>
+      <masked>false</masked>
+      <name>InvalidSurveyLink</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://staging-s.visitdays.com/bbtesting/itineraries/randomlink11'</defaultValue>
+      <description></description>
+      <id>134cc971-158d-492b-9f2a-49b1280232c4</id>
+      <masked>false</masked>
+      <name>InvalidItineraryLink</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PreventingFromRemoveFiltersWhenAtleastOneFilterIsWasApplied</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7aaf7208-fafa-434e-a665-9874ade73caa</testCaseGuid>
+</TestCaseEntity>

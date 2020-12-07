@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ClosedConversation(student)</name>
+   <tag></tag>
+   <elementGuidId>a893e815-16f3-40c9-9e69-918a9df3f18d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(text(),'Closed')]/..//span[contains(text(),'${student}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(text(),'Closed')]/..//span[contains(text(),'${student}')]</value>
+   </webElementProperties>
+</WebElementEntity>

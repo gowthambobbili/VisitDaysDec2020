@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VisitTimeInScheduleVisitmodal</name>
+   <tag></tag>
+   <elementGuidId>5304cbc1-2ed5-4d35-8ec9-0dc21df4af58</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//span[@class=&quot;visit-details&quot;]//div)[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//span[@class=&quot;visit-details&quot;]//div)[2]</value>
+   </webElementProperties>
+</WebElementEntity>

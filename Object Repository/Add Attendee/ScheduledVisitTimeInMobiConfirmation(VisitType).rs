@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ScheduledVisitTimeInMobiConfirmation(VisitType)</name>
+   <tag></tag>
+   <elementGuidId>1e3c4658-67b6-431a-bfa0-5a1b37f67c62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h4[text()='${VisitType}']/../..//div[@class=&quot;itinerary-visit-time&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h4[text()='${VisitType}']/../..//div[@class=&quot;itinerary-visit-time&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h4[text()='${VisitType}']/../..//div[@class=&quot;itinerary-visit-time&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

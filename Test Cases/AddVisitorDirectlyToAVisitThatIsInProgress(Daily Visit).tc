@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddVisitorDirectlyToAVisitThatIsInProgress(Daily Visit)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4342cd1-849f-43b6-9f06-a167d18d7964</testCaseGuid>
+</TestCaseEntity>

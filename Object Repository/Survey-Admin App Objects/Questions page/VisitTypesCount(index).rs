@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VisitTypesCount(index)</name>
+   <tag></tag>
+   <elementGuidId>364ba153-7ebd-4bbc-9bb7-9c77ffec704b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//div[@class=&quot;question-card__question-text&quot;])[${index}]/../..//span[@class=&quot;question-card__active-visit-types-count&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//div[@class=&quot;question-card__question-text&quot;])[${index}]/../..//span[@class=&quot;question-card__active-visit-types-count&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

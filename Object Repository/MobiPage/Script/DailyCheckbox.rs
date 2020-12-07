@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DailyCheckbox</name>
+   <tag></tag>
+   <elementGuidId>19062ce9-14e8-4ea7-8dd9-8d2de966de86</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id=&quot;input-mobiinstancecategories-daily&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id=&quot;input-mobiinstancecategories-daily&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

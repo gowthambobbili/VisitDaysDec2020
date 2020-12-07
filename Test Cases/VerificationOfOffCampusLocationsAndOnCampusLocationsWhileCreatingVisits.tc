@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will verifies whether on campus locaions are shown only while creating Daily visits and events and Off campus locations are shown only while creating off campus visits</description>
+   <name>VerificationOfOffCampusLocationsAndOnCampusLocationsWhileCreatingVisits</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcc7191f-f30c-4649-bb51-02c01e3fc9b1</testCaseGuid>
+</TestCaseEntity>

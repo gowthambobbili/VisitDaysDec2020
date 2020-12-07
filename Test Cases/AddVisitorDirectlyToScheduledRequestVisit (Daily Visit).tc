@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will schedule a request and add visitor directly to the scheduled request visit and verify the visitor sucessfully added or not</description>
+   <name>AddVisitorDirectlyToScheduledRequestVisit (Daily Visit)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff7a479a-0e0f-4e8b-a0cd-1901edb89464</testCaseGuid>
+</TestCaseEntity>

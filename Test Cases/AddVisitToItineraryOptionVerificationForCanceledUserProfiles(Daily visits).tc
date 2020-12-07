@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddVisitToItineraryOptionVerificationForCanceledUserProfiles(Daily visits)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41d80052-bece-494e-86a8-cd1e890227d3</testCaseGuid>
+</TestCaseEntity>

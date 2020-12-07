@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ScheduleAMeetingAndVerifyInAdminApp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2bdf5ae6-5b23-475d-8de8-d1b7c8457403</testCaseGuid>
+</TestCaseEntity>

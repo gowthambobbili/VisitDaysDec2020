@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will verifes the full capacity and full registration warining messages in Add attenee</description>
+   <name>FullCapacityOrFullRegistrationWarningsVerification(Daily Visits)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db880fe4-c1f5-4066-8d5e-c928ff395bf5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AccessibilityNeedLabelVerification(Daily Visit)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4b1015a3-828c-4f13-98f7-6fbbcbee6702</testCaseGuid>
+   <variable>
+      <defaultValue>'#f4b350'</defaultValue>
+      <description></description>
+      <id>41de39ff-0c62-48b9-bbbf-adeeac11eccd</id>
+      <masked>false</masked>
+      <name>ConfirmButtonColor</name>
+   </variable>
+</TestCaseEntity>

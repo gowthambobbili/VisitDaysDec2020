@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateTeamUserFlow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7b77cbdf-7ad8-448b-af45-4dde8ea82c0d</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Team Name'</defaultValue>
+      <description></description>
+      <id>278a4ab2-5807-49b9-8e73-993184dc99ac</id>
+      <masked>false</masked>
+      <name>TeamName</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is Test Team Bio'</defaultValue>
+      <description></description>
+      <id>33b27b94-a1a1-4189-9b0b-411d51280fee</id>
+      <masked>false</masked>
+      <name>TeamBio</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>QuestionNameTextBox</name>
+   <tag></tag>
+   <elementGuidId>741cf15f-0d15-4f70-85a6-037dd26c961a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@class=&quot;mobi-question-form__input&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@class=&quot;mobi-question-form__input&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

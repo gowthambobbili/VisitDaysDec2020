@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyStudentInProspectslistAfterScheduleAMeeting</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c83a1132-6d3e-4f08-8126-a78fee95f8ec</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VisitLinkInRequestsList(visittype)</name>
+   <tag></tag>
+   <elementGuidId>eeb60d44-b6de-4885-a631-989017881bdf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;visit-name&quot;]//p[text()='${visittype}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;visit-name&quot;]//p[text()='${visittype}']</value>
+   </webElementProperties>
+</WebElementEntity>

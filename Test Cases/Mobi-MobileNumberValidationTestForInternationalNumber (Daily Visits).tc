@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Mobi-MobileNumberValidationTestForInternationalNumber (Daily Visits)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>706e519d-e2a0-4b46-a27e-1b3907ded1bf</testCaseGuid>
+   <variable>
+      <defaultValue>'919111111111'</defaultValue>
+      <description></description>
+      <id>dadc7a2d-9530-461f-b2aa-a347ebfcefec</id>
+      <masked>false</masked>
+      <name>MobileNumber</name>
+   </variable>
+</TestCaseEntity>

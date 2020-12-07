@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will creates an Off-campus visit with IST location and verifies the date in mobi</description>
+   <name>Off-CampusVisitShouldShowTheVisitLocationDateInMobi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>235862de-e374-4706-8a54-bb3e2a337839</testCaseGuid>
+</TestCaseEntity>

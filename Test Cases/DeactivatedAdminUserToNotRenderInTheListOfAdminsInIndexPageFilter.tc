@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DeactivatedAdminUserToNotRenderInTheListOfAdminsInIndexPageFilter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d44fd36a-186c-4d01-b466-8d21f5602f95</testCaseGuid>
+</TestCaseEntity>

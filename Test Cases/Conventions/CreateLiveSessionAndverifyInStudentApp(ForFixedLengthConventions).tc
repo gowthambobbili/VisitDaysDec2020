@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateLiveSessionAndverifyInStudentApp(ForFixedLengthConventions)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6893c107-923b-49b6-8b69-84269369dccd</testCaseGuid>
+</TestCaseEntity>

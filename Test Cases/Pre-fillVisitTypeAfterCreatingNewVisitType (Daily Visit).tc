@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will create a visit type and clicks Create visit button in the modal and verifies whether the visit type is pre-filled or not</description>
+   <name>Pre-fillVisitTypeAfterCreatingNewVisitType (Daily Visit)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae2ec0a3-7dcf-44dc-a8c6-0cde196f751f</testCaseGuid>
+</TestCaseEntity>

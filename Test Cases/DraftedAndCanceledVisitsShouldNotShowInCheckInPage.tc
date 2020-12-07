@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DraftedAndCanceledVisitsShouldNotShowInCheckInPage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7fb6aed-8b33-49b5-a116-c17306bca973</testCaseGuid>
+</TestCaseEntity>

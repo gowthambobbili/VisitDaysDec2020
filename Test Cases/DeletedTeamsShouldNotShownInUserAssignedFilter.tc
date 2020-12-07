@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DeletedTeamsShouldNotShownInUserAssignedFilter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d116c93d-65fd-46b8-8fae-d17921198a67</testCaseGuid>
+</TestCaseEntity>

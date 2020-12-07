@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EventsShouldNotShowInotherVisitCategoryIndexPage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>71a4b48e-1384-47a7-ac22-c4e7642f63fc</testCaseGuid>
+</TestCaseEntity>

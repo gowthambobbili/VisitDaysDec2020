@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the Active and deactivated buttons in Team management</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e226935-7765-493c-ad5f-be1aedf1b494</testCaseGuid>
+</TestCaseEntity>

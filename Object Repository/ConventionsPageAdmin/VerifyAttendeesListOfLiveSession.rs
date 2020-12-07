@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VerifyAttendeesListOfLiveSession</name>
+   <tag></tag>
+   <elementGuidId>7553c9c2-3968-4ad8-991d-fc55738cdc9d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;conventions-session-detail__attendees&quot;]//table//td[text()=&quot;${EMAIL}&quot;]
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

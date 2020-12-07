@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>QuestionsSearchEmptyStateMessageVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e95c3398-3d88-4b47-8f19-15c69fddc6b1</testCaseGuid>
+   <variable>
+      <defaultValue>'search results empty state test'</defaultValue>
+      <description></description>
+      <id>d81b2e0f-9481-42b1-99f1-d5da89381331</id>
+      <masked>false</masked>
+      <name>SearchTextInQuestionsSearchBox</name>
+   </variable>
+   <variable>
+      <defaultValue>'Whoops! No questions match your search.'</defaultValue>
+      <description></description>
+      <id>f1595a32-4c34-4996-876b-7e17b5f80a06</id>
+      <masked>false</masked>
+      <name>ExpectedEmptyStateMessageInQuestionsSearch</name>
+   </variable>
+</TestCaseEntity>

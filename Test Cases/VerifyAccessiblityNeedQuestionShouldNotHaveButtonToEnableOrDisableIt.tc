@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyAccessiblityNeedQuestionShouldNotHaveButtonToEnableOrDisableIt</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f87b81e3-c8c3-44b5-8ca5-417362cb34a4</testCaseGuid>
+</TestCaseEntity>

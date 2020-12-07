@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyUnreadMessagesCount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc457ccd-16eb-43f8-9def-f35e4fd89728</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DisplayNameError</name>
+   <tag></tag>
+   <elementGuidId>1b2c3835-c99e-490e-a9e2-8dc6cf9c7176</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name=&quot;text&quot;]/..//div[@class=&quot;mobi-instance-form__error&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@name=&quot;text&quot;]/..//div[@class=&quot;mobi-instance-form__error&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SurveyConfirmationPageVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a331b150-d3a9-4482-a080-c80925a4f8e4</testCaseGuid>
+   <variable>
+      <defaultValue>'https://metapod-student.visitdays.com/albrightsandbox/surv/F7EAYQFB'</defaultValue>
+      <description></description>
+      <id>a0fa17e8-d308-47e7-a991-3b097e9b6b5d</id>
+      <masked>false</masked>
+      <name>SurveyLink</name>
+   </variable>
+   <variable>
+      <defaultValue>'Your input helps us build better experiences.'</defaultValue>
+      <description></description>
+      <id>d31739d3-5fde-4a0b-ae09-7c3a5cf1d5ab</id>
+      <masked>false</masked>
+      <name>ExpectedConfirmationPageMessage</name>
+   </variable>
+</TestCaseEntity>

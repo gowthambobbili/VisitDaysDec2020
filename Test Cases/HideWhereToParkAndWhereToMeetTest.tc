@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will verifies the functionality of hide where to meet and where to park in locations</description>
+   <name>HideWhereToParkAndWhereToMeetTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f83b657-f216-4b8a-8a54-33efbc011cfe</testCaseGuid>
+</TestCaseEntity>

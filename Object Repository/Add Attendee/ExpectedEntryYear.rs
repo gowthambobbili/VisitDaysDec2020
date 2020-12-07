@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ExpectedEntryYear</name>
+   <tag></tag>
+   <elementGuidId>4dbe0b44-aaeb-47ca-b9fc-2f0e7204cf1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//li[@class=&quot;ember-power-select-option&quot;])${year}</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//li[@class=&quot;ember-power-select-option&quot;])${year}</value>
+   </webElementProperties>
+</WebElementEntity>

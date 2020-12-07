@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RedirectToSurveyPageUsingDirectUrl (Admin)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a79dfa02-4770-476e-95dc-63b6ab17a9f6</testCaseGuid>
+</TestCaseEntity>

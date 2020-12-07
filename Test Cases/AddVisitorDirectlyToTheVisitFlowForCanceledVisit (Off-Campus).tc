@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddVisitorDirectlyToTheVisitFlowForCanceledVisit (Off-Campus)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de3e763f-ea20-4277-a758-56068373490a</testCaseGuid>
+</TestCaseEntity>

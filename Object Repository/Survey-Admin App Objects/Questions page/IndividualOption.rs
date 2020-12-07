@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IndividualOption</name>
+   <tag></tag>
+   <elementGuidId>f135aa5b-980a-43c4-af4e-4297a5f71f66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@for=&quot;input-audience-individuals&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[@for=&quot;input-audience-individuals&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

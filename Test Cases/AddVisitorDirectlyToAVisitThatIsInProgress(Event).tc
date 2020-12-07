@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddVisitorDirectlyToAVisitThatIsInProgress(Event)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8cb71dd-2a9e-4261-8e32-a169315dc660</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DetailsPageAndUnsavedChangesModalVerificationInUserprofile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8e8cdd4-8687-462f-9c17-0e0420c47f9b</testCaseGuid>
+   <variable>
+      <defaultValue>'9898989898'</defaultValue>
+      <description></description>
+      <id>81e3b227-4272-4b01-b46f-e2d704c9950a</id>
+      <masked>false</masked>
+      <name>MobileNumber</name>
+   </variable>
+</TestCaseEntity>

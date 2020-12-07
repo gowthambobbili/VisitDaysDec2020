@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SelectedInsitutionInDropdown</name>
+   <tag></tag>
+   <elementGuidId>cd479869-41f0-4eb7-a9fc-d2be1dd4fd45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class=&quot;ember-power-select-selected-item&quot;]//span[@class=&quot;nav-item-label&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@class=&quot;ember-power-select-selected-item&quot;]//span[@class=&quot;nav-item-label&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

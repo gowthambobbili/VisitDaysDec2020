@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AudienceError</name>
+   <tag></tag>
+   <elementGuidId>fe96c8b1-d0c2-4fa4-bbfc-5d6f8b0dbfbb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@for=&quot;input-mobiinstanceaudiences-individuals&quot;]/../../..//div[@class=&quot;mobi-instance-form__error&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[@for=&quot;input-mobiinstanceaudiences-individuals&quot;]/../../..//div[@class=&quot;mobi-instance-form__error&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

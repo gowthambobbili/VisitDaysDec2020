@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PromoteIcon</name>
+   <tag></tag>
+   <elementGuidId>b45fc7c7-98ac-4c72-8cb5-de4b1e61ee5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Promote')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[text()='leak_add']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[text()='leak_add']</value>
+   </webElementProperties>
+</WebElementEntity>

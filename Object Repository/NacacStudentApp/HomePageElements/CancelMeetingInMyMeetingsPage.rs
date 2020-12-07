@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CancelMeetingInMyMeetingsPage</name>
+   <tag></tag>
+   <elementGuidId>3fe086f2-c36f-4680-8ea1-1974cf417149</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[text()=&quot;${Meeting}&quot;]/../../..//div//button//span[text()=&quot;Cancel&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

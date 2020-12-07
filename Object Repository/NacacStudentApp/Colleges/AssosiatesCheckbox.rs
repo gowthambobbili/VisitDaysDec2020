@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AssosiatesCheckbox</name>
+   <tag></tag>
+   <elementGuidId>933b041f-2f18-455f-80cd-f559c37f138b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@role=&quot;presentation&quot;]/preceding::div[contains(@class,'MuiPaper-rounded')]//span[text()='Associates']/..//input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@role=&quot;presentation&quot;]/preceding::div[contains(@class,'MuiPaper-rounded')]//span[text()='Associates']/..//input</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AddToMyItineraryButtonInMobi(VisitType)</name>
+   <tag></tag>
+   <elementGuidId>bd890090-d951-4c94-9191-8dafd8e803bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//strong[text()='${VisitType}']/../../../..//button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//strong[text()='${VisitType}']/../../../..//button</value>
+   </webElementProperties>
+</WebElementEntity>

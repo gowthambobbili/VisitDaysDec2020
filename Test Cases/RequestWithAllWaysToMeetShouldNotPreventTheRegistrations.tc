@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RequestWithAllWaysToMeetShouldNotPreventTheRegistrations</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a2f846d-d207-4cf5-b452-671478d4e23f</testCaseGuid>
+</TestCaseEntity>

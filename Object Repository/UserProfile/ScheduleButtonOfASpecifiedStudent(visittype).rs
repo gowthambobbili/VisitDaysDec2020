@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ScheduleButtonOfASpecifiedStudent(visittype)</name>
+   <tag></tag>
+   <elementGuidId>6aa5e586-46a0-4540-b520-278d5f083db7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h3[text()='${visittype}']/..//button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h3[text()='${visittype}']/..//button</value>
+   </webElementProperties>
+</WebElementEntity>

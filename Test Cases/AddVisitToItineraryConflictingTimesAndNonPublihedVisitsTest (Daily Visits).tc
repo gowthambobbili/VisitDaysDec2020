@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddVisitToItineraryConflictingTimesAndNonPublihedVisitsTest (Daily Visits)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ffcbddd-899f-4125-8fc4-0b4d3c2d5c40</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ResponseTab</name>
+   <tag></tag>
+   <elementGuidId>6fc543de-dcbc-496a-bb5d-d20242212360</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[text()='Responses']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()='Responses']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[text()='Responses']</value>
+   </webElementProperties>
+</WebElementEntity>

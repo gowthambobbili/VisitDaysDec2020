@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>questionTypeDropdown</name>
+   <tag></tag>
+   <elementGuidId>04f880ca-f270-4854-b6cc-bb62d5ef0243</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class=&quot;ember-power-select-placeholder&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;question-form__power-select-wrapper&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;question-form__power-select-wrapper&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

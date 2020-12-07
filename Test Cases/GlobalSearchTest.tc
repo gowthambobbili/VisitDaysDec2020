@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will verifies whether the Global search box is working for Groups and Indivisuals</description>
+   <name>GlobalSearchTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>21047dfa-ebd8-41f4-bbd9-1dea0c6ce12f</testCaseGuid>
+</TestCaseEntity>

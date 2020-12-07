@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Mobi-ScriptLeftNav</name>
+   <tag></tag>
+   <elementGuidId>6ab25adf-1d18-4ede-b155-8115cc3951d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,&quot;mobi/instances&quot;)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,&quot;mobi/instances&quot;)]</value>
+   </webElementProperties>
+</WebElementEntity>

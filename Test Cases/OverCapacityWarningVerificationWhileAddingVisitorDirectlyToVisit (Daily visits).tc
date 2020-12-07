@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OverCapacityWarningVerificationWhileAddingVisitorDirectlyToVisit (Daily visits)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a8c79a5-9d88-4eac-a9c5-b99a95038927</testCaseGuid>
+</TestCaseEntity>

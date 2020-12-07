@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HideAdminsInMobiWhileCreatingDailyVisits</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3b1cb66-7ed7-4888-9c42-e0ffec9425bd</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetExistingDailyVisitOrCreateANewDailyVisit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0f4d75b-414d-4ade-88fa-cadbdb6b3881</testCaseGuid>
+</TestCaseEntity>

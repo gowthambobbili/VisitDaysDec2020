@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will merge records of one user into another user records of same visit and verify the functionality</description>
+   <name>MergeRecordsTestForSameVisits (DailyVisits)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>148ab769-03c4-431c-b62d-ed31213b61c0</testCaseGuid>
+</TestCaseEntity>

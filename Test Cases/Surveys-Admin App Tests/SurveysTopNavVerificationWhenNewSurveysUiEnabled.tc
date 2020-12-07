@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Surveys secoondary top nav should not present when new version of survey UI is enabled for the institution</description>
+   <name>SurveysTopNavVerificationWhenNewSurveysUiEnabled</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9fb8501-b758-4aeb-bc3a-8d8fdd6845d8</testCaseGuid>
+</TestCaseEntity>

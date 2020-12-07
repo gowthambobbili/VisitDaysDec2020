@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TotalResponsesOfTextResponse(variable)</name>
+   <tag></tag>
+   <elementGuidId>353a413a-79e3-44f4-8b69-dac4ddc95a3f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[text()=${Question}]/..//div[@class=&quot;admin-survey__question-chart__meta&quot;]//p)[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

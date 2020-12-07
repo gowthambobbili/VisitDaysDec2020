@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will verifies the order of options in each survey questions</description>
+   <name>VerificationOfOrderOfOptionsInSurveyQuestions</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e358dde-2839-434e-946c-c99ebff97c1d</testCaseGuid>
+   <variable>
+      <defaultValue>'https://staging-s.visitdays.com/albrightsandbox/surv/HFXUPD51'</defaultValue>
+      <description></description>
+      <id>a210f1b5-02cd-4659-858c-225db455fb68</id>
+      <masked>false</masked>
+      <name>SurveyLink</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://charizard-student.visitdays.com/albrightsandbox/surv/HFXUPD51'</defaultValue>
+      <description></description>
+      <id>1eef811e-da2a-4da0-9a7a-b1b72042fdd5</id>
+      <masked>false</masked>
+      <name>SurveyLinkForCharizard</name>
+   </variable>
+</TestCaseEntity>
