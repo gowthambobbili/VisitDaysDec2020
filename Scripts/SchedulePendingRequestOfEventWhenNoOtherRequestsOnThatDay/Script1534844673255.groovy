@@ -40,6 +40,8 @@ String StudentName = CustomKeywords.'com.CommonUtilities.ConfirmationPage.Navgat
 //WebUI.refresh()
 CustomKeywords.'com.CommonUtilities.Quit.CloseMobiInConfirmationPage'()
 
+WebUI.delay(5)
+
 CustomKeywords.'com.CommonUtilities.NavigationFlows.NavigateToRequestQueue'()
 
 driver.findElement(By.xpath(('//span[text()=\'' + StudentName) + '\']/../../../..//button')).click()

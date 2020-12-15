@@ -122,8 +122,14 @@
    <testCaseLink>
       <guid>ebcde653-8ab9-4713-9043-7312be383694</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Conventions/VerifyClearAllButtonIsShownAfterApplyingAnyFilter</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>db13907e-7d91-4380-866f-383909a9d004</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/VerifyExhibitorsCountIsShowingCorrectWhenExhibitorsAreLessThanThirty</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9466b8cc-c0cb-42e8-b1e3-3804778fcc0e</guid>

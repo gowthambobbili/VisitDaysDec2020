@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyExhibitorsCountIsShowingCorrectWhenExhibitorsAreLessThanThirty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b30d7091-3d60-42c4-b707-b0dd59925b4a</testCaseGuid>
+</TestCaseEntity>

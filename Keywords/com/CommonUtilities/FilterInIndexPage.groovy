@@ -67,6 +67,8 @@ class FilterInIndexPage {
 
 		WebUI.click(findTestObject('DailyVisitsPage/VisitTypeFilterInDailyisitsIndexPage'))
 
+		WebUI.waitForPageLoad(0)
+
 		WebUI.delay(2)
 
 		def filter = new TestObject("Creted Visit Type In VisitType filter In index page")
@@ -105,7 +107,9 @@ class FilterInIndexPage {
 		WebUI.click(findTestObject('DailyVisitsPage/ActiveOptionInStatusFilter'))
 
 		def CreatedVisit = new TestObject("Created visit in index page")
+
 		CreatedVisit.addProperty("xpath", ConditionType.EQUALS, "(//h4[@class='visit-type-title' and text()='"+VisitType+"'])[1]")
+
 
 		if(!(WebUI.verifyElementPresent(CreatedVisit, 0, FailureHandling.OPTIONAL)))
 		{

@@ -61,9 +61,13 @@ public class CreateMeeting {
 
 		WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/CreateButtonInLiveSessions'))
 
-		WebUI.waitForPageLoad(5)
+		WebUI.waitForPageLoad(0)
+		
+		WebUI.delay(3)
 
 		def ConventionName=WebUI.getText(findTestObject('Object Repository/ConventionsPageAdmin/getNameOfFirstConvention'))
+		
+		WebUI.delay(2)
 
 		return ConventionName
 

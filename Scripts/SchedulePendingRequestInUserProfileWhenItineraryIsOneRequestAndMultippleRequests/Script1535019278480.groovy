@@ -39,6 +39,8 @@ String DailyVisitVisitType = CustomKeywords.'com.CommonUtilities.RequestMethods.
 
 CustomKeywords.'com.CommonUtilities.CreationOperations.CreateDailyVisitWithRequestVisitType'(DailyVisitVisitType)
 
+WebUI.click(findTestObject('HomePageElements/AddAttendeeButton'))
+
 String StudentNameForSingleRequest = CustomKeywords.'com.CommonUtilities.ConfirmationPage.NavgateToConfirmationPageForIndividualRegistrationWithRandomUserName'(
 		DailyVisitVisitType, findTestObject('Add Attendee/DailyVisitsOptionInAddAttendee'), Single)
 

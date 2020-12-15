@@ -31,6 +31,8 @@ def conventionName=CustomKeywords.'com.CommonUtilities.CreateLiveSession.selectC
 
 def meetname=CustomKeywords.'com.CommonUtilities.CreateLiveSession.enterLiveSessionDetailsAndTime'()
 
+println conventionName
+
 def ZoomId=CustomKeywords.'com.CommonUtilities.CreateLiveSession.enterZoomIdAndAddAssigne'()
 
 CustomKeywords.'com.CommonUtilities.LoginAsDifferentUserPermissions.NavigateToNacacHomePage'()

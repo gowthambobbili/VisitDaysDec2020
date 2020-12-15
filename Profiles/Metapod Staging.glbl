@@ -115,7 +115,7 @@
       <name>studenturl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>https://bais-metapod.visitdays.vercel.app</description>
       <initValue>'https://nacac-metapod.visitdays.vercel.app'</initValue>
       <name>StudentUrlCheck</name>
    </GlobalVariableEntity>

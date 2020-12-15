@@ -1271,6 +1271,8 @@ class CreateVisitWithDifferentStatuses {
 
 		WebUI.waitForElementPresent(findTestObject('DailyVisitsPage/DateRangeFilterInDailyVisitsPage'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
+		WebUI.refresh()
+
 	}
 
 

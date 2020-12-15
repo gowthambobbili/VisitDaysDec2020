@@ -112,11 +112,11 @@ if (!(WebUI.verifyElementPresent(IndObject, 0, FailureHandling.OPTIONAL))) {
 
 WebUI.click(ThreeDotMenu)
 
-if (!(WebUI.verifyElementPresent(findTestObject('DailyVisitsPage/AddVisitToItineraryOptionInRegisteredTab'), 0, FailureHandling.OPTIONAL))) {
-	KeywordUtil.markFailed('"Add Visit To Itinerary" option is not shown in The Reschedued Individual three dot menu in Canceled tab')
-
-	WebUI.takeScreenshot()
-}
+//if (!(WebUI.verifyElementPresent(findTestObject('DailyVisitsPage/AddVisitToItineraryOptionInRegisteredTab'), 0, FailureHandling.OPTIONAL))) {
+//	KeywordUtil.markFailed('"Add Visit To Itinerary" option is not shown in The Reschedued Individual three dot menu in Canceled tab')
+//
+//	WebUI.takeScreenshot()
+//}
 
 WebUI.click(IndObject)
 

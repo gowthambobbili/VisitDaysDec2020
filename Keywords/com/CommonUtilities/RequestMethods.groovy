@@ -1,45 +1,11 @@
 package com.CommonUtilities
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-import com.kms.katalon.core.annotation.Keyword
-import com.kms.katalon.core.checkpoint.Checkpoint
-import com.kms.katalon.core.checkpoint.CheckpointFactory
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.testcase.TestCase
-import com.kms.katalon.core.testcase.TestCaseFactory
-import com.kms.katalon.core.testdata.TestData
-import com.kms.katalon.core.testdata.TestDataFactory
-import com.kms.katalon.core.testobject.ObjectRepository
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
-
-import internal.GlobalVariable
-
-import MobileBuiltInKeywords as Mobile
-import WSBuiltInKeywords as WS
-import WebUiBuiltInKeywords as WebUI
-
 import org.openqa.selenium.WebElement
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.By
 
-import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
-import com.kms.katalon.core.webui.driver.DriverFactory
-
-import com.kms.katalon.core.testobject.RequestObject
-import com.kms.katalon.core.testobject.ResponseObject
-import com.kms.katalon.core.testobject.ConditionType
-import com.kms.katalon.core.testobject.TestObjectProperty
-
-import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
-import com.kms.katalon.core.util.KeywordUtil
-
-import com.kms.katalon.core.webui.exception.WebElementNotFoundException
+import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 
 class RequestMethods {
@@ -89,7 +55,10 @@ class RequestMethods {
 
 	@Keyword
 	def CreateSessionVisitTypeWithKeywordCheckin() {
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
@@ -132,8 +101,10 @@ class RequestMethods {
 	@Keyword
 	def CreateSessionVisitTypeWithAutomatedTextMessage() {
 
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
 
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
 		WebUI.click(findTestObject('CreateSessionsType/SessionOption'))
@@ -176,8 +147,12 @@ class RequestMethods {
 	@Keyword
 	def CreateRequestVisitType() {
 		WebUI.click(findTestObject('Object Repository/HomePageElements/SchoolProdoutNav'))
-		
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
@@ -244,7 +219,10 @@ class RequestMethods {
 
 	@Keyword
 	def CreateRequestVisitTypeWithIndividualRegistratType() {
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
@@ -312,7 +290,10 @@ class RequestMethods {
 	def CreateRequestEventVisitType() {
 		WebUI.waitForElementPresent(findTestObject('HomePageElements/VisitTypesLeftNav'), 0)
 
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
@@ -379,7 +360,11 @@ class RequestMethods {
 
 	@Keyword
 	def CreateRequestEventVisitTypeWithIndividualRegistrantType() {
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
@@ -448,7 +433,11 @@ class RequestMethods {
 	@Keyword
 	def CreateRequestOffCampusVisitType() {
 
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		//		not_run: WebUI.delay(15)
 		//
@@ -532,7 +521,10 @@ class RequestMethods {
 	@Keyword
 	def CreateRequestOffCampusVisitTypeWithIndividualRegistrantType() {
 
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		//		not_run: WebUI.delay(15)
 		//
@@ -617,7 +609,10 @@ class RequestMethods {
 	@Keyword
 	def CreateInstantOffCampusVisitTypeWithManualCheckin() {
 
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		WebUI.waitForElementPresent(findTestObject('VisitTypesPage/CreateVisitTypeButton'), 0)
 
@@ -696,7 +691,10 @@ class RequestMethods {
 	@Keyword
 	def CreateInstantOffCampusVisitTypeWithCloseRegistration(int NumberOfDays) {
 
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		WebUI.waitForElementPresent(findTestObject('VisitTypesPage/CreateVisitTypeButton'), 0)
 
@@ -778,7 +776,10 @@ class RequestMethods {
 	@Keyword
 	def CreateInstantOffCampusVisitTypeWithManualCheckinWithGroupRegistrantType() {
 
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		WebUI.waitForElementPresent(findTestObject('VisitTypesPage/CreateVisitTypeButton'), 0)
 
@@ -857,7 +858,10 @@ class RequestMethods {
 
 	@Keyword
 	def CreateInstantVisitTypeWithKeywordCheckin() {
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
@@ -926,7 +930,11 @@ class RequestMethods {
 
 	@Keyword
 	def CreateInstantVisitTypeWithMenualCheckin() {
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
 
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
@@ -996,7 +1004,10 @@ class RequestMethods {
 	@Keyword
 	def CreateInstantVisitTypeWithNumberOfDaysToCloseRegistration(int NumberOfDays) {
 
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
@@ -1076,8 +1087,10 @@ class RequestMethods {
 
 	@Keyword
 	def CreateInstantVisitTypeWithMenualCheckinWithAllWaysToMeet() {
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
 
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
 		WebUI.click(findTestObject('VisitTypesPage/DailyVisitsOption'))
@@ -1157,8 +1170,10 @@ class RequestMethods {
 
 	@Keyword
 	def CreateRequestVisitTypeWithMenualCheckinAndAllWaysToMeet() {
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
 
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
 		WebUI.click(findTestObject('VisitTypesPage/DailyVisitsOption'))
@@ -1240,7 +1255,10 @@ class RequestMethods {
 
 	@Keyword
 	def CreateInstantVisitTypeWithMenualCheckinAndGroupRegistrantType() {
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
@@ -1312,7 +1330,10 @@ class RequestMethods {
 
 	@Keyword
 	def CreateInstantVisitTypeAndBeInVisitTypesPage() {
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
@@ -1384,7 +1405,10 @@ class RequestMethods {
 	@Keyword
 	def CreateInstantEventVisitTypeWithKeywordCheckin()
 	{
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
@@ -1453,7 +1477,10 @@ class RequestMethods {
 
 	@Keyword
 	def CreateInstantEventVisitTypeWithManualCheckin() {
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
@@ -1524,8 +1551,10 @@ class RequestMethods {
 
 	@Keyword
 	def CreateInstantEventVisitTypeWithCloseRegistration(int NumberOfDays) {
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
 
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
 		WebUI.click(findTestObject('VisitTypesPage/eventOption'))
@@ -1598,7 +1627,10 @@ class RequestMethods {
 
 	@Keyword
 	def CreateInstantEventVisitTypeWithManualCheckinAndGroupRegistrantType() {
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		WebUI.click(findTestObject('VisitTypesPage/CreateVisitTypeButton'))
 
@@ -1672,7 +1704,10 @@ class RequestMethods {
 	@Keyword
 	def CreateInstantOffCampusVisitTypeWithKeywordCheckin() {
 
-		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		//		WebUI.click(findTestObject('HomePageElements/VisitTypesLeftNav'))
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
+
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 		WebUI.waitForElementPresent(findTestObject('VisitTypesPage/CreateVisitTypeButton'), 0)
 

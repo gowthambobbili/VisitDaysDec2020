@@ -98,6 +98,8 @@ class ConfirmationPage {
 
 		WebUI.delay(3)
 
+		WebUI.waitForPageLoad(0)
+
 		WebUI.click(VisitTypeCategory)
 
 		//		WebUI.delay(17)
@@ -187,17 +189,19 @@ class ConfirmationPage {
 
 		WebUI.sendKeys(findTestObject('Add Attendee/ContactNumberInStudentInformationPage'), '9898989898')
 
-		WebUI.click(findTestObject('Add Attendee/MonthDropDownInStudentInformationPage'))
+		//		WebUI.click(findTestObject('Add Attendee/MonthDropDownInStudentInformationPage'))
+		//
+		//		WebUI.click(findTestObject('Add Attendee/JanuaryInMonthDropDown'))
+		//
+		//		WebUI.click(findTestObject('Add Attendee/DayDropdownInStudentInformationPage'))
+		//
+		//		WebUI.click(findTestObject('Add Attendee/Day1InDayDropdown'))
+		//
+		//		WebUI.click(findTestObject('Add Attendee/YearDropdownInStudentInformationPage'))
+		//
+		//		WebUI.click(findTestObject('Add Attendee/FirstYearInYearDropdown'))
 
-		WebUI.click(findTestObject('Add Attendee/JanuaryInMonthDropDown'))
-
-		WebUI.click(findTestObject('Add Attendee/DayDropdownInStudentInformationPage'))
-
-		WebUI.click(findTestObject('Add Attendee/Day1InDayDropdown'))
-
-		WebUI.click(findTestObject('Add Attendee/YearDropdownInStudentInformationPage'))
-
-		WebUI.click(findTestObject('Add Attendee/FirstYearInYearDropdown'))
+		WebUI.sendKeys(findTestObject('Object Repository/Add Attendee/DateOfBirthNewField'),"1999-02-14")
 
 		WebUI.sendKeys(findTestObject('Add Attendee/HomeAddressInStudentInformationPage'), 'Test address 123')
 
@@ -306,6 +310,8 @@ class ConfirmationPage {
 
 		WebUI.delay(3)
 
+		WebUI.waitForPageLoad(0)
+
 		WebUI.verifyElementPresent(VisitTypeCategory, 0)
 
 		WebUI.click(VisitTypeCategory)
@@ -384,17 +390,18 @@ class ConfirmationPage {
 
 		WebUI.sendKeys(findTestObject('Add Attendee/ContactNumberInStudentInformationPage'), '9898989898')
 
-		WebUI.click(findTestObject('Add Attendee/MonthDropDownInStudentInformationPage'))
-
-		WebUI.click(findTestObject('Add Attendee/JanuaryInMonthDropDown'))
-
-		WebUI.click(findTestObject('Add Attendee/DayDropdownInStudentInformationPage'))
-
-		WebUI.click(findTestObject('Add Attendee/Day1InDayDropdown'))
-
-		WebUI.click(findTestObject('Add Attendee/YearDropdownInStudentInformationPage'))
-
-		WebUI.click(findTestObject('Add Attendee/FirstYearInYearDropdown'))
+		//		WebUI.click(findTestObject('Add Attendee/MonthDropDownInStudentInformationPage'))
+		//
+		//		WebUI.click(findTestObject('Add Attendee/JanuaryInMonthDropDown'))
+		//
+		//		WebUI.click(findTestObject('Add Attendee/DayDropdownInStudentInformationPage'))
+		//
+		//		WebUI.click(findTestObject('Add Attendee/Day1InDayDropdown'))
+		//
+		//		WebUI.click(findTestObject('Add Attendee/YearDropdownInStudentInformationPage'))
+		//
+		//		WebUI.click(findTestObject('Add Attendee/FirstYearInYearDropdown'))
+		WebUI.sendKeys(findTestObject('Object Repository/Add Attendee/DateOfBirthNewField'),"1999-02-14")
 
 		WebUI.sendKeys(findTestObject('Add Attendee/HomeAddressInStudentInformationPage'), 'Test address 123')
 
@@ -525,6 +532,8 @@ class ConfirmationPage {
 		WebUI.click(findTestObject('Add Attendee/GroupOptionInAddAttendee'))
 
 		WebUI.click(findTestObject('Add Attendee/NextButtonInAddAttendee'))
+
+		WebUI.waitForPageLoad(0)
 
 		WebUI.click(VisitTypeCategory)
 
@@ -850,6 +859,8 @@ class ConfirmationPage {
 
 		WebUI.click(findTestObject('Add Attendee/NextButtonInAddAttendee'))
 
+		WebUI.waitForPageLoad(0)
+
 		WebUI.click(VisitTypeCategory)
 
 		WebUI.waitForElementPresent(findTestObject('Add Attendee/VisitTypeDivisionInAddAttendee'), 0)
@@ -975,6 +986,8 @@ class ConfirmationPage {
 
 		WebUI.click(findTestObject('Add Attendee/NextButtonInAddAttendee'))
 
+		WebUI.waitForPageLoad(0)
+
 		WebUI.click(VisitTypeCategory)
 
 		WebUI.waitForElementPresent(findTestObject('Add Attendee/VisitTypeDivisionInAddAttendee'), 0)
@@ -1075,6 +1088,8 @@ class ConfirmationPage {
 
 			WebUI.delay(4)
 
+			WebUI.waitForPageLoad(0)
+
 			WebUI.click(VisitTypeCategory)
 
 			if(VisitTypeCategory==findTestObject('Object Repository/Add Attendee/DailyVisitsOptionInAddAttendee'))
@@ -1141,17 +1156,18 @@ class ConfirmationPage {
 
 			WebUI.sendKeys(findTestObject('Add Attendee/ContactNumberInStudentInformationPage'), '9898989898')
 
-			WebUI.click(findTestObject('Add Attendee/MonthDropDownInStudentInformationPage'))
+			//			WebUI.click(findTestObject('Add Attendee/MonthDropDownInStudentInformationPage'))
 
-			WebUI.click(findTestObject('Add Attendee/JanuaryInMonthDropDown'))
-
-			WebUI.click(findTestObject('Add Attendee/DayDropdownInStudentInformationPage'))
-
-			WebUI.click(findTestObject('Add Attendee/Day1InDayDropdown'))
-
-			WebUI.click(findTestObject('Add Attendee/YearDropdownInStudentInformationPage'))
-
-			WebUI.click(findTestObject('Add Attendee/FirstYearInYearDropdown'))
+			//			WebUI.click(findTestObject('Add Attendee/JanuaryInMonthDropDown'))
+			//
+			//			WebUI.click(findTestObject('Add Attendee/DayDropdownInStudentInformationPage'))
+			//
+			//			WebUI.click(findTestObject('Add Attendee/Day1InDayDropdown'))
+			//
+			//			WebUI.click(findTestObject('Add Attendee/YearDropdownInStudentInformationPage'))
+			//
+			//			WebUI.click(findTestObject('Add Attendee/FirstYearInYearDropdown'))
+			WebUI.sendKeys(findTestObject('Object Repository/Add Attendee/DateOfBirthNewField'),"1999-02-14")
 
 			WebUI.click(findTestObject('Add Attendee/ApplicationStatusDropdown'))
 

@@ -216,7 +216,7 @@ public class AddVisitorDirectlyToTheVisit {
 
 		WebUI.sendKeys(findTestObject('Add Attendee/ContactNumberInStudentInformationPage'), '9898989898')
 
-//		WebUI.click(findTestObject('Add Attendee/Group/NoOptionInYourGroupBeEatingLunchQuestion'))
+		//		WebUI.click(findTestObject('Add Attendee/Group/NoOptionInYourGroupBeEatingLunchQuestion'))
 
 		String OrgName = 'Orgnazation'+RandVar.nextInt(9000).toString()
 

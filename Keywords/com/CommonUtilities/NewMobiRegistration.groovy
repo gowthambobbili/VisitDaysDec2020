@@ -58,7 +58,7 @@ class NewMobiRegistration {
 
 		WebUI.waitForElementPresent(findTestObject('Add Attendee/IframeOfMobi'), 0)
 		WebUI.switchToFrame(findTestObject('Add Attendee/IframeOfMobi'), 0)
-		
+
 		WebUI.delay(5)
 
 		verifications.VerifyElementPresentAndStopExecutionIfFailed(findTestObject('Add Attendee/IndividualOptionInMobi'), "After clicking Add Registrant ([+]) button Individual option is not shown in the Mobi")
@@ -121,6 +121,7 @@ class NewMobiRegistration {
 		verifications.VerifyElementPresentAndStopExecutionIfFailed(findTestObject('Add Attendee/NextButtonInAddAttendee'), "Next button is not present in the landing page of Mobi")
 		WebUI.click(findTestObject('Add Attendee/NextButtonInAddAttendee'))
 		WebUI.delay(3)
+		WebUI.waitForPageLoad(0)
 		WebUI.click(VisitTypeCategory)
 
 		verifications.VerifyElementPresentAndStopExecutionIfFailed(findTestObject('Object Repository/Add Attendee/VisitTimeButtonInMobi(VisitType)', ["VisitType":visitType]), "Created visit is not present in the Mobi")
@@ -220,12 +221,14 @@ class NewMobiRegistration {
 			WebUI.sendKeys(findTestObject('Add Attendee/ContactNumberInStudentInformationPage'), "5555555555")
 		}
 
-		WebUI.click(findTestObject('Add Attendee/MonthDropDownInStudentInformationPage'))
-		WebUI.click(findTestObject('Add Attendee/JanuaryInMonthDropDown'))
-		WebUI.click(findTestObject('Add Attendee/DayDropdownInStudentInformationPage'))
-		WebUI.click(findTestObject('Add Attendee/Day1InDayDropdown'))
-		WebUI.click(findTestObject('Add Attendee/YearDropdownInStudentInformationPage'))
-		WebUI.click(findTestObject('Add Attendee/FirstYearInYearDropdown'))
+		//		WebUI.click(findTestObject('Add Attendee/MonthDropDownInStudentInformationPage'))
+		//		WebUI.click(findTestObject('Add Attendee/JanuaryInMonthDropDown'))
+		//		WebUI.click(findTestObject('Add Attendee/DayDropdownInStudentInformationPage'))
+		//		WebUI.click(findTestObject('Add Attendee/Day1InDayDropdown'))
+		//		WebUI.click(findTestObject('Add Attendee/YearDropdownInStudentInformationPage'))
+		//		WebUI.click(findTestObject('Add Attendee/FirstYearInYearDropdown'))
+		//		WebUI.click(findTestObject('Object Repository/Add Attendee/DateOfBirthNewField'))
+		WebUI.sendKeys(findTestObject('Object Repository/Add Attendee/DateOfBirthNewField'),"1999-02-14")
 		WebUI.sendKeys(findTestObject('Add Attendee/HomeAddressInStudentInformationPage'), 'Test address 123')
 		WebUI.click(findTestObject('Add Attendee/CountryDropdownInStudentInformationPage'))
 		WebUI.click(findTestObject('Add Attendee/UnitedStatesOptionInCountryDropdown'))
@@ -266,10 +269,10 @@ class NewMobiRegistration {
 			WebUI.click(findTestObject('Add Attendee/AcademicInterestsDropdown'))
 			WebUI.click(findTestObject('Add Attendee/FirstOptionInAcademicInterests'))
 		}
-		
-//		WebUI.click(findTestObject('Add Attendee/OptinalObjectInRegistrationPage'))
-//		
-//		WebUI.click(findTestObject('Add Attendee/OptionalTestDropDownSelect'))
+
+		//		WebUI.click(findTestObject('Add Attendee/OptinalObjectInRegistrationPage'))
+		//
+		//		WebUI.click(findTestObject('Add Attendee/OptionalTestDropDownSelect'))
 
 		WebUI.click(findTestObject('Add Attendee/CompleteButtonInAddAttendee'))
 		//verifications.VerifyElementNotPresentStopExecutionIfFailed(findTestObject('Add Attendee/IframeOfMobi'), "After completing the registration the mobi is not getting closed")

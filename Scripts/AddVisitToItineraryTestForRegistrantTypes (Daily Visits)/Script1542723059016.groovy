@@ -51,6 +51,8 @@ WebUI.waitForElementVisible(findTestObject('DailyVisitsPage/AddVisitToItineraryO
 
 WebUI.click(findTestObject('DailyVisitsPage/AddVisitToItineraryOptionInRegisteredTab'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5)
+
 if (!(WebUI.verifyElementPresent(findTestObject('DailyVisitsPage/Registered/SearchAvailableVisitTypesDropdownInAddToMyItineraryModal'), 
     0, FailureHandling.OPTIONAL))) {
     KeywordUtil.markFailed('"Add visit to itinerary" modal is not shown when clicked on "Add visit to itinerary" option in student three dot menu ')
@@ -121,6 +123,8 @@ WebUI.click(ThereDotMenuForGroup)
 WebUI.waitForElementVisible(findTestObject('DailyVisitsPage/AddVisitToItineraryOptionInRegisteredTab'), 0)
 
 WebUI.click(findTestObject('DailyVisitsPage/AddVisitToItineraryOptionInRegisteredTab'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
 
 if (!(WebUI.verifyElementPresent(findTestObject('DailyVisitsPage/Registered/SearchAvailableVisitTypesDropdownInAddToMyItineraryModal'), 
     0, FailureHandling.OPTIONAL))) {
