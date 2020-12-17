@@ -128,43 +128,43 @@
    <testCaseLink>
       <guid>cfa4aa15-67fd-4705-910c-f0e7fb11c5ed</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OverCapacityWarningVerificationWhileAddingVisitorDirectlyToVisit (Daily visits)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a9faeeeb-8e74-4e61-8240-47fad4830c42</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OverCapacityWarningVerificationWhileAddingVisitorDirectlyToVisit (Events)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0cf9c003-6347-4289-b7bb-0dfd0ddd1e50</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OverCapacityWarningVerificationWhileAddingVisitorDirectlyToVisit (Off-Campus)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6a527f05-aa8d-43d9-bae9-60a65a8dbfa9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AddVisitorDirectlyToScheduledRequestVisit (Daily Visit)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6ba00b8c-f6fd-4f88-9f91-2f336406c5e2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AddVisitorDirectlyToScheduledRequestVisit (Event)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4886d08b-fd41-4a9b-8a98-24514c717b11</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AddVisitorDirectlyToScheduledRequestVisit (Off-Campus)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cd099f67-fa51-41aa-8882-93e97358d803</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Login and Logout/Logout</testCaseId>
    </testCaseLink>
    <testCaseLink>

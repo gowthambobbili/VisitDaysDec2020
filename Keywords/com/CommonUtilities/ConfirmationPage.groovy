@@ -85,6 +85,8 @@ class ConfirmationPage {
 		Verify.VerifyElementPresentAndStopExecutionIfFailed(findTestObject('Add Attendee/IframeOfMobi'), "After clicking Add Attendee button Mobi is not open")
 
 		WebUI.switchToFrame(findTestObject('Add Attendee/IframeOfMobi'), 0)
+		
+		WebUI.waitForPageLoad(0)
 
 		Verify.VerifyElementPresentAndStopExecutionIfFailed(findTestObject('Add Attendee/IndividualOptionInMobi'), "Individual option is not present in Mobi landing page")
 

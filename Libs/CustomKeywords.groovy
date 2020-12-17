@@ -767,6 +767,53 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDayOfWeek"(
 }
 
 
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getPreviousDateTime"(
+    	int noOfDays	
+     , 	String timeZoneId	
+     , 	String dateTimeFormat	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getPreviousDateTime(
+        	noOfDays
+         , 	timeZoneId
+         , 	dateTimeFormat)
+}
+
+
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.setDefaultTimeZone"(
+    	String timeZoneId	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).setDefaultTimeZone(
+        	timeZoneId)
+}
+
+
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentDateTime"(
+    	String timeZoneId	
+     , 	String dateTimeFormat	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentDateTime(
+        	timeZoneId
+         , 	dateTimeFormat)
+}
+
+
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getFutureDateTime"(
+    	int noOfDays	
+     , 	String timeZoneId	
+     , 	String dateTimeFormat	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getFutureDateTime(
+        	noOfDays
+         , 	timeZoneId
+         , 	dateTimeFormat)
+}
+
+
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.convertString2Date"(
+    	String value	
+     , 	String dateTimeFormat	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).convertString2Date(
+        	value
+         , 	dateTimeFormat)
+}
+
+
 def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDuration"(
     	String startTime	
      , 	String endTime	) {
@@ -792,50 +839,17 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.addDays"(
 }
 
 
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentDateTime"(
-    	String timeZoneId	
-     , 	String dateTimeFormat	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentDateTime(
-        	timeZoneId
-         , 	dateTimeFormat)
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentMonth"() {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentMonth()
 }
 
 
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.setDefaultTimeZone"(
-    	String timeZoneId	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).setDefaultTimeZone(
-        	timeZoneId)
-}
-
-
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getFutureDateTime"(
-    	int noOfDays	
-     , 	String timeZoneId	
-     , 	String dateTimeFormat	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getFutureDateTime(
-        	noOfDays
-         , 	timeZoneId
-         , 	dateTimeFormat)
-}
-
-
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.convertString2Date"(
-    	String value	
-     , 	String dateTimeFormat	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).convertString2Date(
-        	value
-         , 	dateTimeFormat)
-}
-
-
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getPreviousDateTime"(
-    	int noOfDays	
-     , 	String timeZoneId	
-     , 	String dateTimeFormat	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getPreviousDateTime(
-        	noOfDays
-         , 	timeZoneId
-         , 	dateTimeFormat)
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getPastTime"(
+    	int hrs	
+     , 	int minute	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getPastTime(
+        	hrs
+         , 	minute)
 }
 
 
@@ -850,27 +864,8 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.formatStringDate"(
 }
 
 
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getPastTime"(
-    	int hrs	
-     , 	int minute	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getPastTime(
-        	hrs
-         , 	minute)
-}
-
-
 def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentDate"() {
     (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentDate()
-}
-
-
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentMonth"() {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentMonth()
-}
-
-
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentYear"() {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentYear()
 }
 
 
@@ -880,6 +875,11 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getFutureTime"(
     (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getFutureTime(
         	hrs
          , 	minute)
+}
+
+
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentYear"() {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentYear()
 }
 
 
@@ -1154,9 +1154,7 @@ def static "com.CommonUtilities.NewMobiRegistration.registerIndividual"(
          , 	studentDetails)
 }
 
-/**
-	 * Group registration in Mobi
-	 */
+
 def static "com.CommonUtilities.NewMobiRegistration.registerGroup"(
     	Object VisitTypeCategory	
      , 	Object visitType	
@@ -1197,9 +1195,7 @@ def static "com.CommonUtilities.NewMobiRegistration.registerIndividual"(
          , 	visitType)
 }
 
-/**
-	 * Group registration in Mobi
-	 */
+
 def static "com.CommonUtilities.NewMobiRegistration.registerGroup"(
     	Object VisitTypeCategory	
      , 	Object visitType	) {
@@ -1329,6 +1325,16 @@ def static "com.CommonUtilitiesofNACACstudentApp.SignUpFlow.SignupforStudentType
 }
 
 
+def static "com.CommonUtilitiesofNACACstudentApp.SignUpFlow.SignupforTeacherOrCounselorType"() {
+    (new com.CommonUtilitiesofNACACstudentApp.SignUpFlow()).SignupforTeacherOrCounselorType()
+}
+
+
+def static "com.CommonUtilitiesofNACACstudentApp.SignUpFlow.SignupforParentOrGuardainType"() {
+    (new com.CommonUtilitiesofNACACstudentApp.SignUpFlow()).SignupforParentOrGuardainType()
+}
+
+
 def static "com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterEmail"() {
     (new com.CommonUtilitiesofNACACstudentApp.SignUpFlow()).enterEmail()
 }
@@ -1344,13 +1350,48 @@ def static "com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterStudentType"() 
 }
 
 
+def static "com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterTeacherOrCounselorType"() {
+    (new com.CommonUtilitiesofNACACstudentApp.SignUpFlow()).enterTeacherOrCounselorType()
+}
+
+
+def static "com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterParentOrGuardainType"() {
+    (new com.CommonUtilitiesofNACACstudentApp.SignUpFlow()).enterParentOrGuardainType()
+}
+
+
 def static "com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterFirstName"() {
     (new com.CommonUtilitiesofNACACstudentApp.SignUpFlow()).enterFirstName()
 }
 
 
+def static "com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterParentFirstName"() {
+    (new com.CommonUtilitiesofNACACstudentApp.SignUpFlow()).enterParentFirstName()
+}
+
+
+def static "com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterParentLastName"() {
+    (new com.CommonUtilitiesofNACACstudentApp.SignUpFlow()).enterParentLastName()
+}
+
+
 def static "com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterLastName"() {
     (new com.CommonUtilitiesofNACACstudentApp.SignUpFlow()).enterLastName()
+}
+
+
+def static "com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterParentMobileNumber"() {
+    (new com.CommonUtilitiesofNACACstudentApp.SignUpFlow()).enterParentMobileNumber()
+}
+
+
+def static "com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterStudentDetailsForParentType"() {
+    (new com.CommonUtilitiesofNACACstudentApp.SignUpFlow()).enterStudentDetailsForParentType()
+}
+
+
+def static "com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterTeacherDetails"() {
+    (new com.CommonUtilitiesofNACACstudentApp.SignUpFlow()).enterTeacherDetails()
 }
 
 

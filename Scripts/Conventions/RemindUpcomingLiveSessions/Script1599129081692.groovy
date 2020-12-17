@@ -70,12 +70,12 @@ if(!(WebUI.verifyElementPresent(findTestObject('Object Repository/NacacStudentAp
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/CreatedSession',['createdSession':sessionName]))
+//WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/CreatedSession',['createdSession':sessionName]))
 
+WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/RemindMeButton',['createdSession':sessionName]))
+
+//WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/RemindMeButtonInsideSession'))
 WebUI.delay(5)
-//WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/RemindMeButton',['createdSession':sessionName]))
-
-WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/RemindMeButtonInsideSession'))
 
 WebUI.scrollToElement(findTestObject('Object Repository/NacacStudentApp/HomePageElements/ItinenariesOption'), 0, FailureHandling.OPTIONAL)
 

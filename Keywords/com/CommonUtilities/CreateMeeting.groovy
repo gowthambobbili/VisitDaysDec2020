@@ -22,6 +22,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import com.kms.katalon.core.testobject.ConditionType
 //import com.kms.katalon.core.testobject.TestObject
 import java.text.SimpleDateFormat;
+import java.util.Date
 
 import internal.GlobalVariable
 
@@ -30,6 +31,8 @@ public class CreateMeeting {
 	Random rd=new Random()
 
 	Date dNow=new Date()
+	
+	Date tomorow = new Date(dNow.getTime() + (1000 * 60 * 60 * 24))
 
 	Date dropDownFormat=new Date()
 
@@ -37,9 +40,13 @@ public class CreateMeeting {
 
 	SimpleDateFormat ft =new SimpleDateFormat ("MM/dd/yyyy")
 
-	def dropDate=(ft2.format(dropDownFormat)).toString()
+//	def dropDate=(ft2.format(dropDownFormat)).toString()
+	
+	def dropDate=(ft2.format(tomorow)).toString()
 
 	String meetdate=(ft.format(dNow)).toString()
+	
+	def tomorowDate=(ft.format(tomorow)).toString()
 
 	//	def meetdate=meetdates.substring(0,2)
 
@@ -130,7 +137,7 @@ public class CreateMeeting {
 
 		//		def assigneeName=WebUI.getText(findTestObject('Object Repository/ConventionsPageAdmin/GetTextFromsSelectAssigne'))
 
-		WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/MeetingDateTextField'),meetdate)
+		WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/MeetingDateTextField'),tomorowDate)
 
 
 		WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/StartTimeInMeetings'))

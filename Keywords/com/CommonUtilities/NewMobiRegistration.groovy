@@ -116,6 +116,7 @@ class NewMobiRegistration {
 		verifications.VerifyElementPresentAndStopExecutionIfFailed(findTestObject('Add Attendee/IframeOfMobi'), "After clicking Add Attendee button Mobi is not open")
 		WebUI.switchToFrame(findTestObject('Add Attendee/IframeOfMobi'), 0)
 		WebUI.delay(3)
+		WebUI.waitForPageLoad(0)
 		verifications.VerifyElementPresentAndStopExecutionIfFailed(findTestObject('Add Attendee/IndividualOptionInMobi'), "Individual option is not present in Mobi landing page")
 		WebUI.click(findTestObject('Add Attendee/IndividualOptionInMobi'))
 		verifications.VerifyElementPresentAndStopExecutionIfFailed(findTestObject('Add Attendee/NextButtonInAddAttendee'), "Next button is not present in the landing page of Mobi")
