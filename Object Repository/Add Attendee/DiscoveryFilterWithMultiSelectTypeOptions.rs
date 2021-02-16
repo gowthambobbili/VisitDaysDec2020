@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DiscoveryFilterWithMultiSelectTypeOptions</name>
+   <tag></tag>
+   <elementGuidId>f39a44e6-4f08-46dc-939e-1da46a813ce7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;discovery-question-checkbox-container&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;discovery-question-checkbox-container&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

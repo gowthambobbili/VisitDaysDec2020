@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DeleteDiscoveryFilterAndVerifyInList</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>93c4ff05-03fa-464b-a8cc-5acba28f428e</testCaseGuid>
+</TestCaseEntity>

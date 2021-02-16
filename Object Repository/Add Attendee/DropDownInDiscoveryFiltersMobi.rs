@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DropDownInDiscoveryFiltersMobi</name>
+   <tag></tag>
+   <elementGuidId>adb3dce9-ed90-406f-843c-1cd3abffebfd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div//span[@class=&quot;ember-power-select-placeholder&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div//span[@class=&quot;ember-power-select-placeholder&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

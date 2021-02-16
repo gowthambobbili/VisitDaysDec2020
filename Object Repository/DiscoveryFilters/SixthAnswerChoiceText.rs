@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SixthAnswerChoiceText</name>
+   <tag></tag>
+   <elementGuidId>136a7592-cd89-40ab-ada6-2fb701d356b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[6]//div[@class=&quot;question-form__answer-choice-controls&quot;]//input[@type=&quot;text&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li[6]//div[@class=&quot;question-form__answer-choice-controls&quot;]//input[@type=&quot;text&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

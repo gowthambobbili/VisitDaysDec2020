@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FifthAnswerChoiceText</name>
+   <tag></tag>
+   <elementGuidId>ae5add90-d7a6-4834-b8ac-6c9c2034b736</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[5]//div[@class=&quot;question-form__answer-choice-controls&quot;]//input[@type=&quot;text&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li[5]//div[@class=&quot;question-form__answer-choice-controls&quot;]//input[@type=&quot;text&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

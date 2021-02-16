@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DiscoveryHeaderInMobi</name>
+   <tag></tag>
+   <elementGuidId>ad1b7baf-e2b6-4325-9607-bf3cd4cd69c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div//strong[text()='Discovery']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div//strong[text()='Discovery']</value>
+   </webElementProperties>
+</WebElementEntity>

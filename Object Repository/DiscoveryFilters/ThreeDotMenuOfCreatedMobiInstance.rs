@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ThreeDotMenuOfCreatedMobiInstance</name>
+   <tag></tag>
+   <elementGuidId>0943f5a5-0e24-467b-a3d8-7d5771550c66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//tr//td[text()='${DiscoveryInstanceName}']/..//a//i[text()='more_vert']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//tr//td[text()='${DiscoveryInstanceName}']/..//a//i[text()='more_vert']</value>
+   </webElementProperties>
+</WebElementEntity>

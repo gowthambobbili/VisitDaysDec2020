@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DeleteLiveSessionWhichIsInProgressAndVerifyWhetherItIsDeletedOrNot</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d1ebe4b-d092-4bc1-b258-a6fddd0a3a76</testCaseGuid>
+</TestCaseEntity>

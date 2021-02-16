@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateMeetingAvailabilityAndDeleteTheCreatedMeeting</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d0fe0e7-13c2-4785-bfad-308d3cbe8fa7</testCaseGuid>
+</TestCaseEntity>

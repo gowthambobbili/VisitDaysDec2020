@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateDiscoveryFilterWithSixOptionsAndVerifyDropdownIsShownInMobiOrNot</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>965e64c0-4f85-4745-8076-2c4307778ca2</testCaseGuid>
+</TestCaseEntity>

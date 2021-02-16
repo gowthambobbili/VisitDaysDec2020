@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SearchboxinAddVisitToItineraryModal</name>
+   <tag></tag>
+   <elementGuidId>eacccf3f-058d-4bbe-9ee8-28688d8802ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;ember-power-select-search&quot;]//input[@type='search']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;ember-power-select-search&quot;]//input[@type='search']</value>
+   </webElementProperties>
+</WebElementEntity>

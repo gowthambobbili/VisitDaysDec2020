@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VerifyDiscoveryFilterNameDropDownType</name>
+   <tag></tag>
+   <elementGuidId>bf73bbd8-7dd2-458d-964c-18c33a726394</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div//label[text()=&quot;${DiscoveryFilter}&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div//label[text()=&quot;${DiscoveryFilter}&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

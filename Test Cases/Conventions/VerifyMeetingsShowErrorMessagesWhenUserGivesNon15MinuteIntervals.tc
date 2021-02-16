@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyMeetingsShowErrorMessagesWhenUserGivesNon15MinuteIntervals</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c17c9ab-8110-4f74-b42b-07ca289893b6</testCaseGuid>
+</TestCaseEntity>

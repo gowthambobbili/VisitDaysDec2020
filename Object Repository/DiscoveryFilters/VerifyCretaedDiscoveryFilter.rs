@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VerifyCretaedDiscoveryFilter</name>
+   <tag></tag>
+   <elementGuidId>9dea7fc0-8bf5-4933-ae4d-04ba795917d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;mobi-discovery-filter-card__content&quot;]//div[text()='${CREATEDDISCOVERYFILTER}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;mobi-discovery-filter-card__content&quot;]//div[text()='${CREATEDDISCOVERYFILTER}']</value>
+   </webElementProperties>
+</WebElementEntity>

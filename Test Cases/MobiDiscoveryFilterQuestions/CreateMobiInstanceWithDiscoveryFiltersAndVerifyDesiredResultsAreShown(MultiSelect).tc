@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateMobiInstanceWithDiscoveryFiltersAndVerifyDesiredResultsAreShown(MultiSelect)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>54b6d15f-619c-4285-b777-69498448b15b</testCaseGuid>
+</TestCaseEntity>
