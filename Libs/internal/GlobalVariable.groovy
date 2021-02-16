@@ -70,7 +70,8 @@ public class GlobalVariable {
     public static Object CampaignUrl
      
     /**
-     * <p>Profile Charizard Staging : albrightsandbox , bbtesting
+     * <p>Profile Abra Staging : albrightsandbox , bbtesting
+Profile Charizard Staging : albrightsandbox , bbtesting
 Profile Main Staging : albrightsandbox , bbtesting
 Profile Metapod Staging : albrightsandbox , bbtesting
 Profile Pikachu Staging : albrightsandbox , bbtesting</p>
@@ -81,6 +82,11 @@ Profile Pikachu Staging : albrightsandbox , bbtesting</p>
      * <p></p>
      */
     public static Object SelfServeUrl
+     
+    /**
+     * <p></p>
+     */
+    public static Object StudentAppUrl
      
     /**
      * <p></p>
@@ -115,15 +121,11 @@ Profile Pikachu Staging : albrightsandbox , bbtesting</p>
     /**
      * <p></p>
      */
-    public static Object StudentAppUrl
-     
-    /**
-     * <p></p>
-     */
     public static Object institutionId
      
     /**
-     * <p>Profile Charizard Staging : https:&#47;&#47;bais-charizard.visitdays.vercel.app&#47;, https:&#47;&#47;nacac-charizard.visitdays.vercel.app&#47;
+     * <p>Profile Abra Staging : https:&#47;&#47;bais-abra.visitdays.vercel.app&#47;
+Profile Charizard Staging : https:&#47;&#47;bais-charizard.visitdays.vercel.app&#47;, https:&#47;&#47;nacac-charizard.visitdays.vercel.app&#47;
 Profile Main Staging : https:&#47;&#47;nacac-staging.visitdays.vercel.app&#47; , https:&#47;&#47;bais-staging.visitdays.vercel.app&#47;
 Profile Metapod Staging : https:&#47;&#47;bais-metapod.visitdays.vercel.app&#47;
 Profile Pikachu Staging : https:&#47;&#47;bais-pikachu.visitdays.vercel.app&#47; ,https:&#47;&#47;nacac-pikachu.visitdays.vercel.app&#47;</p>
@@ -131,7 +133,8 @@ Profile Pikachu Staging : https:&#47;&#47;bais-pikachu.visitdays.vercel.app&#47;
     public static Object studenturl
      
     /**
-     * <p>Profile Metapod Staging : https:&#47;&#47;bais-metapod.visitdays.vercel.app</p>
+     * <p>Profile Abra Staging : https:&#47;&#47;bais-abra.visitdays.vercel.app
+Profile Metapod Staging : https:&#47;&#47;bais-metapod.visitdays.vercel.app</p>
      */
     public static Object StudentUrlCheck
      
@@ -146,7 +149,8 @@ Profile Pikachu Staging : https:&#47;&#47;bais-pikachu.visitdays.vercel.app&#47;
     public static Object InstitutionValue
      
     /**
-     * <p>Profile Charizard Staging : nacac,bais
+     * <p>Profile Abra Staging : nacac,bais
+Profile Charizard Staging : nacac,bais
 Profile Main Staging : nacac, bais
 Profile Metapod Staging : nacac,bais
 Profile Pikachu Staging : nacac, bais</p>
@@ -194,13 +198,13 @@ Profile Pikachu Staging : nacac, bais</p>
             CampaignUrl = selectedVariables['CampaignUrl']
             Institution = selectedVariables['Institution']
             SelfServeUrl = selectedVariables['SelfServeUrl']
+            StudentAppUrl = selectedVariables['StudentAppUrl']
             temp = selectedVariables['temp']
             apiBaseUrl = selectedVariables['apiBaseUrl']
             registrationEndPoint = selectedVariables['registrationEndPoint']
             Host = selectedVariables['Host']
             Origin = selectedVariables['Origin']
             Referer = selectedVariables['Referer']
-            StudentAppUrl = selectedVariables['StudentAppUrl']
             institutionId = selectedVariables['institutionId']
             studenturl = selectedVariables['studenturl']
             StudentUrlCheck = selectedVariables['StudentUrlCheck']

@@ -1,55 +1,80 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.SignupforStudentType'()
 
-def usermail=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterEmail'()
+String usermail=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterEmail'()
 
-def password=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterPassword'()
+String password=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterPassword'()
 
 CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterStudentType'()
 
-def nameone=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterFirstName'()
+String nameOne=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterFirstName'()
 
-def nametwo=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterLastName'()
+println nameOne
 
-def city=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterAddressDetails'()
+String nameTwo=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterLastName'()
+
+println nameTwo
+
+String mobNum=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterStudentMobileNumber'()
+
+println mobNum
+
+String city=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterAddressDetails'()
+
+println city
 
 WebUI.delay(7)
 
-CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterDOB'()
+String dateOfBirth=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterDOB'()
 
-def school=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterLastSchoolstudied'()
+println dateOfBirth
+
+String school=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterLastSchoolstudied'()
+
+println school
+
+String programs=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterOrSelectPrograms'()
+
+CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.selectMajorsOptionFromDropDown'()
 
 CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.selectApplicantType'()
 
+String highSchoolGraduationYear=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterHighSchoolGraduationYear'()
+
+println highSchoolGraduationYear
+
+CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterEnrollmentYear'()
+
+CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.selectEthnicityField'()
+
+CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.selectGender'()
+
+CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.selectReferredByOption'()
+
+CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.clickContinueAfterEnteringStudentDetails'()
+
 CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.Logout.logoutfromStudentApp'()
 
-def map1=[:]
+String[] inarray1 = new String[7]
 
-map1["mail"]=usermail
+inarray1[0]=nameOne
 
-map1["1stname"]=nameone
+inarray1[1]=nameTwo
 
-map1["2ndname"]=nametwo
+inarray1[2]=city
 
-map1["city"]=city
+inarray1[3]=dateOfBirth
 
-map1["school"]=school
+inarray1[4]=school
+
+inarray1[5]=highSchoolGraduationYear
+
+inarray1[6]=mobNum
 
 CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.LoginToStudentApp.loginToStudentApp'(usermail,password)
 
@@ -57,36 +82,108 @@ WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/P
 
 def Email=WebUI.getText(findTestObject('Object Repository/NacacStudentApp/HomePageElements/GetEmaildetailsFromAccountBasicsPage'))
 
+println Email
+
 WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/personaldetails page/PersonalInfoTab'))
 
-def firstname=WebUI.getText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/FirstnameTextField'))
+String firstName=WebUI.getAttribute(findTestObject('Object Repository/NacacStudentApp/PersonalInfo/FirstNameFIeld'),'value')
 
-def secondname=WebUI.getText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/LastNameTextField'))
+println firstName
 
-def Homeaddressline1=WebUI.getText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/AddressLineOne'))
+String secondName=WebUI.getAttribute(findTestObject('Object Repository/NacacStudentApp/PersonalInfo/LastNameFIeld'),'value')
 
-def HomeAddressline2=WebUI.getText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/AddressLineTwo'))
+println secondName
 
-def cityname=WebUI.getText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/CityTextField'))
+String homeaddressline1=WebUI.getAttribute(findTestObject('Object Repository/NacacStudentApp/PersonalInfo/AddressLineOne'),'value')
 
-def CurrentOrLastSchool=WebUI.getText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/Current or Last School'))
+println homeaddressline1
 
-def map2=[:]
+String homeAddressline2=WebUI.getAttribute(findTestObject('Object Repository/NacacStudentApp/PersonalInfo/AddressLineTwo'),'value')
 
-map2["mail"]=Email
+println homeAddressline2
 
-map2["1stname"]=firstname
+String cityName=WebUI.getAttribute(findTestObject('Object Repository/NacacStudentApp/PersonalInfo/cityField'),'value')
 
-map2["2ndname"]=secondname
+println cityName
 
-map2["city"]=cityname
+String DOB=WebUI.getAttribute(findTestObject('Object Repository/NacacStudentApp/PersonalInfo/dobField'), 'value')
 
-map2["school"]=CurrentOrLastSchool
+println DOB
 
-def static equals(Map map1, Map map2) {
-	if (!map2.keySet().containsAll(map1.keySet())) return false
-map1.every { it.value == map2[it.key] }
+String schoolName=WebUI.getAttribute(findTestObject('Object Repository/NacacStudentApp/PersonalInfo/CurrentOrLastSchoolField'), 'value')
 
+println schoolName
 
+String highSchoolYear=WebUI.getAttribute(findTestObject('Object Repository/NacacStudentApp/PersonalInfo/GraduationYearField'), 'value')
+
+println highSchoolYear
+
+String getMobNum=WebUI.getAttribute(findTestObject('Object Repository/NacacStudentApp/PersonalInfo/PhoneNumberField'), 'value')
+
+println getMobNum
+
+//def CurrentOrLastSchool=WebUI.getText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/Current or Last School'))
+WebUI.scrollToElement(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/FirstYearCollegeStudent'),0)
+
+if(!(WebUI.verifyElementChecked(findTestObject('Object Repository/NacacStudentApp/SignUpPage/InternationalStudent'), 0, FailureHandling.OPTIONAL)))
+{
+	KeywordUtil.markFailed("international student type checkbox is not marked/checked in personal info page")
+}
+
+WebUI.scrollToElement(findTestObject('Object Repository/NacacStudentApp/SignUpPage/spring2021'),0)
+
+if(!(WebUI.verifyElementChecked(findTestObject('Object Repository/NacacStudentApp/SignUpPage/spring2022'), 0, FailureHandling.OPTIONAL)))
+{
+	KeywordUtil.markFailed("intended enrollment year checkbox is not marked/checked in personal info page")
+}
+WebUI.scrollToElement(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/American or Indian checkbox'), 0)
+
+if(!(WebUI.verifyElementChecked(findTestObject('Object Repository/NacacStudentApp/SignUpPage/WhiteCheckBox'), 0, FailureHandling.OPTIONAL)))
+{
+	KeywordUtil.markFailed("Ethnicity checkbox white is not marked/checked in personal info page")
+}
+WebUI.scrollToElement(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/FemaleOption'), 0)
+
+if(!(WebUI.verifyElementChecked(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/MaleOption'), 0, FailureHandling.OPTIONAL)))
+{
+	KeywordUtil.markFailed("male checkbox/radio button is not marked/checked in personal info page")
+}
+WebUI.scrollToElement(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/FriendsOption'), 0)
+
+if(!(WebUI.verifyElementChecked(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/FriendsOption'), 0, FailureHandling.OPTIONAL)))
+{
+	KeywordUtil.markFailed("referal checkbox/radio button friends is not marked/checked in personal info page")
+}
+
+String[] inarray2 = new String[7]
+
+inarray2[0]=firstName
+
+inarray2[1]=secondName
+
+inarray2[2]=cityName
+
+inarray2[3]=DOB
+
+inarray2[4]=schoolName
+
+inarray2[5]=highSchoolYear
+
+inarray2[6]=getMobNum
+
+//Object[] array1 = {inarray1};  // array1 have only one element
+//Object[] array2 = {inarray2};
+//if (!(Arrays.equals(array1, array2)))
+//{
+//	KeywordUtil.markFailed("In personal info page details are showing incorrect")
+//}
+int sizeOfArray=inarray1.length
+
+for(int i=0;i<sizeOfArray;i++)
+{
+	if(inarray1[i] != inarray2[i])
+	{
+		KeywordUtil.markFailed(inarray1[i]+" doesn't match with the "+inarray2[i])
+	}
 }
 

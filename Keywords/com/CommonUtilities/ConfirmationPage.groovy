@@ -24,15 +24,11 @@ import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 
 import internal.GlobalVariable
 
-import MobileBuiltInKeywords as Mobile
-import WSBuiltInKeywords as WS
-import WebUiBuiltInKeywords as WebUI
 
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebDriver
 import org.omg.CORBA.Object
 import org.openqa.selenium.By
-
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
 import com.kms.katalon.core.webui.driver.DriverFactory
 
@@ -58,6 +54,7 @@ class ConfirmationPage {
 	def NavgateToConfirmationPageForIndividualRegistrationWithRandomUserName(String VisitType, TestObject VisitTypeCategory, String NumberOfRequests) {
 
 		WebDriver driver = DriverFactory.getWebDriver()
+		WebUI.waitForElementPresent(findTestObject('HomePageElements/AddAttendeeButton'), 0)
 		WebUI.waitForElementClickable(findTestObject('HomePageElements/AddAttendeeButton'), 0)
 		WebUI.click(findTestObject('HomePageElements/AddAttendeeButton'))
 		return register.registerIndividual(VisitTypeCategory, VisitType)
@@ -85,7 +82,7 @@ class ConfirmationPage {
 		Verify.VerifyElementPresentAndStopExecutionIfFailed(findTestObject('Add Attendee/IframeOfMobi'), "After clicking Add Attendee button Mobi is not open")
 
 		WebUI.switchToFrame(findTestObject('Add Attendee/IframeOfMobi'), 0)
-		
+
 		WebUI.waitForPageLoad(0)
 
 		Verify.VerifyElementPresentAndStopExecutionIfFailed(findTestObject('Add Attendee/IndividualOptionInMobi'), "Individual option is not present in Mobi landing page")
@@ -191,19 +188,19 @@ class ConfirmationPage {
 
 		WebUI.sendKeys(findTestObject('Add Attendee/ContactNumberInStudentInformationPage'), '9898989898')
 
-		//		WebUI.click(findTestObject('Add Attendee/MonthDropDownInStudentInformationPage'))
-		//
-		//		WebUI.click(findTestObject('Add Attendee/JanuaryInMonthDropDown'))
-		//
-		//		WebUI.click(findTestObject('Add Attendee/DayDropdownInStudentInformationPage'))
-		//
-		//		WebUI.click(findTestObject('Add Attendee/Day1InDayDropdown'))
-		//
-		//		WebUI.click(findTestObject('Add Attendee/YearDropdownInStudentInformationPage'))
-		//
-		//		WebUI.click(findTestObject('Add Attendee/FirstYearInYearDropdown'))
+		WebUI.click(findTestObject('Add Attendee/MonthDropDownInStudentInformationPage'))
 
-		WebUI.sendKeys(findTestObject('Object Repository/Add Attendee/DateOfBirthNewField'),"1999-02-14")
+		WebUI.click(findTestObject('Add Attendee/JanuaryInMonthDropDown'))
+
+		WebUI.click(findTestObject('Add Attendee/DayDropdownInStudentInformationPage'))
+
+		WebUI.click(findTestObject('Add Attendee/Day1InDayDropdown'))
+
+		WebUI.click(findTestObject('Add Attendee/YearDropdownInStudentInformationPage'))
+
+		WebUI.click(findTestObject('Add Attendee/FirstYearInYearDropdown'))
+
+		//		WebUI.sendKeys(findTestObject('Object Repository/Add Attendee/DateOfBirthNewField'),"1999-02-14")
 
 		WebUI.sendKeys(findTestObject('Add Attendee/HomeAddressInStudentInformationPage'), 'Test address 123')
 
@@ -392,18 +389,18 @@ class ConfirmationPage {
 
 		WebUI.sendKeys(findTestObject('Add Attendee/ContactNumberInStudentInformationPage'), '9898989898')
 
-		//		WebUI.click(findTestObject('Add Attendee/MonthDropDownInStudentInformationPage'))
-		//
-		//		WebUI.click(findTestObject('Add Attendee/JanuaryInMonthDropDown'))
-		//
-		//		WebUI.click(findTestObject('Add Attendee/DayDropdownInStudentInformationPage'))
-		//
-		//		WebUI.click(findTestObject('Add Attendee/Day1InDayDropdown'))
-		//
-		//		WebUI.click(findTestObject('Add Attendee/YearDropdownInStudentInformationPage'))
-		//
-		//		WebUI.click(findTestObject('Add Attendee/FirstYearInYearDropdown'))
-		WebUI.sendKeys(findTestObject('Object Repository/Add Attendee/DateOfBirthNewField'),"1999-02-14")
+		WebUI.click(findTestObject('Add Attendee/MonthDropDownInStudentInformationPage'))
+
+		WebUI.click(findTestObject('Add Attendee/JanuaryInMonthDropDown'))
+
+		WebUI.click(findTestObject('Add Attendee/DayDropdownInStudentInformationPage'))
+
+		WebUI.click(findTestObject('Add Attendee/Day1InDayDropdown'))
+
+		WebUI.click(findTestObject('Add Attendee/YearDropdownInStudentInformationPage'))
+
+		WebUI.click(findTestObject('Add Attendee/FirstYearInYearDropdown'))
+		//		WebUI.sendKeys(findTestObject('Object Repository/Add Attendee/DateOfBirthNewField'),"1999-02-14")
 
 		WebUI.sendKeys(findTestObject('Add Attendee/HomeAddressInStudentInformationPage'), 'Test address 123')
 
@@ -575,11 +572,10 @@ class ConfirmationPage {
 			WebUI.click(findTestObject('Add Attendee/NoRadioButtonInAccessibilityNeeds'))
 		}
 
-		//		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 0, FailureHandling.OPTIONAL)) {
-		//			WebUI.click(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'))
-		//
-		//			WebUI.click(findTestObject('Object Repository/Add Attendee/NoneOptionsInDietaryNeedsDropdown'))
-		//		}
+		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 0, FailureHandling.OPTIONAL)) {
+			WebUI.click(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'))
+			WebUI.click(findTestObject('Object Repository/Add Attendee/NoneOptionsInDietaryNeedsDropdown'))
+		}
 
 		String Email = 'test'+RandVar.nextInt(10000)+'@gmail.com'
 
@@ -669,15 +665,14 @@ class ConfirmationPage {
 		WebUI.sendKeys(findTestObject('Add Attendee/Group/HowmanyChaperonesQuestion'), '3')
 
 
-		//		if (WebUI.verifyElementPresent(findTestObject('Add Attendee/Group/YesOptionInAccessibilityNeedInGroup'), 3, FailureHandling.OPTIONAL)) {
-		//			WebUI.click(findTestObject('Add Attendee/NoRadioButtonInAccessibilityNeeds'))
-		//		}
+		if (WebUI.verifyElementPresent(findTestObject('Add Attendee/Group/YesOptionInAccessibilityNeedInGroup'), 3, FailureHandling.OPTIONAL)) {
+			WebUI.click(findTestObject('Add Attendee/NoRadioButtonInAccessibilityNeeds'))
+		}
 
-		//		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 0, FailureHandling.OPTIONAL)) {
-		//			WebUI.click(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'))
-		//
-		//			WebUI.click(findTestObject('Object Repository/Add Attendee/NoneOptionsInDietaryNeedsDropdown'))
-		//		}
+		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 0, FailureHandling.OPTIONAL)) {
+			WebUI.click(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'))
+			WebUI.click(findTestObject('Object Repository/Add Attendee/NoneOptionsInDietaryNeedsDropdown'))
+		}
 
 		String Email = 'test'+RandVar.nextInt(10000)+'@gmail.com'
 
@@ -775,14 +770,17 @@ class ConfirmationPage {
 
 		WebUI.click(findTestObject('Add Attendee/RegisterButtonInAddAttendee'))
 
+		WebUI.delay(3)
+
 		//		WebUI.sendKeys(findTestObject('Add Attendee/Group/HowmanyProspectiveStudentsQuestion'), '3')
 		//
 		//		WebUI.sendKeys(findTestObject('Add Attendee/Group/HowmanyChaperonesQuestion'), '3')
 
 
-		//		if (WebUI.verifyElementPresent(findTestObject('Add Attendee/Group/YesOptionInAccessibilityNeedInGroup'), 3, FailureHandling.OPTIONAL)) {
-		//			WebUI.click(findTestObject('Add Attendee/NoRadioButtonInAccessibilityNeeds'))
-		//		}
+		if (WebUI.verifyElementPresent(findTestObject('Add Attendee/Group/YesOptionInAccessibilityNeedInGroup'), 0, FailureHandling.OPTIONAL))
+		{
+			WebUI.click(findTestObject('Add Attendee/NoRadioButtonInAccessibilityNeeds'))
+		}
 
 		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 0, FailureHandling.OPTIONAL)) {
 			WebUI.click(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'))
@@ -920,16 +918,14 @@ class ConfirmationPage {
 		//
 		//		WebUI.sendKeys(findTestObject('Add Attendee/Group/HowmanyChaperonesQuestion'), '3')
 
-
-		//		if (WebUI.verifyElementPresent(findTestObject('Add Attendee/Group/YesOptionInAccessibilityNeedInGroup'), 3, FailureHandling.OPTIONAL)) {
-		//			WebUI.click(findTestObject('Add Attendee/NoRadioButtonInAccessibilityNeeds'))
-		//		}
-
-		//		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 0, FailureHandling.OPTIONAL)) {
-		//			WebUI.click(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'))
-		//
-		//			WebUI.click(findTestObject('Object Repository/Add Attendee/NoneOptionsInDietaryNeedsDropdown'))
-		//		}
+		if (WebUI.verifyElementPresent(findTestObject('Add Attendee/Group/YesOptionInAccessibilityNeedInGroup'), 0, FailureHandling.OPTIONAL))
+		{
+			WebUI.click(findTestObject('Add Attendee/NoRadioButtonInAccessibilityNeeds'))
+		}
+		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 0, FailureHandling.OPTIONAL)) {
+			WebUI.click(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'))
+			WebUI.click(findTestObject('Object Repository/Add Attendee/NoneOptionsInDietaryNeedsDropdown'))
+		}
 
 		//		WebUI.click(findTestObject('Add Attendee/NextButtonInAddAttendee'))
 
@@ -1026,15 +1022,15 @@ class ConfirmationPage {
 		WebUI.sendKeys(findTestObject('Add Attendee/Group/HowmanyChaperonesQuestion'), '3')
 
 
-		if (WebUI.verifyElementPresent(findTestObject('Add Attendee/Group/YesOptionInAccessibilityNeedInGroup'), 3, FailureHandling.OPTIONAL)) {
+		if (WebUI.verifyElementPresent(findTestObject('Add Attendee/Group/YesOptionInAccessibilityNeedInGroup'), 0, FailureHandling.OPTIONAL)) {
 			WebUI.click(findTestObject('Add Attendee/NoRadioButtonInAccessibilityNeeds'))
 		}
 
-		//		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 0, FailureHandling.OPTIONAL)) {
-		//			WebUI.click(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'))
-		//
-		//			WebUI.click(findTestObject('Object Repository/Add Attendee/NoneOptionsInDietaryNeedsDropdown'))
-		//		}
+		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 0, FailureHandling.OPTIONAL))
+		{
+			WebUI.click(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'))
+			WebUI.click(findTestObject('Object Repository/Add Attendee/NoneOptionsInDietaryNeedsDropdown'))
+		}
 
 		//		WebUI.click(findTestObject('Add Attendee/NextButtonInAddAttendee'))
 
@@ -1135,11 +1131,12 @@ class ConfirmationPage {
 
 			WebUI.click(findTestObject('Add Attendee/FirstOptionInHowManyGuestsDropdown'))
 
-			//			if (WebUI.verifyElementPresent(findTestObject('Add Attendee/YesOptionInAccessibilityNeedForIndividual'), 3, FailureHandling.OPTIONAL)) {
-			//				WebUI.click(findTestObject('Add Attendee/NoRadioButtonInAccessibilityNeeds'))
-			//			}
+			if (WebUI.verifyElementPresent(findTestObject('Add Attendee/YesOptionInAccessibilityNeedForIndividual'), 0, FailureHandling.OPTIONAL))
+			{
+				WebUI.click(findTestObject('Add Attendee/NoRadioButtonInAccessibilityNeeds'))
+			}
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 3, FailureHandling.OPTIONAL))
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 0, FailureHandling.OPTIONAL))
 			{
 				WebUI.click(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'))
 
@@ -1158,18 +1155,18 @@ class ConfirmationPage {
 
 			WebUI.sendKeys(findTestObject('Add Attendee/ContactNumberInStudentInformationPage'), '9898989898')
 
-			//			WebUI.click(findTestObject('Add Attendee/MonthDropDownInStudentInformationPage'))
+			WebUI.click(findTestObject('Add Attendee/MonthDropDownInStudentInformationPage'))
 
-			//			WebUI.click(findTestObject('Add Attendee/JanuaryInMonthDropDown'))
-			//
-			//			WebUI.click(findTestObject('Add Attendee/DayDropdownInStudentInformationPage'))
-			//
-			//			WebUI.click(findTestObject('Add Attendee/Day1InDayDropdown'))
-			//
-			//			WebUI.click(findTestObject('Add Attendee/YearDropdownInStudentInformationPage'))
-			//
-			//			WebUI.click(findTestObject('Add Attendee/FirstYearInYearDropdown'))
-			WebUI.sendKeys(findTestObject('Object Repository/Add Attendee/DateOfBirthNewField'),"1999-02-14")
+			WebUI.click(findTestObject('Add Attendee/JanuaryInMonthDropDown'))
+
+			WebUI.click(findTestObject('Add Attendee/DayDropdownInStudentInformationPage'))
+
+			WebUI.click(findTestObject('Add Attendee/Day1InDayDropdown'))
+
+			WebUI.click(findTestObject('Add Attendee/YearDropdownInStudentInformationPage'))
+
+			WebUI.click(findTestObject('Add Attendee/FirstYearInYearDropdown'))
+			//			WebUI.sendKeys(findTestObject('Object Repository/Add Attendee/DateOfBirthNewField'),"1999-02-14")
 
 			WebUI.click(findTestObject('Add Attendee/ApplicationStatusDropdown'))
 
@@ -1256,20 +1253,21 @@ class ConfirmationPage {
 
 			WebUI.click(findTestObject('Add Attendee/RegisterButtonInAddAttendee'))
 
+			WebUI.delay(3)
+
 			//			WebUI.sendKeys(findTestObject('Add Attendee/Group/HowmanyProspectiveStudentsQuestion'), '3')
 
 			//			WebUI.sendKeys(findTestObject('Add Attendee/Group/HowmanyChaperonesQuestion'), '3')
-			//
-			//
-			////			if (WebUI.verifyElementPresent(findTestObject('Add Attendee/Group/YesOptionInAccessibilityNeedInGroup'), 3, FailureHandling.OPTIONAL)) {
-			////				WebUI.click(findTestObject('Add Attendee/NoRadioButtonInAccessibilityNeeds'))
-			////			}
-			//
-			//				if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 0, FailureHandling.OPTIONAL)) {
-			//					WebUI.click(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'))
-			//
-			//				WebUI.click(findTestObject('Object Repository/Add Attendee/NoneOptionsInDietaryNeedsDropdown'))
-			//			}
+
+
+			if (WebUI.verifyElementPresent(findTestObject('Add Attendee/Group/YesOptionInAccessibilityNeedInGroup'), 0, FailureHandling.OPTIONAL)) {
+				WebUI.click(findTestObject('Add Attendee/NoRadioButtonInAccessibilityNeeds'))
+			}
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 0, FailureHandling.OPTIONAL))
+			{
+				WebUI.click(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'))
+				WebUI.click(findTestObject('Object Repository/Add Attendee/NoneOptionsInDietaryNeedsDropdown'))
+			}
 			//
 			////		    WebUI.sendKeys(findTestObject('Object Repository/UserProfile/Details/OrganisationName'),OrgName)
 			//

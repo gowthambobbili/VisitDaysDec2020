@@ -6,12 +6,11 @@
    <elementGuidId>62aee248-0d12-49f1-9634-6aa7cfe223c2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div//input[@name=&quot;last_name&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//label[text()=&quot;LAST NAME&quot;]/..//div//input[@type=&quot;text&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

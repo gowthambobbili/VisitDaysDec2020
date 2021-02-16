@@ -60,10 +60,34 @@
       <testCaseId>Test Cases/Conventions/VerifyStudentIsPresentInProspectsListAfterJoinLiveSession</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>d7ad246e-78cd-41a4-8ae6-d932d73ab25b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Conventions/CreateLiveSessionWithSeatingCapacityLessThan20AndVerifyWhetherFewSeatsLeftWarningMessageIsShownInConventionsApp</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8aece1a0-f1b2-4b8a-a90b-cd5dea562169</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Conventions/DeleteLiveSessionWhichIsInProgressAndVerifyWhetherItIsDeletedOrNot</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>442ecf31-8a18-4dac-8994-74be783ea72d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Conventions/VerifyMeetingsShowErrorMessagesWhenUserGivesNon15MinuteIntervals</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>cefb4119-5d9b-41e1-9664-1398c5c9fc48</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Conventions/CreateMeetingAndVerifyInStudentApp</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ad403a08-1e4d-4e93-9bd3-5237ee0b5881</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Conventions/CreateMeetingAvailabilityAndDeleteTheCreatedMeeting</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>35d47c48-95fd-4709-ad00-aa23091e63b0</guid>
@@ -126,33 +150,27 @@
       <testCaseId>Test Cases/Conventions/VerifyClearAllButtonIsShownAfterApplyingAnyFilter</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>db13907e-7d91-4380-866f-383909a9d004</guid>
+      <guid>ddaf295d-6093-4c03-a8f5-f8f5ac6228ba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/VerifyExhibitorsCountIsShowingCorrectWhenExhibitorsAreLessThanThirty</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Nacac student app/signup as student and verify details</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9466b8cc-c0cb-42e8-b1e3-3804778fcc0e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Nacac student app/signUpAndLogin</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ddaf295d-6093-4c03-a8f5-f8f5ac6228ba</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Nacac student app/signup as student and verify details</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b04d3d96-64b8-428d-ae99-14acc9332de6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Nacac student app/Signup as teacher type</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>77979e8a-8b8f-40b3-830a-f21fe2a5213e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Nacac student app/Signup as parent type</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

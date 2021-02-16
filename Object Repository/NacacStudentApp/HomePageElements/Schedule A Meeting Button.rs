@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button//span[text()=&quot;SCHEDULE A MEETING&quot;]</value>
+         <value>//div[@class=&quot;css-18g8r4e&quot;]//span[text()='SCHEDULE A MEETING']/..</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

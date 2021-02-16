@@ -54,5 +54,7 @@ CustomKeywords.'com.CommonUtilities.CreateTestObject.clickElement'(findTestObjec
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Requests/VisitTypeFilterDropDown'), 0)
 
+WebUI.refresh()
+
 CustomKeywords.'com.CommonUtilities.Verifications.VerifyElementPresent'(findTestObject('Object Repository/Requests/StudentNameInRequestsPage(student)', ["student":StudentName]), "After submitting a request, the request is not shown in Pending tab of Requests page")
 

@@ -6,11 +6,11 @@
    <elementGuidId>ea826822-40a2-4324-b54e-c1cb94023e07</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span//input[@value=&quot;male&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class=&quot;css-1dbjc4n&quot;][6]//div[@role=&quot;radiogroup&quot;]//label[2]//span//span//input[@type=&quot;radio&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

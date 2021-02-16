@@ -6,11 +6,11 @@
    <elementGuidId>b2f4bddb-c995-49bd-9d8b-6bb437962f37</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@id=&quot;birthdate&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='dob']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

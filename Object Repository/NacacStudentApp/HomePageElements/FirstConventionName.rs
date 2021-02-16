@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//div[contains(@class,&quot;MuiCardContent-root jss&quot;)])[1]//div[@class=&quot;css-1dbjc4n&quot; and not(@style)]//div</value>
+         <value>(//div[@class=&quot;MuiPaper-root MuiCard-root jss1 MuiPaper-elevation3 MuiPaper-rounded&quot;]//button)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//div[contains(@class,&quot;MuiCardContent-root jss&quot;)])[1]//div[@class=&quot;css-1dbjc4n&quot; and not(@style)]//div</value>
+      <value>(//div[@class=&quot;MuiPaper-root MuiCard-root jss1 MuiPaper-elevation3 MuiPaper-rounded&quot;]//button)[1]</value>
    </webElementProperties>
 </WebElementEntity>

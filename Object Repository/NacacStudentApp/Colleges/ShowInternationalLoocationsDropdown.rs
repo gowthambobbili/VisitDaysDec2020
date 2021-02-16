@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@role=&quot;presentation&quot;]/preceding::div[contains(@class,'MuiPaper-rounded')]//span[text()='Show International Locations']/..//INPUT</value>
+         <value>//span[text()='Show International Locations']/..//input[@type=&quot;checkbox&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@role=&quot;presentation&quot;]/preceding::div[contains(@class,'MuiPaper-rounded')]//span[text()='Show International Locations']/..//INPUT</value>
+      <value>//span[text()='Show International Locations']/..//input[@type=&quot;checkbox&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[text()=&quot;CITY&quot;]/..//div//input[@type=&quot;text&quot;]</value>
+         <value>//div//input[@name=&quot;city&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

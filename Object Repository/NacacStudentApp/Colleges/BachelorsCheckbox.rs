@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@role=&quot;presentation&quot;]/preceding::div[contains(@class,'MuiPaper-rounded')]//span[text()='Bachelors']/..//input</value>
+         <value>//span[text()='Bachelors']/..</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@role=&quot;presentation&quot;]/preceding::div[contains(@class,'MuiPaper-rounded')]//span[text()='Bachelors']/..//input</value>
+      <value>//span[text()='Bachelors']/..</value>
    </webElementProperties>
 </WebElementEntity>

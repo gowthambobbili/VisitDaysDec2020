@@ -48,14 +48,23 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('NacacStude
 
 WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
+WebUI.waitForPageLoad(0)
+
 WebUI.scrollToElement(findTestObject('Object Repository/NacacStudentApp/HomePageElements/LoadMoreButton'), 5, FailureHandling.OPTIONAL)
 
 if(WebUI.verifyElementPresent(findTestObject('Object Repository/NacacStudentApp/HomePageElements/LoadMoreButton'), 5, FailureHandling.OPTIONAL))
 {
-	WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/LoadMoreButton'))
+	CustomKeywords.'com.CommonUtilities.ClickUsingJSExecutor.clickUsingJS'(findTestObject('Object Repository/NacacStudentApp/HomePageElements/LoadMoreButton'),0)
+//	WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/LoadMoreButton'))
 }
 
-WebUI.waitForElementPresent(findTestObject('NacacStudentApp/HomePageElements/CollegeName',['Exhibitor':institutionName]), 0)
+//WebUI.scrollToElement(findTestObject('NacacStudentApp/HomePageElements/CollegeName',['Exhibitor':institutionName]), 0, FailureHandling.OPTIONAL)
+
+if(!(WebUI.verifyElementPresent(findTestObject('NacacStudentApp/HomePageElements/CollegeName',['Exhibitor':institutionName]), 5, FailureHandling.OPTIONAL)))
+{
+	KeywordUtil.markFailed(institutionName+" is not found in exhibitors page")
+}
+
 
 WebUI.click(findTestObject('NacacStudentApp/HomePageElements/CollegeName',['Exhibitor':institutionName]))
 
@@ -81,7 +90,7 @@ WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/S
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/ItinenariesOption'))
+CustomKeywords.'com.CommonUtilities.ClickUsingJSExecutor.clickUsingJS'(findTestObject('Object Repository/NacacStudentApp/HomePageElements/ItinenariesOption'),0)
 
 WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/MyMeetingsOptionInItinenariesPage'))
 
@@ -89,6 +98,8 @@ if(!(WebUI.verifyElementPresent(findTestObject('Object Repository/NacacStudentAp
 {
 	KeywordUtil.markFailed("the scheduled meeting is not present in the My meetings page")
 }
+
+WebUI.delay(4)
 
 WebUI.navigateToUrl(GlobalVariable.StagingUrl)
 

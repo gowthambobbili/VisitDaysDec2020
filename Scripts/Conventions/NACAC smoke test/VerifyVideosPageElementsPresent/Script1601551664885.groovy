@@ -27,7 +27,7 @@ CustomKeywords.'com.CommonUtilities.Verifications.VerifyElementPresentAndStopExe
 
 CustomKeywords.'com.CommonUtilities.Verifications.VerifyElementPresentAndStopExecutionIfFailed'(findTestObject('Object Repository/NacacStudentApp/Videos/FIltersIcon'), "Filters icon is not present in Videos page")
 
-CustomKeywords.'com.CommonUtilities.Verifications.VerifyElementPresentAndStopExecutionIfFailed'(findTestObject('Object Repository/NacacStudentApp/Intercom'), "Intercom icon is not present in the Videos page")
+//CustomKeywords.'com.CommonUtilities.Verifications.VerifyElementPresentAndStopExecutionIfFailed'(findTestObject('Object Repository/NacacStudentApp/Intercom'), "Intercom icon is not present in the Videos page")
 
 WebUI.click(findTestObject('Object Repository/NacacStudentApp/Videos/FIltersIcon'))
 

@@ -31,7 +31,7 @@ public class CreateMeeting {
 	Random rd=new Random()
 
 	Date dNow=new Date()
-	
+
 	Date tomorow = new Date(dNow.getTime() + (1000 * 60 * 60 * 24))
 
 	Date dropDownFormat=new Date()
@@ -40,12 +40,12 @@ public class CreateMeeting {
 
 	SimpleDateFormat ft =new SimpleDateFormat ("MM/dd/yyyy")
 
-//	def dropDate=(ft2.format(dropDownFormat)).toString()
-	
+	//	def dropDate=(ft2.format(dropDownFormat)).toString()
+
 	def dropDate=(ft2.format(tomorow)).toString()
 
 	String meetdate=(ft.format(dNow)).toString()
-	
+
 	def tomorowDate=(ft.format(tomorow)).toString()
 
 	//	def meetdate=meetdates.substring(0,2)
@@ -69,11 +69,11 @@ public class CreateMeeting {
 		WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/CreateButtonInLiveSessions'))
 
 		WebUI.waitForPageLoad(0)
-		
+
 		WebUI.delay(3)
 
 		def ConventionName=WebUI.getText(findTestObject('Object Repository/ConventionsPageAdmin/getNameOfFirstConvention'))
-		
+
 		WebUI.delay(2)
 
 		return ConventionName
@@ -158,6 +158,62 @@ public class CreateMeeting {
 
 		return assigneeName
 
+	}
+	@Keyword
+	def enterMeetingDetailsAndTimeWithNonZeroFifteenMinTimeIntervals()
+	{
+		WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/MeetingsLeftNav'))
+
+		WebUI.waitForPageLoad(5)
+
+		WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/AddAvailabilityButton'))
+
+		WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/AssigneeDropDownButtonInMeetings'))
+
+		def assigneesCount=WebUiCommonHelper.findWebElements(findTestObject('Object Repository/ConventionsPageAdmin/SelectAssigneFromDropDownByIndex'),0).size()
+
+		def assigneeNo =rd.nextInt(assigneesCount)
+
+		def assigneeName=WebUI.getText(findTestObject('Object Repository/ConventionsPageAdmin/selectdrop',['Index':assigneeNo]))
+
+		println assigneeName
+
+		if(!(WebUI.verifyElementPresent(findTestObject('Object Repository/ConventionsPageAdmin/SelectDropImg',['Index':assigneeNo]),10,FailureHandling.OPTIONAL))) {
+			//			def num=assigneeName.indexOf(' ')
+			def num=2
+
+			def assigneeNameWithspaces=assigneeName.substring(num+1,(assigneeName.length()))
+
+			assigneeName=assigneeNameWithspaces.trim()
+
+		}
+
+		WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/selectdrop',['Index':assigneeNo]))
+
+		WebUI.delay(6)
+
+		//		def assigneeName=WebUI.getText(findTestObject('Object Repository/ConventionsPageAdmin/GetTextFromsSelectAssigne'))
+
+		WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/MeetingDateTextField'),tomorowDate)
+
+
+		WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/StartTimeInMeetings'))
+
+		WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/StartTimeInMeetings'),'11')
+
+		WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/StartTimeInMeetings'),'01')
+
+		WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/StartTimeInMeetings'),'p')
+
+		WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/EndTimeInMeetings'))
+
+		WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/EndTimeInMeetings'),'11')
+
+		WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/EndTimeInMeetings'),'40')
+
+		WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/EndTimeInMeetings'),'p')
+
+		return assigneeName
 	}
 	@Keyword
 	def enterZoomId() {

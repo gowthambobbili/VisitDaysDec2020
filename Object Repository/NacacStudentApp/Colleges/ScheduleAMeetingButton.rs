@@ -6,6 +6,10 @@
    <elementGuidId>9cfc24d1-31ac-4b19-ade7-7cf1ffc482fd</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//div[@class=&quot;css-18g8r4e&quot;]//span[text()='SCHEDULE A MEETING']</value>
       </entry>
@@ -17,6 +21,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class=&quot;css-18g8r4e&quot;]//span[text()='SCHEDULE A MEETING']</value>
+      <value>//div[@class=&quot;css-18g8r4e&quot;]//span[text()='SCHEDULE A MEETING']/..</value>
    </webElementProperties>
 </WebElementEntity>

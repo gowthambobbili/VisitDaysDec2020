@@ -52,7 +52,9 @@ WebUI.scrollToElement(findTestObject('Object Repository/NacacStudentApp/HomePage
 
 if(WebUI.verifyElementPresent(findTestObject('Object Repository/NacacStudentApp/HomePageElements/LoadMoreButton'), 5, FailureHandling.OPTIONAL))
 {
-	WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/LoadMoreButton'))
+	CustomKeywords.'com.CommonUtilities.ClickUsingJSExecutor.clickUsingJS'(findTestObject('Object Repository/NacacStudentApp/HomePageElements/LoadMoreButton'),0)
+	
+//	WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/LoadMoreButton'))
 }
 WebUI.waitForPageLoad(0)
 
@@ -70,11 +72,8 @@ if(!(WebUI.verifyElementPresent(findTestObject('Object Repository/NacacStudentAp
 
 WebUI.delay(5)
 
-//WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/CreatedSession',['createdSession':sessionName]))
+CustomKeywords.'com.CommonUtilities.ClickUsingJSExecutor.clickUsingJS'(findTestObject('Object Repository/NacacStudentApp/HomePageElements/RemindMeButton',['createdSession':sessionName]),0)
 
-WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/RemindMeButton',['createdSession':sessionName]))
-
-//WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/RemindMeButtonInsideSession'))
 WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Object Repository/NacacStudentApp/HomePageElements/ItinenariesOption'), 0, FailureHandling.OPTIONAL)

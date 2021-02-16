@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[text()='Ethnicity']/../..//span[text()='Other']</value>
+         <value>//legend[text()='Ethnicity']/../..//span[text()='Other']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[text()='Ethnicity']/../..//span[text()='Other']</value>
+      <value>//legend[text()='Ethnicity']/../..//span[text()='Other']</value>
    </webElementProperties>
 </WebElementEntity>

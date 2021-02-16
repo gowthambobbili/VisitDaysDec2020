@@ -24,6 +24,8 @@ WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 if(!(WebUI.verifyElementPresent(findTestObject('Object Repository/NacacStudentApp/HomePageElements/LoadMoreButton'), 5, FailureHandling.OPTIONAL)))
 {
+	WebUI.delay(3)
+	
 	String collegesCount=WebUI.getText(findTestObject('Object Repository/NacacStudentApp/Colleges/CollegesCount'))
 	
 	println collegesCount

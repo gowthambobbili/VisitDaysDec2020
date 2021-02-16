@@ -6,12 +6,11 @@
    <elementGuidId>73cee870-bb2b-44be-bf32-527556cbcd48</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[text()='White']/..//input[@type=&quot;checkbox&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class=&quot;css-1dbjc4n&quot;][5]//label[6]//input[@type=&quot;checkbox&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://pikachu-student.visitdays.com/bbtesting/ci/'</initValue>
+      <initValue>'https://metapod-student.visitdays.com/bbtesting/ci/'</initValue>
       <name>CampaignUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

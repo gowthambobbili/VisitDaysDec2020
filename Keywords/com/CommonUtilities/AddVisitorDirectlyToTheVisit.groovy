@@ -190,15 +190,15 @@ public class AddVisitorDirectlyToTheVisit {
 		WebUI.sendKeys(findTestObject('Add Attendee/Group/HowmanyChaperonesQuestion'), '3')
 
 
-		//		if (WebUI.verifyElementPresent(findTestObject('Add Attendee/Group/YesOptionInAccessibilityNeedInGroup'), 3, FailureHandling.OPTIONAL)) {
-		//			WebUI.click(findTestObject('Add Attendee/NoRadioButtonInAccessibilityNeeds'))
-		//		}
+		if (WebUI.verifyElementPresent(findTestObject('Add Attendee/Group/YesOptionInAccessibilityNeedInGroup'), 3, FailureHandling.OPTIONAL)) {
+			WebUI.click(findTestObject('Add Attendee/NoRadioButtonInAccessibilityNeeds'))
+		}
 
-		//		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 0, FailureHandling.OPTIONAL)) {
-		//			WebUI.click(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'))
-		//
-		//			WebUI.click(findTestObject('Object Repository/Add Attendee/NoneOptionsInDietaryNeedsDropdown'))
-		//		}
+		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 0, FailureHandling.OPTIONAL)) {
+			WebUI.click(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'))
+
+			WebUI.click(findTestObject('Object Repository/Add Attendee/NoneOptionsInDietaryNeedsDropdown'))
+		}
 
 		//		WebUI.click(findTestObject('Add Attendee/NextButtonInAddAttendee'))
 

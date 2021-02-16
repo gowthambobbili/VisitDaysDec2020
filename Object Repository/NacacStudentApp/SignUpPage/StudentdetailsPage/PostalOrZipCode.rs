@@ -6,12 +6,11 @@
    <elementGuidId>cddcbda7-3d42-4701-965d-747c8494b6da</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div//input[@id=&quot;zipcode&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//label[text()=&quot;POSTAL OR ZIP CODE&quot;]/..//div//input[@type=&quot;text&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

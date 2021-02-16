@@ -26,6 +26,6 @@ CustomKeywords.'com.CommonUtilities.Verifications.VerifyElementPresentAndStopExe
 
 CustomKeywords.'com.CommonUtilities.Verifications.VerifyElementPresentAndStopExecutionIfFailed'(findTestObject('Object Repository/NacacStudentApp/My Schedule/MyFairsOption'), "My Fairs tab is not present in the My Schedule page")
 
-CustomKeywords.'com.CommonUtilities.Verifications.VerifyElementPresentAndStopExecutionIfFailed'(findTestObject('Object Repository/NacacStudentApp/Intercom'), "Intercom icon is not present in the My Schedule page")
+//CustomKeywords.'com.CommonUtilities.Verifications.VerifyElementPresentAndStopExecutionIfFailed'(findTestObject('Object Repository/NacacStudentApp/Intercom'), "Intercom icon is not present in the My Schedule page")
 
 

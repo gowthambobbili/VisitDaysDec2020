@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button//span[text()=&quot;CONTINUE&quot;]</value>
+         <value>//button//span[text()=&quot;Continue&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

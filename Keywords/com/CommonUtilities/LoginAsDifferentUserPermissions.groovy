@@ -17,12 +17,7 @@ import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
-
 import internal.GlobalVariable
-
-import MobileBuiltInKeywords as Mobile
-import WSBuiltInKeywords as WS
-import WebUiBuiltInKeywords as WebUI
 
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebDriver
@@ -40,6 +35,7 @@ import com.kms.katalon.core.testobject.TestObjectProperty
 
 import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
 import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
@@ -107,11 +103,11 @@ class LoginAsDifferentUserPermissions {
 		WebUI.click(findTestObject('LoginPage/SignInButton'))
 
 		WebUI.waitForElementPresent(findTestObject('HomePageElements/ProfileAvatar'), 0)
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/HomePageElements/SchoolProdoutNav'), 0)
 
 		WebUI.click(findTestObject('Object Repository/HomePageElements/SchoolProdoutNav'))
-		
+
 	}
 
 
@@ -166,7 +162,7 @@ class LoginAsDifferentUserPermissions {
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/LoginButton'))
 
 		WebUI.waitForPageLoad(5)
-		
+
 		WebUI.delay(5)
 	}
 	@Keyword

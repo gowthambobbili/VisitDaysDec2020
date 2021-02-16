@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[text()='SORT A-Z']</value>
+         <value>//span[text()='Sort A-Z']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[text()='SORT A-Z']</value>
+      <value>//span[text()='Sort A-Z']</value>
    </webElementProperties>
 </WebElementEntity>

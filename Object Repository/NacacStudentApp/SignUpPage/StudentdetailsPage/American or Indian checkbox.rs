@@ -6,11 +6,11 @@
    <elementGuidId>14a0c1e2-cb09-4e6d-b598-e52d9e0f6764</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[text()='American Indian or Alaska Native']/..//input[@type=&quot;checkbox&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class=&quot;css-1dbjc4n&quot;][5]//label[1]//input[@type=&quot;checkbox&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

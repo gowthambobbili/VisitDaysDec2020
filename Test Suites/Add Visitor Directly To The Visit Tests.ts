@@ -20,19 +20,19 @@
    <testCaseLink>
       <guid>555b23d3-32f8-42ac-b05c-a19d34caaa46</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/AddUserDirectlyToTheVisitFromRegistrantsListTest (Daily Visits)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2651e4bd-60fd-4dcf-80de-cf2ed1de7e3e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/AddUserDirectlyToTheVisitFromRegistrantsListTest (Events)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5ba83468-e2d9-487c-a76b-9fa541c74812</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/AddUserDirectlyToTheVisitFromRegistrantsListTest (Off-Campus)</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -74,19 +74,19 @@
    <testCaseLink>
       <guid>a348fcc5-227f-4e8f-8c65-b43796261478</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/AddVisitorDirectlyToAVisitThatIsInProgress(Daily Visit)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>eb4a4062-713d-4c37-b3b5-6e595ebae2ba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/AddVisitorDirectlyToAVisitThatIsInProgress(Event)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>003fa0f1-e72b-4933-92f3-6a9ba411bf79</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/AddVisitorDirectlyToAVisitThatIsInProgress(Off-Campus)</testCaseId>
    </testCaseLink>
    <testCaseLink>

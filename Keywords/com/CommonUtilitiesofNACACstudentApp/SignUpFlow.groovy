@@ -27,9 +27,10 @@ public class SignUpFlow {
 	def email="Test.user"+num+"@qualitlabs.com"
 	def password="mahesh@1995"
 	def Credentials
-	def dob="02-11-1997"
+	def dateOfBirth="02-11-1997"
 	def firstname="test"+num
 	def lastname="user"
+	def mobileNumber="+14846930061"
 	@Keyword
 	def SignupforStudentType() {
 		WebUI.openBrowser('')
@@ -38,16 +39,14 @@ public class SignUpFlow {
 		WebUI.waitForElementPresent(findTestObject('Object Repository/NacacStudentApp/SignUpPage/EmailTextField'), 0)
 	}
 	@Keyword
-	def SignupforTeacherOrCounselorType()
-	{
+	def SignupforTeacherOrCounselorType() {
 		WebUI.openBrowser('')
 		WebUI.maximizeWindow()
 		WebUI.navigateToUrl(GlobalVariable.studenturl+"signup/")
 		WebUI.waitForElementPresent(findTestObject('Object Repository/NacacStudentApp/SignUpPage/EmailTextField'), 0)
 	}
 	@Keyword
-	def SignupforParentOrGuardainType()
-	{
+	def SignupforParentOrGuardainType() {
 		WebUI.openBrowser('')
 		WebUI.maximizeWindow()
 		WebUI.navigateToUrl(GlobalVariable.studenturl+"signup/")
@@ -62,6 +61,7 @@ public class SignUpFlow {
 	def enterPassword() {
 		WebUI.setText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/PasswordTextField'),password)
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/CheckBoxInSignupPage'))
+		WebUI.scrollToElement(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ContinueButton'), 0, FailureHandling.OPTIONAL)
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ContinueButton'))
 		return password
 	}
@@ -71,14 +71,12 @@ public class SignUpFlow {
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ContinueButtoninSecondpage'))
 	}
 	@Keyword
-	def enterTeacherOrCounselorType()
-	{
+	def enterTeacherOrCounselorType() {
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/CounselorOrTeacher'))
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ContinueButtoninSecondpage'))
 	}
 	@Keyword
-	def enterParentOrGuardainType()
-	{
+	def enterParentOrGuardainType() {
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ParentOrGuardainType'))
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ContinueButtoninSecondpage'))
 	}
@@ -89,17 +87,15 @@ public class SignUpFlow {
 		return firstname
 	}
 	@Keyword
-	def enterParentFirstName()
-	{
+	def enterParentFirstName() {
 		WebUI.setText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/ParentFirstName'),firstname)
-		
+
 		return firstname
 	}
 	@Keyword
-	def enterParentLastName()
-	{
+	def enterParentLastName() {
 		WebUI.setText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/parentLastName'),lastname)
-		
+
 		return lastname
 	}
 	@Keyword
@@ -109,55 +105,58 @@ public class SignUpFlow {
 		return lastname
 	}
 	@Keyword
-	def enterParentMobileNumber()
-	{
-		WebUI.setText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ParentDetailsPage/EnterParentMobileNumber'),"(484) 693-0061")
+	def enterParentMobileNumber() {
+		WebUI.setText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ParentDetailsPage/EnterParentMobileNumber'),mobileNumber)
+
+		return mobileNumber
 	}
 	@Keyword
-	def enterStudentDetailsForParentType()
-	{
+	def enterStudentDetailsForParentType() {
 		WebUI.setText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ParentDetailsPage/StudentFirstName'),"Test")
-		
+
 		WebUI.setText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ParentDetailsPage/StudentSecondName'),"Student")
-		
-		WebUI.setText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ParentDetailsPage/StudentPhoneNumber'),"(484) 693-0061")
-		
+
+		WebUI.setText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ParentDetailsPage/StudentPhoneNumber'),mobileNumber)
+
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ContinueButtoninSecondpage'))
-		
+
 		WebUI.delay(5)
-		
+
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ContinueButtoninSecondpage'))
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/NacacStudentApp/HomePageElements/UpcomingOptionInHomePage'),0)
 	}
 	@Keyword
-	def enterTeacherDetails()
-	{
+	def enterTeacherDetails() {
 		WebUI.setText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/FirstnameTextField'),firstname)
-		
+
 		WebUI.setText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/LastNameTextField'),lastname)
-		
-		WebUI.setText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ParentDetailsPage/EnterParentMobileNumber'),"(484) 693-0061")
-		
+
+		WebUI.setText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ParentDetailsPage/EnterParentMobileNumber'),mobileNumber)
+
 		WebUI.sendKeys(findTestObject('Object Repository/NacacStudentApp/SignUpPage/TeacherSchool'),"Test school")
-		
+
 		WebUI.scrollToElement(findTestObject('Object Repository/NacacStudentApp/SignUpPage/TeacherRadioButton'), 0)
-		
+
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/TeacherRadioButton'))
-		
+
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ContinueButtoninSecondpage'))
-		
+
 		WebUI.delay(5)
-		
+
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ContinueButtoninSecondpage'))
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/NacacStudentApp/HomePageElements/UpcomingOptionInHomePage'),0)
-		
-		
+	}
+	@Keyword
+	def enterStudentMobileNumber() {
+		WebUI.sendKeys(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/CellPhoneNumberField'),mobileNumber)
+
+		return mobileNumber
 	}
 	@Keyword
 	def enterAddressDetails() {
-		WebUI.sendKeys(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/CellPhoneNumberField'),"(484) 693-0061")
+		//		WebUI.sendKeys(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/CellPhoneNumberField'),"(484) 693-0061")
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/CountryDropDown'))
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/USACountryInDropDown'))
 		WebUI.sendKeys(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/AddressLineOne'),"test address")
@@ -165,15 +164,17 @@ public class SignUpFlow {
 		WebUI.sendKeys(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/CityTextField'),"New York")
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StateDropDown'))
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/NewYorkStateInDropDown'))
+		//		WebUI.sendKeys(findTestObject('Object Repository/NacacStudentApp/SignUpPage/DummyStateInput'),'NewYork')
 		WebUI.sendKeys(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/PostalOrZipCode'),"10002")
-		WebUI.scrollToElement(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/DOBtextField'),0)
+		WebUI.scrollToElement(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/PostalOrZipCode'),0)
 
-		return "NewYork"
+		return "New York"
 	}
 	@Keyword
 	def enterDOB() {
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/DOBtextfielldlabel'))
-		WebUI.sendKeys(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/DOBtextField'),'01-12-1995')
+		WebUI.sendKeys(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/DOBtextField'), dateOfBirth)
+		return dateOfBirth
 	}
 	@Keyword
 	def enterLastSchoolstudied() {
@@ -186,29 +187,64 @@ public class SignUpFlow {
 		return "Test school"
 	}
 	@Keyword
-	def selectApplicantType() {
+	def enterOrSelectPrograms() {
+		WebUI.setText(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ProgramsTesxField'),'Agriculture')
 
-		WebUI.sendKeys(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ProgramsTesxField'),"Agriculture")
+		//		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ProgramOrMajorsDropDownOption1'))
+
+		return "Agriculture"
+	}
+
+	@Keyword
+	def selectMajorsOptionFromDropDown() {
+		WebUI.scrollToElement(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ProgramsTesxField'),0)
+
+		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/MajorsFirstOptionSelect'))
+	}
+	@Keyword
+	def selectApplicantType() {
 
 		WebUI.scrollToElement(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/FirstYearCollegeStudent'),0)
 
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/InternationalStudent'))
+	}
+	@Keyword
+	def enterHighSchoolGraduationYear(){
 
 		WebUI.sendKeys(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/High school graduation year'),"2016")
 
+		return "2016"
+	}
+	@Keyword
+	def enterEnrollmentYear() {
+
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/spring2022'))
+	}
+	@Keyword
+	def selectEthnicityField() {
 
 		WebUI.scrollToElement(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/American or Indian checkbox'), 0)
 
 		WebUI.check(findTestObject('Object Repository/NacacStudentApp/SignUpPage/WhiteCheckBox'))
+	}
+	@Keyword
+	def selectGender() {
 
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/MaleOption'))
+	}
+	@Keyword
+	def selectReferredByOption() {
 
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/StudentdetailsPage/FriendsOption'))
+	}
+	@Keyword
+	def clickContinueAfterEnteringStudentDetails() {
 
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ContinueButtoninSecondpage'))
 
 		WebUI.delay(5)
+
+		WebUI.waitForPageLoad(0)
 
 		WebUI.click(findTestObject('Object Repository/NacacStudentApp/SignUpPage/ContinueButtoninSecondpage'))
 

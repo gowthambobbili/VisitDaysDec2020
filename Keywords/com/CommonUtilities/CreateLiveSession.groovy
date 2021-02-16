@@ -3,6 +3,8 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import java.text.*;
 
+import org.openqa.selenium.Keys
+
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.util.KeywordUtil
@@ -49,7 +51,7 @@ public class CreateLiveSession {
 		WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/CreateButtonInLiveSessions'))
 
 		WebUI.waitForPageLoad(5)
-		
+
 		WebUI.delay(3)
 
 		def ConventionName=WebUI.getText(findTestObject('Object Repository/ConventionsPageAdmin/getNameOfFirstConvention'))
@@ -109,7 +111,6 @@ public class CreateLiveSession {
 
 		WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/TimeFieldAtStartTime'),hours)
 
-		WebUI.delay(2)
 
 		WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/TimeFieldAtStartTime'),"00")
 
@@ -243,6 +244,8 @@ public class CreateLiveSession {
 	@Keyword
 	def enterZoomIdAndAddAssigne() {
 
+		WebUI.scrollToElement(findTestObject('Object Repository/ConventionsPageAdmin/ZoomMeetingField'),0)
+
 		WebUI.setText(findTestObject('Object Repository/ConventionsPageAdmin/ZoomMeetingField'),ZoomId)
 
 		WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/CapacityField'),"5")
@@ -296,8 +299,73 @@ public class CreateLiveSession {
 		return ZoomId
 	}
 	@Keyword
+	def enterZoomIdAndAddAssigneWithLessThan20SeatingCapacity() {
+
+		WebUI.scrollToElement(findTestObject('Object Repository/ConventionsPageAdmin/ZoomMeetingField'),0)
+
+		WebUI.setText(findTestObject('Object Repository/ConventionsPageAdmin/ZoomMeetingField'),ZoomId)
+
+		WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/CapacityField'), Keys.chord(Keys.CONTROL, 'a'))
+
+		WebUI.delay(2)
+
+		WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/CapacityField'), Keys.chord(Keys.BACK_SPACE))
+
+		WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/CapacityField'),"20")
+
+		if(WebUI.verifyElementPresent(findTestObject('Object Repository/ConventionsPageAdmin/ClickOnTagsDropDown'),3,FailureHandling.OPTIONAL))
+		{
+			WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/ClickOnTagsDropDown'))
+
+			WebUI.delay(4)
+
+			def tagsCount=WebUiCommonHelper.findWebElements(findTestObject('Object Repository/ConventionsPageAdmin/SelectTagsdropDownInSessionsPage'),0).size()
+
+			def tagNumber=rd3.nextInt(tagsCount)
+
+			def tagName=WebUI.getText(findTestObject('Object Repository/ConventionsPageAdmin/selectTagsDropsessions',['tagsCount':tagsCount]))
+
+			WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/selectTagsDropsessions',['tagsCount':tagsCount]))
+
+			WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/AddButtonOfTagsDrop'))
+		}
+		WebUI.scrollToElement(findTestObject('Object Repository/ConventionsPageAdmin/AssigneesDropDown'),0,FailureHandling.OPTIONAL)
+
+		WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/AssigneesDropDown'))
+
+		WebUI.delay(5)
+
+		def AssigneesCount=WebUiCommonHelper.findWebElements(findTestObject('Object Repository/ConventionsPageAdmin/SelectAssigneByDropDownSessions'),0).size()
+
+		def AssigneeNo =rd2.nextInt(AssigneesCount)
+
+		def assigneeName=WebUI.getText(findTestObject('Object Repository/ConventionsPageAdmin/selectDropSessions', ['Index':AssigneeNo]))
+
+		WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/selectDropSessions',['Index':AssigneeNo]))
+
+		WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/Add button of add assigne'))
+
+		WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/upload photo'))
+
+		String userDir = System.getProperty('user.dir')
+
+		WebUI.uploadFile(findTestObject('Object Repository/ConventionsPageAdmin/BrowsePhotoAddress'),userDir + '\\studentimg.jpg')
+
+		WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/ApplybuttoninPhotoUpload'))
+
+		WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/SaveButton'))
+
+		//		WebUI.waitForElementNotPresent(findTestObject('Object Repository/ConventionsPageAdmin/SaveButton'), 0)
+
+		WebUI.delay(5)
+
+		return ZoomId
+	}
+	@Keyword
 	def enterZoomIdAndAddAssigneeIncludingTags()
 	{
+		WebUI.scrollToElement(findTestObject('Object Repository/ConventionsPageAdmin/ZoomMeetingField'),0)
+
 		WebUI.setText(findTestObject('Object Repository/ConventionsPageAdmin/ZoomMeetingField'),ZoomId)
 
 		WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/CapacityField'),"5")

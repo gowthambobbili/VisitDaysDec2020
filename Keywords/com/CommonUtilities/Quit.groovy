@@ -51,7 +51,8 @@ class Quit {
 		WebUI.switchToDefaultContent()
 		WebUI.waitForElementPresent(findTestObject('HomePageElements/AddAttendeeButton'), 0)
 		Verifications.VerifyElementNotPresentStopExecutionIfFailed(findTestObject("Object Repository/Add Attendee/CompleteButtonInAddAttendee"), "When clicked the Complete button the mobi is not getting closed")
-	}
+	    WebUI.delay(3)
+		}
 
 	@Keyword
 	def CloseMobiInConfirmationPageForInstantBook() {

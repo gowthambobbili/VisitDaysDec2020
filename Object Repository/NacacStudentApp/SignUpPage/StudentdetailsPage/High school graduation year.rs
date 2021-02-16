@@ -6,12 +6,11 @@
    <elementGuidId>7d0939df-18ce-4035-9bd5-04f8621e15cb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@id=&quot;graduation_year&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//label[text()=&quot;HIGH SCHOOL GRADUATION YEAR&quot;]/..//div//input[@type=&quot;number&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

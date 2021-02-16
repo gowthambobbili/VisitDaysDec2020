@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[text()=&quot;Student&quot;]</value>
+         <value>//button//span[text()='Student']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

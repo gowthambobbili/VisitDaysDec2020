@@ -13,9 +13,9 @@ CustomKeywords.'com.CommonUtilities.GetInstitutionName.getInstitutionNameFromAdm
 
 WebUI.click(findTestObject('Object Repository/HomePageElements/PersonIcon'))
 
-WebUI.click(findTestObject('Object Repository/HomePageElements/NacacConventionslink'))
+WebUI.click(findTestObject('Object Repository/HomePageElements/NacacConventionslink',['ConventionProvider':GlobalVariable.ConventionProvider]))
 
-WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/Conventionsleftnav'))
+//WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/Conventionsleftnav'))
 
 WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/CreateButtonInLiveSessions'))
 
@@ -25,66 +25,30 @@ if(WebUI.verifyElementPresent(findTestObject('Object Repository/ConventionsPageA
 {
 	def ConventionName=WebUI.getText(findTestObject('Object Repository/ConventionsPageAdmin/getNameOfFirstConvention'))
 	
-	WebUI.navigateToUrl(GlobalVariable.SelfServeUrl)
+	WebUI.click(findTestObject('Object Repository/ConventionCurators/ConventionCuratorsleftNav'))
 	
 	WebUI.waitForPageLoad(0)
 	
-	WebUI.sendKeys(findTestObject('Object Repository/Self serve objects/EmailTextBox'), 'test.user1@qualitlabs.com')
+	WebUI.click(findTestObject('Object Repository/ConventionCurators/conventionNameInList',['conventionName':ConventionName]))
 	
-	WebUI.setEncryptedText(findTestObject('Object Repository/Self serve objects/PasswordTextField'), "vGm4WD5Mwh5DcgtLXIeBlg==")
+	WebUI.waitForPageLoad(0)
 	
-	WebUI.click(findTestObject('Object Repository/Self serve objects/LoginButton'))
+	WebUI.scrollToElement(findTestObject('Object Repository/ConventionCurators/CreateNewConventionFlow/MaxTimeField'), 0, FailureHandling.OPTIONAL)
 	
-	WebUI.waitForElementPresent(findTestObject('Object Repository/Self serve objects/HomeInTopNav'),0)
+	WebUI.sendKeys(findTestObject('Object Repository/ConventionCurators/CreateNewConventionFlow/MaxTimeField'), Keys.chord(Keys.CONTROL, 'a'))
 	
-	WebUI.navigateToUrl(GlobalVariable.SelfServeUrl+"convention_providers")
+	WebUI.delay(2)
 	
-	WebUI.click(findTestObject('Object Repository/Self serve objects/ShowDetailsOfConventionsProvider',['StudentUrlCheck':GlobalVariable.StudentUrlCheck]))
+	WebUI.sendKeys(findTestObject('Object Repository/ConventionCurators/CreateNewConventionFlow/MaxTimeField'), Keys.chord(Keys.BACK_SPACE))
 	
-	WebUI.waitForElementPresent(findTestObject('Object Repository/Self serve objects/ConventionsButtonOnTopNav'),0)
+	WebUI.sendKeys(findTestObject('Object Repository/ConventionCurators/CreateNewConventionFlow/MaxTimeField'),'120')
 	
-	WebUI.click(findTestObject('Object Repository/Self serve objects/ConventionsButtonOnTopNav'))
-	
-	WebUI.waitForElementPresent(findTestObject('Object Repository/Self serve objects/ConventionsButtonOnTopNav'),0)
-	
-	WebUI.click(findTestObject('Object Repository/Self serve objects/ConventionsButtonOnTopNav'))
-	
-	WebUI.click(findTestObject('Object Repository/Self serve objects/EditConventionButtonInConventionspage',['ConventionName':ConventionName]))
-	
-//	WebUI.click(findTestObject('Object Repository/Self serve objects/clickStartYear'))
-	
-	String yearstring=WebUI.getText(findTestObject('Self serve objects/GetYearFromStartYearDropdown'))
-	
-	int year=Integer.parseInt(yearstring)
-	
-	def nextYear=year+1
-	
-	WebUI.click(findTestObject('Object Repository/Self serve objects/ClickEndYear'))
-	
-	WebUI.click(findTestObject('Object Repository/Self serve objects/SelectEndyear',['EndYear':nextYear]))
-	
-	WebUI.sendKeys(findTestObject('Object Repository/Self serve objects/MaxSessionsInput'), Keys.chord(Keys.CONTROL, 'a'))
-	
-	WebUI.sendKeys(findTestObject('Object Repository/Self serve objects/MaxSessionsInput'), Keys.chord(Keys.BACK_SPACE))
-	
-	WebUI.sendKeys(findTestObject('Object Repository/Self serve objects/MaxSessionsInput'),'1000')
-	
-	WebUI.sendKeys(findTestObject('Object Repository/Self serve objects/SessionDurationMinutes'), Keys.chord(Keys.CONTROL, 'a'))
-	
-	WebUI.sendKeys(findTestObject('Object Repository/Self serve objects/SessionDurationMinutes'), Keys.chord(Keys.BACK_SPACE))
-	
-	WebUI.click(findTestObject('Object Repository/Self serve objects/UpdateConvention'))
-	
-	WebUI.delay(5)
+	WebUI.click(findTestObject('Object Repository/ConventionCurators/CreateNewConventionFlow/SaveButton'))
 	
 }
 else
 {
 
-CustomKeywords.'com.CommonUtilities.CreateconventionUsingSelfServeTool.GoToCreateConventionPage'()
-
-CustomKeywords.'com.CommonUtilities.CreateconventionUsingSelfServeTool.EnterConventionNameAndDetails'()
-
-CustomKeywords.'com.CommonUtilities.CreateconventionUsingSelfServeTool.SelectExhibitor'()
+def conventionName=CustomKeywords.'com.CommonUtilities.CreateNewConvention.createNewConventionWithUpcomingDates'()
 
 }

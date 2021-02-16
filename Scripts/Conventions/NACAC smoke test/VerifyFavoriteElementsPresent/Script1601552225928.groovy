@@ -28,4 +28,4 @@ WebUI.waitForPageLoad(0)
 
 CustomKeywords.'com.CommonUtilities.Verifications.VerifyElementPresentAndStopExecutionIfFailed'(findTestObject('Object Repository/NacacStudentApp/HomePageElements/FavoriteHeaderInFavoritesPage'), "Favotires Exhibitors header is not shown in Favorites page")
 
-CustomKeywords.'com.CommonUtilities.Verifications.VerifyElementPresentAndStopExecutionIfFailed'(findTestObject('Object Repository/NacacStudentApp/Intercom'), "Intercom icon is not shown in Favorites page")
+//CustomKeywords.'com.CommonUtilities.Verifications.VerifyElementPresentAndStopExecutionIfFailed'(findTestObject('Object Repository/NacacStudentApp/Intercom'), "Intercom icon is not shown in Favorites page")

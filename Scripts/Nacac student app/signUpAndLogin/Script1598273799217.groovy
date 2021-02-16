@@ -17,20 +17,38 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.SignupforStudentType'()
 
-def usermail=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterEmail'()
+String usermail=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterEmail'()
 
-def password=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterPassword'()
+String password=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterPassword'()
 
 CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterStudentType'()
 
-CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterFirstName'()
+String nameone=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterFirstName'()
 
-CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterLastName'()
+String nametwo=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterLastName'()
 
-CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterAddressDetails'()
+String mobNum=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterStudentMobileNumber'()
 
-CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterDOB'()
+String city=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterAddressDetails'()
 
-CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterLastSchoolstudied'()
+WebUI.delay(7)
+
+String dateOfBirth=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterDOB'()
+
+String school=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterLastSchoolstudied'()
+
+String programs=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterOrSelectPrograms'()
 
 CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.selectApplicantType'()
+
+String highSchoolGraduationYear=CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterHighSchoolGraduationYear'()
+
+CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.enterEnrollmentYear'()
+
+CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.selectEthnicityField'()
+
+CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.selectGender'()
+
+CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.selectReferredByOption'()
+
+CustomKeywords.'com.CommonUtilitiesofNACACstudentApp.SignUpFlow.clickContinueAfterEnteringStudentDetails'()

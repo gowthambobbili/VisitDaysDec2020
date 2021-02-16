@@ -222,14 +222,14 @@ class NewMobiRegistration {
 			WebUI.sendKeys(findTestObject('Add Attendee/ContactNumberInStudentInformationPage'), "5555555555")
 		}
 
-		//		WebUI.click(findTestObject('Add Attendee/MonthDropDownInStudentInformationPage'))
-		//		WebUI.click(findTestObject('Add Attendee/JanuaryInMonthDropDown'))
-		//		WebUI.click(findTestObject('Add Attendee/DayDropdownInStudentInformationPage'))
-		//		WebUI.click(findTestObject('Add Attendee/Day1InDayDropdown'))
-		//		WebUI.click(findTestObject('Add Attendee/YearDropdownInStudentInformationPage'))
-		//		WebUI.click(findTestObject('Add Attendee/FirstYearInYearDropdown'))
-		//		WebUI.click(findTestObject('Object Repository/Add Attendee/DateOfBirthNewField'))
-		WebUI.sendKeys(findTestObject('Object Repository/Add Attendee/DateOfBirthNewField'),"1999-02-14")
+		WebUI.click(findTestObject('Add Attendee/MonthDropDownInStudentInformationPage'))
+		WebUI.click(findTestObject('Add Attendee/JanuaryInMonthDropDown'))
+		WebUI.click(findTestObject('Add Attendee/DayDropdownInStudentInformationPage'))
+		WebUI.click(findTestObject('Add Attendee/Day1InDayDropdown'))
+		WebUI.click(findTestObject('Add Attendee/YearDropdownInStudentInformationPage'))
+		WebUI.click(findTestObject('Add Attendee/FirstYearInYearDropdown'))
+//		WebUI.click(findTestObject('Object Repository/Add Attendee/DateOfBirthNewField'))
+//		WebUI.sendKeys(findTestObject('Object Repository/Add Attendee/DateOfBirthNewField'),"1999-02-14")
 		WebUI.sendKeys(findTestObject('Add Attendee/HomeAddressInStudentInformationPage'), 'Test address 123')
 		WebUI.click(findTestObject('Add Attendee/CountryDropdownInStudentInformationPage'))
 		WebUI.click(findTestObject('Add Attendee/UnitedStatesOptionInCountryDropdown'))
@@ -308,11 +308,11 @@ class NewMobiRegistration {
 			WebUI.click(findTestObject('Add Attendee/NoRadioButtonInAccessibilityNeeds'))
 		}
 
-		//		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 0, FailureHandling.OPTIONAL)) {
-		//			WebUI.click(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'))
-		//
-		//			WebUI.click(findTestObject('Object Repository/Add Attendee/NoneOptionsInDietaryNeedsDropdown'))
-		//		}
+		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'), 0, FailureHandling.OPTIONAL)) {
+				WebUI.click(findTestObject('Object Repository/Add Attendee/DietaryNeedsDropdown'))
+	
+				WebUI.click(findTestObject('Object Repository/Add Attendee/NoneOptionsInDietaryNeedsDropdown'))
+			}
 
 		WebUI.click(findTestObject('Add Attendee/NextButtonInAddAttendee'))
 

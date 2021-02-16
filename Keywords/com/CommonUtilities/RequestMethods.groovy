@@ -930,6 +930,7 @@ class RequestMethods {
 
 	@Keyword
 	def CreateInstantVisitTypeWithMenualCheckin() {
+		WebUI.delay(3)
 
 		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('HomePageElements/VisitTypesLeftNav'),0)
 

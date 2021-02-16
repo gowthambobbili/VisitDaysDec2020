@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[text()=&quot;CELL PHONE NUMBER&quot;]/..//div//input[@id=&quot;phone&quot;]</value>
+         <value>//div//input[@name=&quot;phone&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

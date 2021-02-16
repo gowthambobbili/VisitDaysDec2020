@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@aria-label=&quot;Do you have an accessibility need?: No&quot;]</value>
+         <value>//div[@aria-label=&quot;Do you have an accessibility need?: No&quot;]/..</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

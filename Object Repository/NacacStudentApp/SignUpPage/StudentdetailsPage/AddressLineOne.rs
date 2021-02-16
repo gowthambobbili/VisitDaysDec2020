@@ -6,12 +6,11 @@
    <elementGuidId>c0e73085-29e3-403b-b2af-d03f9cb32372</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div//input[@id=&quot;address_street&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//label[text()=&quot;HOME ADDRESS LINE 1&quot;]/..//div//input[@type=&quot;text&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

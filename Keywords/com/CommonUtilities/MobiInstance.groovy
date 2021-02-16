@@ -52,6 +52,7 @@ class MobiInstance {
 	ApiCalls api = new ApiCalls()
 	JsonSlurper js = new JsonSlurper()
 	HtmlTable htmlTable = new HtmlTable()
+	def instanceTestName="Testinstance"+random.nextInt(10000)
 
 	@Keyword
 	def getRandomInstanceName() {
