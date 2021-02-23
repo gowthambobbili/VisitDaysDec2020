@@ -124,18 +124,6 @@ public class CreateLiveSession {
 			meetdate=tomorowdate;
 		}
 
-		if(WebUI.verifyElementPresent(findTestObject('Object Repository/ConventionsPageAdmin/DateFieldAtEndTime'), 3, FailureHandling.OPTIONAL))
-		{
-			WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/DateFieldAtEndTime'),meetdate)
-
-			WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/TimeFieldAtEndTime'))
-
-			WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/TimeFieldAtEndTime'),endHours)
-
-			WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/TimeFieldAtEndTime'),"00")
-
-			WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/TimeFieldAtEndTime'),endTimeMeridian)
-		}
 		return sessionname
 	}
 	@Keyword
@@ -166,19 +154,6 @@ public class CreateLiveSession {
 		{
 			endTimeMeridian="A";
 			meetdate=tomorowdate;
-		}
-
-		if(WebUI.verifyElementPresent(findTestObject('Object Repository/ConventionsPageAdmin/DateFieldAtEndTime'), 0, FailureHandling.OPTIONAL))
-		{
-			WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/DateFieldAtEndTime'),tomorowdate)
-
-			WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/TimeFieldAtEndTime'))
-
-			WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/TimeFieldAtEndTime'),endHours)
-
-			WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/TimeFieldAtEndTime'),"00")
-
-			WebUI.sendKeys(findTestObject('Object Repository/ConventionsPageAdmin/TimeFieldAtEndTime'),endTimeMeridian)
 		}
 		return sessionname
 	}

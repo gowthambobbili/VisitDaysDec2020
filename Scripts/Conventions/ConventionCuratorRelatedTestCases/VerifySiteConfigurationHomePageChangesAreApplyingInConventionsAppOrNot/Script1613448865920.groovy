@@ -62,7 +62,7 @@ if(!(WebUI.verifyElementPresent(findTestObject('Object Repository/ConventionCura
 }
 WebUI.uncheck(findTestObject('Object Repository/ConventionCurators/SiteConfigurationPage/Empty state for convention switch'))
 
-String customNavLabelText="TesterNavLabel"
+String customNavLabelText="TESTERNAVLABEL"
 
 String customHeadLineText="Test HeadLine"
 
@@ -84,6 +84,8 @@ WebUI.waitForPageLoad(0)
 
 String customNavLabel=WebUI.getText(findTestObject('Object Repository/ConventionCurators/SiteConfigurationPage/GetTextFromEventsTopNav'))
 
+println customNavLabel
+
 if(!(customNavLabelText==customNavLabel))
 {
 	KeywordUtil.markFailed(customNavLabelText+"not matches with"+customNavLabel)
@@ -93,8 +95,18 @@ String customHeaderText=WebUI.getText(findTestObject('Object Repository/Conventi
 
 if(!(customHeadLineTextConcatination==customHeaderText))
 {
-	KeywordUtil.markFailed(customHeaderText+"not matches with"+customHeadLineTextConcatination)
+	KeywordUtil.markFailed(customHeaderText+" not matches with "+customHeadLineTextConcatination)
 }
 WebUI.closeWindowIndex(1, FailureHandling.OPTIONAL)
 
 WebUI.switchToWindowIndex(0)
+
+WebUI.uncheck(findTestObject('Object Repository/ConventionCurators/SiteConfigurationPage/Show Custom Label switch'))
+
+WebUI.uncheck(findTestObject('Object Repository/ConventionCurators/SiteConfigurationPage/Show custom headline on home page'))
+
+WebUI.uncheck(findTestObject('Object Repository/ConventionCurators/SiteConfigurationPage/Empty state for convention switch'))
+
+WebUI.click(findTestObject('Object Repository/ConventionCurators/SiteConfigurationPage/Save Button'))
+
+WebUI.delay(2)

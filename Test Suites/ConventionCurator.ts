@@ -65,4 +65,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Conventions/ConventionCuratorRelatedTestCases/VerifySiteConfigurationHomePageChangesAreApplyingInConventionsAppOrNot</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>641433aa-5641-4ceb-8f9e-e7a4b1febf6c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Conventions/ConventionCuratorRelatedTestCases/VerififySiteConfigIndividualConventionPageChangesAreApplyingInConventionsApp</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3bbd2962-6f59-41c9-b306-62ae1d20b487</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Conventions/ConventionCuratorRelatedTestCases/VerifySiteConfigirationVideosPageChangesApplyingInConventionApp</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

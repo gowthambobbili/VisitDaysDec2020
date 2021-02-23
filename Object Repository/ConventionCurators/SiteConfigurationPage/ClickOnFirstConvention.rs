@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ConventionCuratorsleftNav</name>
+   <name>ClickOnFirstConvention</name>
    <tag></tag>
-   <elementGuidId>4d0abde2-eb74-4290-a7c6-e1ccf2ef973f</elementGuidId>
+   <elementGuidId>174342da-358e-4980-871e-379de6030a32</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@data-appcues=&quot;app-navigation-product:curator&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//button[@class=&quot;MuiButtonBase-root MuiCardActionArea-root&quot;])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

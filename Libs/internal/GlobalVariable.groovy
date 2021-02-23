@@ -74,7 +74,8 @@ public class GlobalVariable {
 Profile Charizard Staging : albrightsandbox , bbtesting
 Profile Main Staging : albrightsandbox , bbtesting
 Profile Metapod Staging : albrightsandbox , bbtesting
-Profile Pikachu Staging : albrightsandbox , bbtesting</p>
+Profile Pikachu Staging : albrightsandbox , bbtesting
+Profile Slowpoke : albrightsandbox , bbtesting</p>
      */
     public static Object Institution
      
@@ -128,13 +129,17 @@ Profile Pikachu Staging : albrightsandbox , bbtesting</p>
 Profile Charizard Staging : https:&#47;&#47;bais-charizard.visitdays.vercel.app&#47;, https:&#47;&#47;nacac-charizard.visitdays.vercel.app&#47;
 Profile Main Staging : https:&#47;&#47;nacac-staging.visitdays.vercel.app&#47; , https:&#47;&#47;bais-staging.visitdays.vercel.app&#47;
 Profile Metapod Staging : https:&#47;&#47;bais-metapod.visitdays.vercel.app&#47;
-Profile Pikachu Staging : https:&#47;&#47;bais-pikachu.visitdays.vercel.app&#47; ,https:&#47;&#47;nacac-pikachu.visitdays.vercel.app&#47;</p>
+Profile Pikachu Staging : https:&#47;&#47;bais-pikachu.visitdays.vercel.app&#47; ,https:&#47;&#47;nacac-pikachu.visitdays.vercel.app&#47;
+Profile Slowpoke : https:&#47;&#47;bais-slowpoke.visitdays.vercel.app&#47;
+Profile Slowpoke Staging : https:&#47;&#47;bais-slowpoke.visitdays.vercel.app&#47;</p>
      */
     public static Object studenturl
      
     /**
      * <p>Profile Abra Staging : https:&#47;&#47;bais-abra.visitdays.vercel.app
-Profile Metapod Staging : https:&#47;&#47;bais-metapod.visitdays.vercel.app</p>
+Profile Metapod Staging : https:&#47;&#47;bais-metapod.visitdays.vercel.app
+Profile Slowpoke : https:&#47;&#47;bais-slowpoke.visitdays.vercel.app
+Profile Slowpoke Staging : https:&#47;&#47;bais-slowpoke.visitdays.vercel.app</p>
      */
     public static Object StudentUrlCheck
      
@@ -153,7 +158,9 @@ Profile Metapod Staging : https:&#47;&#47;bais-metapod.visitdays.vercel.app</p>
 Profile Charizard Staging : nacac,bais
 Profile Main Staging : nacac, bais
 Profile Metapod Staging : nacac,bais
-Profile Pikachu Staging : nacac, bais</p>
+Profile Pikachu Staging : nacac, bais
+Profile Slowpoke : nacac,bais
+Profile Slowpoke Staging : bais</p>
      */
     public static Object ConventionProvider
      

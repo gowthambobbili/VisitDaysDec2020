@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ConventionCuratorsleftNav</name>
+   <name>VerifyFilterModalInLiveSessionsTab</name>
    <tag></tag>
-   <elementGuidId>4d0abde2-eb74-4290-a7c6-e1ccf2ef973f</elementGuidId>
+   <elementGuidId>0547da5e-7ec5-4359-9cbf-6f3b2f6d6bfe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@data-appcues=&quot;app-navigation-product:curator&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;css-12fbkww&quot;]//p[text()='LOCATIONS']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

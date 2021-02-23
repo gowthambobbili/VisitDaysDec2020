@@ -73,6 +73,8 @@ CustomKeywords.'com.CommonUtilities.ClickUsingJSExecutor.clickUsingJS'(findTestO
 
 WebUI.waitForPageLoad(0)
 
+WebUI.refresh()
+
 String liveSessionsCountAfterAddingSession=WebUI.getText(findTestObject('Object Repository/ConventionCurators/Convention stats page/GetliveSessionsCount'))
 
 println liveSessionsCountAfterAddingSession

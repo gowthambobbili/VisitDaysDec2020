@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ConventionCuratorsleftNav</name>
+   <name>GetTextFromLiveSessionsTab</name>
    <tag></tag>
-   <elementGuidId>4d0abde2-eb74-4290-a7c6-e1ccf2ef973f</elementGuidId>
+   <elementGuidId>899291b0-6bff-41a9-a626-04e51ea06842</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@data-appcues=&quot;app-navigation-product:curator&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//div[@class=&quot;sticky-outer-wrapper&quot;]//button[@type='button'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

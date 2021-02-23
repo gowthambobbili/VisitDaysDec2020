@@ -6,11 +6,11 @@
    <elementGuidId>48c7fcbe-7ceb-41e0-85a8-33bc60f3815f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class=&quot;css-18g8r4e&quot;]//span[text()='SCHEDULE A MEETING']/..</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[text()='Schedule a Meeting']/..</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

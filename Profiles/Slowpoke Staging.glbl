@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>Abra Staging</name>
+   <name>Slowpoke Staging</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://abra-admin.visitdays.com/'</initValue>
+      <initValue>'https://slowpoke-admin.visitdays.com/'</initValue>
       <name>StagingUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://abra-student.visitdays.com/bbtesting/mobi'</initValue>
+      <initValue>'https://slowpoke-student.visitdays.com/bbtesting/mobi'</initValue>
       <name>CurrentMobiUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://abra-student.visitdays.com/bbtesting/evr/'</initValue>
+      <initValue>'https://slowpoke-student.visitdays.com/bbtesting/evr/'</initValue>
       <name>EvrUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,17 +26,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://vd-api-staging-abra.herokuapp.com/admin/token'</initValue>
+      <initValue>'https://vd-api-staging-slowpoke.herokuapp.com/admin/token'</initValue>
       <name>TokenEndPoint</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://abra-mobi.visitdays.com/register/individual-academics?subdomain=bbtesting'</initValue>
+      <initValue>'https://slowpoke-mobi.visitdays.com/register/individual-academics?subdomain=bbtesting'</initValue>
       <name>ReferHeader</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://vd-api-staging-abra.herokuapp.com/mobi/registrations'</initValue>
+      <initValue>'https://vd-api-staging-slowpoke.herokuapp.com/mobi/registrations'</initValue>
       <name>RegistrationEndPoint</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,12 +46,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://abra-student.visitdays.com/bbtesting/surv/SurveyLink'</initValue>
+      <initValue>'https://slowpoke-student.visitdays.com/bbtesting/surv/SurveyLink'</initValue>
       <name>SurveyLink</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://abra-admin.visitdays.com/survey'</initValue>
+      <initValue>'https://slowpoke-admin.visitdays.com/survey'</initValue>
       <name>SurveyPageUrlInAdminApp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -60,18 +60,18 @@
       <name>CampaignUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>albrightsandbox , bbtesting</description>
+      <description></description>
       <initValue>'bbtesting'</initValue>
       <name>Institution</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://vd-api-staging-abra.herokuapp.com/web/'</initValue>
+      <initValue>'http://vd-api-staging-slowpoke.herokuapp.com/web/'</initValue>
       <name>SelfServeUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://abra-student.visitdays.com/'</initValue>
+      <initValue>'https://slowpoke-student.visitdays.com/'</initValue>
       <name>StudentAppUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -81,27 +81,27 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://vd-api-staging-abra.herokuapp.com/'</initValue>
+      <initValue>'https://vd-api-staging-slowpoke.herokuapp.com/'</initValue>
       <name>apiBaseUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://vd-api-staging-abra.herokuapp.com/mobi/registrations'</initValue>
+      <initValue>'https://vd-api-staging-slowpoke.herokuapp.com/mobi/registrations'</initValue>
       <name>registrationEndPoint</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'vd-api-staging-abra.herokuapp.com'</initValue>
+      <initValue>'vd-api-staging-slowpoke.herokuapp.com'</initValue>
       <name>Host</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://abra-mobi.visitdays.com'</initValue>
+      <initValue>'https://slowpoke-mobi.visitdays.com'</initValue>
       <name>Origin</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://abra-mobi.visitdays.com/register?subdomain='</initValue>
+      <initValue>'https://slowpoke-mobi.visitdays.com/register?subdomain='</initValue>
       <name>Referer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -110,13 +110,13 @@
       <name>institutionId</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>https://bais-abra.visitdays.vercel.app/</description>
-      <initValue>'https://nacac-abra.visitdays.vercel.app/'</initValue>
+      <description>https://bais-slowpoke.visitdays.vercel.app/</description>
+      <initValue>'https://nacac-slowpoke.visitdays.vercel.app/'</initValue>
       <name>studenturl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>https://bais-abra.visitdays.vercel.app</description>
-      <initValue>'https://nacac-abra.visitdays.vercel.app'</initValue>
+      <description>https://bais-slowpoke.visitdays.vercel.app</description>
+      <initValue>'https://nacac-slowpoke.visitdays.vercel.app'</initValue>
       <name>StudentUrlCheck</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -130,7 +130,7 @@
       <name>InstitutionValue</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>nacac,bais</description>
+      <description>bais</description>
       <initValue>'nacac'</initValue>
       <name>ConventionProvider</name>
    </GlobalVariableEntity>
