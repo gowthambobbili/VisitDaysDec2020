@@ -785,23 +785,63 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDuration"(
 }
 
 
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getFutureDateTime"(
-    	int noOfDays	
-     , 	String timeZoneId	
-     , 	String dateTimeFormat	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getFutureDateTime(
-        	noOfDays
-         , 	timeZoneId
-         , 	dateTimeFormat)
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.addDays"(
+    	String stringDate	
+     , 	String dateFormat	
+     , 	int amount	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).addDays(
+        	stringDate
+         , 	dateFormat
+         , 	amount)
 }
 
 
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentDateTime"(
-    	String timeZoneId	
-     , 	String dateTimeFormat	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentDateTime(
-        	timeZoneId
-         , 	dateTimeFormat)
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.formatStringDate"(
+    	String value	
+     , 	String currentFormat	
+     , 	String newFormat	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).formatStringDate(
+        	value
+         , 	currentFormat
+         , 	newFormat)
+}
+
+
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentDate"() {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentDate()
+}
+
+
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentMonth"() {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentMonth()
+}
+
+
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentYear"() {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentYear()
+}
+
+
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getPastTime"(
+    	int hrs	
+     , 	int minute	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getPastTime(
+        	hrs
+         , 	minute)
+}
+
+
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getFutureTime"(
+    	int hrs	
+     , 	int minute	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getFutureTime(
+        	hrs
+         , 	minute)
+}
+
+
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDefaultTimeZone"() {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getDefaultTimeZone()
 }
 
 
@@ -823,72 +863,32 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.setDefaultTimeZone"
 }
 
 
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentDateTime"(
+    	String timeZoneId	
+     , 	String dateTimeFormat	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentDateTime(
+        	timeZoneId
+         , 	dateTimeFormat)
+}
+
+
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getFutureDateTime"(
+    	int noOfDays	
+     , 	String timeZoneId	
+     , 	String dateTimeFormat	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getFutureDateTime(
+        	noOfDays
+         , 	timeZoneId
+         , 	dateTimeFormat)
+}
+
+
 def static "com.kms.katalon.keyword.datetime.DateTimeUtility.convertString2Date"(
     	String value	
      , 	String dateTimeFormat	) {
     (new com.kms.katalon.keyword.datetime.DateTimeUtility()).convertString2Date(
         	value
          , 	dateTimeFormat)
-}
-
-
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentMonth"() {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentMonth()
-}
-
-
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentYear"() {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentYear()
-}
-
-
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getFutureTime"(
-    	int hrs	
-     , 	int minute	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getFutureTime(
-        	hrs
-         , 	minute)
-}
-
-
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.formatStringDate"(
-    	String value	
-     , 	String currentFormat	
-     , 	String newFormat	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).formatStringDate(
-        	value
-         , 	currentFormat
-         , 	newFormat)
-}
-
-
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getPastTime"(
-    	int hrs	
-     , 	int minute	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getPastTime(
-        	hrs
-         , 	minute)
-}
-
-
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentDate"() {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentDate()
-}
-
-
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDefaultTimeZone"() {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getDefaultTimeZone()
-}
-
-
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.addDays"(
-    	String stringDate	
-     , 	String dateFormat	
-     , 	int amount	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).addDays(
-        	stringDate
-         , 	dateFormat
-         , 	amount)
 }
 
 
@@ -2211,13 +2211,6 @@ def static "com.CommonUtilities.AddQuestion.getRandomQuestionName"() {
 }
 
 
-def static "com.CommonUtilities.Testing.CreateDailyVisitVisitWithStartTimeWithIn30Minutes"(
-    	String VisitType	) {
-    (new com.CommonUtilities.Testing()).CreateDailyVisitVisitWithStartTimeWithIn30Minutes(
-        	VisitType)
-}
-
-
 def static "com.CommonUtilities.CreateLiveSession.selectConvention"() {
     (new com.CommonUtilities.CreateLiveSession()).selectConvention()
 }
@@ -2262,6 +2255,13 @@ def static "com.CommonUtilities.CreateLiveSession.enterZoomIdAndAddAssigneWithLe
 
 def static "com.CommonUtilities.CreateLiveSession.enterZoomIdAndAddAssigneeIncludingTags"() {
     (new com.CommonUtilities.CreateLiveSession()).enterZoomIdAndAddAssigneeIncludingTags()
+}
+
+
+def static "com.CommonUtilities.Testing.CreateDailyVisitVisitWithStartTimeWithIn30Minutes"(
+    	String VisitType	) {
+    (new com.CommonUtilities.Testing()).CreateDailyVisitVisitWithStartTimeWithIn30Minutes(
+        	VisitType)
 }
 
 
