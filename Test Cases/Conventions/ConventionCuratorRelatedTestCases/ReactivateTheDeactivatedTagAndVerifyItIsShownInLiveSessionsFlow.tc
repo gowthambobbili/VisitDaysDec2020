@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ReactivateTheDeactivatedTagAndVerifyItIsShownInLiveSessionsFlow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e70a52d2-c60d-4d3b-9896-e87fcfa56ef9</testCaseGuid>
+</TestCaseEntity>

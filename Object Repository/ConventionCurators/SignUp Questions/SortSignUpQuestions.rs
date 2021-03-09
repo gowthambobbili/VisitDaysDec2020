@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SortSignUpQuestions</name>
+   <tag></tag>
+   <elementGuidId>b4ae7c12-8f88-44a5-85f0-03bb39210e35</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;sign-up-questions-card__content&quot;]//div[text()='${CreatedQuestion}']/../..//div[@class=&quot;sign-up-questions-card__actions-right&quot;]//div//button[@type='button']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

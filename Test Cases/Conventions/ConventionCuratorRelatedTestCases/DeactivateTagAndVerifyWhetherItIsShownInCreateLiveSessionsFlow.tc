@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DeactivateTagAndVerifyWhetherItIsShownInCreateLiveSessionsFlow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f2912c3-cfcf-4ed8-9612-9a3639a2d203</testCaseGuid>
+</TestCaseEntity>

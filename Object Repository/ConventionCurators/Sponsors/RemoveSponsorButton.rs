@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>RemoveSponsorButton</name>
+   <tag></tag>
+   <elementGuidId>8769e757-68a2-4252-b1de-b0f730ece72b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;vd-slim-form__container&quot;][last()]//div[@class=&quot;curator-sponsors__tier-sponsors-container&quot;]//a//i[text()='close']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

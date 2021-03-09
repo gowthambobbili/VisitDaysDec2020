@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateSponsorTierAndSponsorAndVerifyWhetherItIsCreatedOrNot</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfabb47e-b976-4e72-af31-73cf26afcf45</testCaseGuid>
+</TestCaseEntity>

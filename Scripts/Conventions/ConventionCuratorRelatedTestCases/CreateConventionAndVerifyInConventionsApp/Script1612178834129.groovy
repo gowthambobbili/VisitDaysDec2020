@@ -37,3 +37,16 @@ if(!(WebUI.verifyElementPresent(findTestObject('NacacStudentApp/HomePageElements
 {
 	KeywordUtil.markFailed("created convention is not shown in the conventions app")
 }
+CustomKeywords.'com.CommonUtilities.ClickUsingJSExecutor.clickUsingJS'(findTestObject('ConventionCurators/ConventionStatsOptionInThreeDotMenu',['ConventionName':conventionName]),0)
+
+WebUI.waitForPageLoad(0)
+
+if(!(WebUI.verifyElementPresent(findTestObject('Object Repository/ConventionCurators/Convention stats page/VerifyUpcomingLabel'),0,FailureHandling.OPTIONAL)))
+{
+	KeywordUtil.markFailed("upcoming label option is not shown after clicking on three dot menu")
+}
+
+if(!(WebUI.verifyElementPresent(findTestObject('Object Repository/ConventionCurators/Convention stats page/EmptyStateVerificationMessageForLiveSessions'),0,FailureHandling.OPTIONAL)))
+{
+	KeywordUtil.markFailed("Live Session Attendee number breakdown will populate here once convention goes live message is not shown in conventiion stats page")
+}

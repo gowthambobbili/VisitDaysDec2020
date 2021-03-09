@@ -60,7 +60,8 @@ if(!(WebUI.verifyElementPresent(findTestObject('NacacStudentApp/HomePageElements
 	KeywordUtil.markFailed(institutionName+" is not found in exhibitors page")
 }
 
-WebUI.click(findTestObject('NacacStudentApp/HomePageElements/CollegeName',['Exhibitor':institutionName]))
+CustomKeywords.'com.CommonUtilities.ClickUsingJSExecutor.clickUsingJS'(findTestObject('NacacStudentApp/HomePageElements/CollegeName',['Exhibitor':institutionName]),0)
+//WebUI.click(findTestObject('NacacStudentApp/HomePageElements/CollegeName',['Exhibitor':institutionName]))
 
 WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/Schedule A Meeting Button'))
 

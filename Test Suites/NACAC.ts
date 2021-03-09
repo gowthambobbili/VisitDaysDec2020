@@ -152,7 +152,7 @@
    <testCaseLink>
       <guid>ddaf295d-6093-4c03-a8f5-f8f5ac6228ba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Nacac student app/signup as student and verify details</testCaseId>
    </testCaseLink>
    <testCaseLink>

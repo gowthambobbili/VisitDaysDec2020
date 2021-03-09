@@ -50,6 +50,8 @@ if(!(WebUI.verifyElementPresent(findTestObject('Object Repository/NacacStudentAp
 CustomKeywords.'com.CommonUtilities.ClickUsingJSExecutor.clickUsingJS'(findTestObject('Object Repository/NacacStudentApp/HomePageElements/LiveSessionInStudentApp',['createdSession':meetname]),0)
 //WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/LiveSessionInStudentApp',['createdSession':meetname]))
 
+WebUI.waitForPageLoad(3)
+
 if(!(WebUI.verifyElementPresent(findTestObject('Object Repository/NacacStudentApp/HomePageElements/AdditionalResourcesViewButton'),5,FailureHandling.OPTIONAL)))
 {
 		KeywordUtil.markFailed("the attachment button in admin is not present in the student app")

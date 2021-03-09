@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EditCreatedQuestion</name>
+   <tag></tag>
+   <elementGuidId>80e3777a-8149-4b9b-a89b-928d3dda9c4d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;sign-up-questions-card__content&quot;]//div[text()='${CreatedQuestion}']/../..//div[@class=&quot;sign-up-questions-card__actions-left&quot;]//a[contains(@href,'/edit')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

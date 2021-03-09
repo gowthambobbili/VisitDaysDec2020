@@ -684,6 +684,11 @@ def static "com.EmptyStateVerificationInTeamManagement.EmptyStateVerificaiton.Ve
     (new com.EmptyStateVerificationInTeamManagement.EmptyStateVerificaiton()).VerifyEmptyStateInActiveAndDeactiveTabsWhenNousersPresent()
 }
 
+
+def static "com.CommonUtilities.ConventionCurators.createTags"() {
+    (new com.CommonUtilities.ConventionCurators()).createTags()
+}
+
 /**
 	 * Refresh browser
 	 */
@@ -785,6 +790,11 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDuration"(
 }
 
 
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDefaultTimeZone"() {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getDefaultTimeZone()
+}
+
+
 def static "com.kms.katalon.keyword.datetime.DateTimeUtility.addDays"(
     	String stringDate	
      , 	String dateFormat	
@@ -807,6 +817,15 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.formatStringDate"(
 }
 
 
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getPastTime"(
+    	int hrs	
+     , 	int minute	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getPastTime(
+        	hrs
+         , 	minute)
+}
+
+
 def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentDate"() {
     (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentDate()
 }
@@ -822,15 +841,6 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentYear"() {
 }
 
 
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getPastTime"(
-    	int hrs	
-     , 	int minute	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getPastTime(
-        	hrs
-         , 	minute)
-}
-
-
 def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getFutureTime"(
     	int hrs	
      , 	int minute	) {
@@ -840,8 +850,12 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getFutureTime"(
 }
 
 
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getDefaultTimeZone"() {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getDefaultTimeZone()
+def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentDateTime"(
+    	String timeZoneId	
+     , 	String dateTimeFormat	) {
+    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentDateTime(
+        	timeZoneId
+         , 	dateTimeFormat)
 }
 
 
@@ -860,15 +874,6 @@ def static "com.kms.katalon.keyword.datetime.DateTimeUtility.setDefaultTimeZone"
     	String timeZoneId	) {
     (new com.kms.katalon.keyword.datetime.DateTimeUtility()).setDefaultTimeZone(
         	timeZoneId)
-}
-
-
-def static "com.kms.katalon.keyword.datetime.DateTimeUtility.getCurrentDateTime"(
-    	String timeZoneId	
-     , 	String dateTimeFormat	) {
-    (new com.kms.katalon.keyword.datetime.DateTimeUtility()).getCurrentDateTime(
-        	timeZoneId
-         , 	dateTimeFormat)
 }
 
 
