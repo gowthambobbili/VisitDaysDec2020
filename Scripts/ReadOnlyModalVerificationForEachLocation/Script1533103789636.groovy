@@ -25,6 +25,8 @@ import org.openqa.selenium.WebDriver as WebDriver
 
 CustomKeywords.'com.CommonUtilities.LoginAsDifferentUserPermissions.NavigateToHomePage'()
 
+WebUI.click(findTestObject('Object Repository/HomePageElements/PersonIcon'))
+
 WebUI.click(findTestObject('HomePageElements/SettingsLeftNav'))
 
 WebUI.waitForElementPresent(findTestObject('SettingsPage/SearchLocationsSearachBoxInLocations'), 0)

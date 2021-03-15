@@ -81,6 +81,10 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/ConventionCurators/Sponsors/Ok delete button'))
 
+WebUI.click(findTestObject('Object Repository/ConventionCurators/Sponsors/SaveButton'))
+
+WebUI.delay(5)
+
 def afterDeletedCount=WebUiCommonHelper.findWebElements(findTestObject('Object Repository/ConventionCurators/Sponsors/getTitleCount'),0).size()
 
 if(!(afterDeletedCount==previousCount))

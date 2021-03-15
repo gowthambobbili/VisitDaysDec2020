@@ -41,7 +41,7 @@ import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
 import com.kms.katalon.core.util.KeywordUtil
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
-
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 class ConfirmationPage {
 

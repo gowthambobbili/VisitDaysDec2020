@@ -36,7 +36,7 @@ WebUI.waitForPageLoad(0)
 
 if(!(WebUI.verifyElementPresent(findTestObject('Object Repository/ConventionCurators/AllRegistrantsPage/AllRegistrantsHeader'),0,FailureHandling.OPTIONAL)))
 {
-	KeywordUtil.markFailed('All registrants Header is not shown in All registrants page')
+	KeywordUtil.markFailed('Contacts Header is not shown in All registrants page')
 }
 WebUI.click(findTestObject('Object Repository/ConventionCurators/AllRegistrantsPage/FilterButtonInAllRegistrantsPage'))
 

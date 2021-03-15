@@ -26,6 +26,8 @@ CustomKeywords.'com.CommonUtilities.LoginAsDifferentUserPermissions.NavigateToHo
 
 WebUI.click(findTestObject('Object Repository/PersonIconObjects/PersonIcon'))
 
+WebUI.click(findTestObject('Object Repository/HomePageElements/MyTeamLeftNav'))
+
 WebUI.click(findTestObject('Object Repository/TeamManagement/TeamsTab'))
 
 WebUI.click(findTestObject('TeamManagement/TeamsTab'), FailureHandling.STOP_ON_FAILURE)

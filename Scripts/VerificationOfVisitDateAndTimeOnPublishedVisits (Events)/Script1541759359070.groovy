@@ -53,9 +53,9 @@ WebUI.click(findTestObject('DailyVisitsPage/NoCapacityButtonInDailyVisit'))
 
 WebUI.click(findTestObject('DailyVisitsPage/NextButtonInDailyVisit'))
 
-WebUI.scrollToElement(findTestObject('DailyVisitsPage/AssignLaterButtonInDailyVisit'), 0)
+//WebUI.scrollToElement(findTestObject('DailyVisitsPage/AssignLaterButtonInDailyVisit'), 0)
 
-WebUI.click(findTestObject('DailyVisitsPage/AssignLaterButtonInDailyVisit'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('DailyVisitsPage/AssignLaterButtonInDailyVisit'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('DailyVisitsPage/NextButtonInDailyVisit'))
 

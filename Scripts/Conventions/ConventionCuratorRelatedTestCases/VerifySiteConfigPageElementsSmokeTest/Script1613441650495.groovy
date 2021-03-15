@@ -42,7 +42,6 @@ if(WebUI.verifyElementPresent(findTestObject('Object Repository/ConventionCurato
  List homeElements= [
 	 "Home page tab",
 	 "Individual Convention Pages tab",
-	 "Videos Tab",
 	 "Show Custom Label switch",
 	 "Show custom headline on home page",
 	 "Show custom messaging in tabs of convention pages"
@@ -56,18 +55,16 @@ if(WebUI.verifyElementPresent(findTestObject('Object Repository/ConventionCurato
  
  List individualConventionpageElements= [
 	 "Show custom messaging in tabs of convention pages",
-	 "Show filters for colleges tab switch",
-	 "Show Filters for Live sessions tab switch",
 ]
  for(element in individualConventionpageElements) {
 	 verify.VerifyElementPresentAndStopExecutionIfFailed(findTestObject(rootPath+element),"In the My Account page the "+element+" is not present")
  }
- WebUI.click(findTestObject('Object Repository/ConventionCurators/SiteConfigurationPage/Videos Tab'))
- 
- WebUI.delay(2)
-
- if(!(WebUI.verifyElementPresent(findTestObject('Object Repository/ConventionCurators/SiteConfigurationPage/Show filters for videos tab'),0,FailureHandling.OPTIONAL)))
- {
-	 KeywordUtil.markFailed("show filters for videos on/of switch is not shown in conventions page")
- }
+// WebUI.click(findTestObject('Object Repository/ConventionCurators/SiteConfigurationPage/Videos Tab'))
+// 
+// WebUI.delay(2)
+//
+// if(!(WebUI.verifyElementPresent(findTestObject('Object Repository/ConventionCurators/SiteConfigurationPage/Show filters for videos tab'),0,FailureHandling.OPTIONAL)))
+// {
+//	 KeywordUtil.markFailed("show filters for videos on/of switch is not shown in conventions page")
+// }
  

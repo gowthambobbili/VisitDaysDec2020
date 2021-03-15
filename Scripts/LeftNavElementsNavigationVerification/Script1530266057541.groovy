@@ -100,6 +100,8 @@ CustomKeywords.'com.CommonUtilities.Verifications.VerifyElementVisible'(findTest
 
 CustomKeywords.'com.CommonUtilities.Verifications.VerifyElementVisible'(findTestObject('Object Repository/HomePageElements/Visits/OffCampusLeftNav'), "When click Visits lef nav the Off campus sub nav is not shown")
 
+WebUI.click(findTestObject('Object Repository/HomePageElements/SurveyLeftNav'))
+
 Verify(findTestObject('Object Repository/HomePageElements/SurveyLeftNav'), findTestObject('Object Repository/HomePageElements/Survey/SummaryLeftnav'), findTestObject('Object Repository/Survey-Admin App Objects/12MonthsTab'), 'Survey', 'Summary')
 WebUI.delay(3)
 Verify(null, findTestObject('Object Repository/Survey-Admin App Objects/ApplicantsAndYieldTab'), findTestObject('Object Repository/Survey-Admin App Objects/ApplicantsAndYield/AllReadyAppliedTab'), 'Survey', 'Appclicants & Yield')
@@ -110,6 +112,8 @@ Verify(null, findTestObject('Object Repository/Survey-Admin App Objects/Response
 WebUI.delay(3)
 Verify(null, findTestObject('Object Repository/Survey-Admin App Objects/Questions'), findTestObject('Object Repository/MobiPage/Questions/QuestionName'), 'Survey', 'Questions')
 WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/HomePageElements/PersonIcon'))
 //Verify(findTestObject('Object Repository/HomePageElements/MobiLeftNav'), findTestObject('Object Repository/HomePageElements/Mobi/Mobi-QuestionsLeftNav'), findTestObject('Object Repository/VisitTypesPage/Questions/GroupRadioButtonInQuestions'), 'Mobi', 'Mobi-Questions')
 //
 //Verify(null, findTestObject('Object Repository/HomePageElements/Mobi/Mobi-SettingsLeftNav'), findTestObject('Object Repository/MobiPage/GeneratePreviewButtonInMobi'), 'Mobi', 'Mobi-Settings')

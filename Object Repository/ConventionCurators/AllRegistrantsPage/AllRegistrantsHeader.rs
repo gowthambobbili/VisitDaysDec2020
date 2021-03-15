@@ -6,12 +6,11 @@
    <elementGuidId>7e21c353-caac-49b6-b2bf-d0ff6b442500</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[text()='All Registrants']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[text()='Contacts']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

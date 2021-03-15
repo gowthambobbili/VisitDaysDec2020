@@ -171,8 +171,6 @@
 	<classpathentry kind="lib" path="E:/VisitDays07122020/Drivers/selenium-java-2.53.0-srcs.jar"/>
 	<classpathentry kind="lib" path="E:/VisitDays07122020/Drivers/selenium-java-2.53.0.jar"/>
 	<classpathentry kind="lib" path="E:/VisitDays07122020/Drivers/testng-6.9.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/Katalon_Studio_Windows_64-7.8.2/configuration/plugin/install/99183/1.0.0/katalon-studio-datetime-plugin.jar"/>
-	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/Katalon_Studio_Windows_64-7.8.2/configuration/org.eclipse.osgi/26/0/.cp/resources/basic-report/katalon-studio-report-plugin.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -6,12 +6,11 @@
    <elementGuidId>08c96047-bbc9-4c7e-b4ae-8bd7e423b88a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class=&quot;curator-convention-card__content&quot;]//div[text()='${ConventionName}']/../..//a[contains(@href,'/edit')])[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;curator-convention-card__content&quot;]//div[text()='${ConventionName}']/../..//div[@class=&quot;curator-convention-card__actions-right&quot;]//a//span[contains(text(),'Edit')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

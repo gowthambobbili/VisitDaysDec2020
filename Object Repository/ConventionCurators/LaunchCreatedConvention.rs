@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class=&quot;curator-convention-card__content&quot;]//div[text()='${ConventionName}']/../..//div[@class=&quot;curator-convention-card__actions-right&quot;]//a//i)[3]</value>
+         <value>//div[@class=&quot;curator-convention-card__content&quot;]//div[text()='${ConventionName}']/../..//div[@class=&quot;curator-convention-card__actions-right&quot;]//a//span[contains(text(),'Visit Convention Site')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

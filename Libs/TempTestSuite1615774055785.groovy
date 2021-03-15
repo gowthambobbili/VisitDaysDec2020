@@ -32,8 +32,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("E:\\VisitDays07122020\\Reports\\20210309_060848\\ConventionCurator\\20210309_060848\\execution.properties")
+RunConfiguration.setExecutionSettingFile("E:\\VisitDays07122020\\Reports\\20210314_220735\\ConventionCurator\\20210314_220735\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/ConventionCurator', suiteProperties, new File("E:\\VisitDays07122020\\Reports\\20210309_060848\\ConventionCurator\\20210309_060848\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/ConventionCurator', suiteProperties, new File("E:\\VisitDays07122020\\Reports\\20210314_220735\\ConventionCurator\\20210314_220735\\testCaseBinding"))

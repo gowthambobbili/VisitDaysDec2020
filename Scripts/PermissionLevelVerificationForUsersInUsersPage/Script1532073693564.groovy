@@ -26,6 +26,8 @@ import org.openqa.selenium.By as By
 
 CustomKeywords.'com.CommonUtilities.LoginAsDifferentUserPermissions.NavigateToHomePage'()
 
+WebUI.click(findTestObject('Object Repository/HomePageElements/PersonIcon'))
+
 WebUI.click(findTestObject('HomePageElements/MyTeamLeftNav'))
 
 WebUI.waitForElementPresent(findTestObject('TeamManagement/SearchUsersSearchBoxInUsersActiveTab'), 0)

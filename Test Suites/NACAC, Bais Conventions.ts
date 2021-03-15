@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>NACAC</name>
+   <name>NACAC, Bais Conventions</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -34,6 +34,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Conventions/AddVideoInAdminAndVerifyInStudentApp</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f263eedc-15b4-482a-80b3-1bf14512bd82</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Conventions/VerifyExhibitorsVideosPageIsShowningOnlyTheVideosOfThatExhibitorOrNot</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ff363604-2022-49f6-b9dc-3f79620d9b43</guid>

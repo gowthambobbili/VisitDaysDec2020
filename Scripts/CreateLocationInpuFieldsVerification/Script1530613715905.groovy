@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'com.CommonUtilities.LoginAsDifferentUserPermissions.NavigateToHomePage'()
 
+WebUI.click(findTestObject('Object Repository/HomePageElements/PersonIcon'))
+
 not_run: WebUI.click(findTestObject('HomePageElements/SettingsLeftNav'))
 
 not_run: WebUI.waitForElementPresent(findTestObject('SettingsPage/AddLocationButtonInLocaions'), 0)

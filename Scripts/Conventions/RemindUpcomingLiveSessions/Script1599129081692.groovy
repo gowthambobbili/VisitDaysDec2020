@@ -89,11 +89,12 @@ WebUI.click(findTestObject('Object Repository/NacacStudentApp/HomePageElements/I
 WebUI.delay(4)
 
 WebUI.refresh()
+//disbaled the below steps because of cache time
 
-if(!(WebUI.verifyElementPresent(findTestObject('Object Repository/NacacStudentApp/HomePageElements/VersifySessionInMyEventsPage',['SName':sessionName]),0,FailureHandling.OPTIONAL)))
-{
-	KeywordUtil.markFailed("the registered session is not present in the My events page")
-}
+//if(!(WebUI.verifyElementPresent(findTestObject('Object Repository/NacacStudentApp/HomePageElements/VersifySessionInMyEventsPage',['SName':sessionName]),0,FailureHandling.OPTIONAL)))
+//{
+//	KeywordUtil.markFailed("the registered session is not present in the My events page")
+//}
 
 
 

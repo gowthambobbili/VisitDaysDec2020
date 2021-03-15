@@ -45,7 +45,9 @@ if(WebUI.verifyElementPresent(findTestObject('Object Repository/NacacStudentApp/
 
 WebUI.waitForElementPresent(findTestObject('NacacStudentApp/HomePageElements/CollegeName',['Exhibitor':institutionName]), 0)
 
-WebUI.click(findTestObject('NacacStudentApp/HomePageElements/CollegeName',['Exhibitor':institutionName]))
+//WebUI.click(findTestObject('NacacStudentApp/HomePageElements/CollegeName',['Exhibitor':institutionName]))
+
+CustomKeywords.'com.CommonUtilities.ClickUsingJSExecutor.clickUsingJS'(findTestObject('NacacStudentApp/HomePageElements/CollegeName',['Exhibitor':institutionName]), 0)
 
 WebUI.click(findTestObject('Object Repository/ConventionsPageAdmin/VideosTabInExhibitorsPage'))
 
@@ -55,6 +57,8 @@ if(!(WebUI.verifyElementPresent(findTestObject('Object Repository/NacacStudentAp
 {
 	KeywordUtil.markFailed("the video is not present in the videos tab of exhibitors page")
 }
+
+
 
 
 

@@ -6,12 +6,11 @@
    <elementGuidId>1301a9d9-cc44-462e-acfc-571ccc6b2208</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@class=&quot;app-navigation__item hidden-xs ember-view&quot;]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//a[contains(@href,'account/settings')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

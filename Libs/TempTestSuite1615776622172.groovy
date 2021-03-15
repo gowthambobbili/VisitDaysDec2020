@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
 
-suiteProperties.put('id', 'Test Suites/ConventionCurator')
+suiteProperties.put('id', 'Test Suites/Add Visit To Itinerary Tests')
 
-suiteProperties.put('name', 'ConventionCurator')
+suiteProperties.put('name', 'Add Visit To Itinerary Tests')
 
 suiteProperties.put('description', '')
 
@@ -32,8 +32,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("E:\\VisitDays07122020\\Reports\\20210309_053857\\ConventionCurator\\20210309_053857\\execution.properties")
+RunConfiguration.setExecutionSettingFile("E:\\VisitDays07122020\\Reports\\20210314_225022\\Add Visit To Itinerary Tests\\20210314_225022\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/ConventionCurator', suiteProperties, new File("E:\\VisitDays07122020\\Reports\\20210309_053857\\ConventionCurator\\20210309_053857\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/Add Visit To Itinerary Tests', suiteProperties, new File("E:\\VisitDays07122020\\Reports\\20210314_225022\\Add Visit To Itinerary Tests\\20210314_225022\\testCaseBinding"))

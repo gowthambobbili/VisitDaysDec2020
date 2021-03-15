@@ -20,55 +20,55 @@
    <testCaseLink>
       <guid>29234c7e-56e1-44e6-bfcd-4f465fd0436f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AddVisitToItineraryConflictingTimesAndNonPublihedVisitsTest (Daily Visits)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e2ebc5aa-a597-4904-9035-1d5fabaa5adc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AddVisitToItineraryConflictingTimesAndNonPublihedVisitsTest (Events)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2712ac6c-9e5a-4f31-b7cf-fbf0ccbec1a7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AddVisitToItineraryConflictingTimesAndNonPublihedVisitsTest (Off-Campus)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>be516593-d20f-4056-a50a-fe6ccf8a450d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AddVisitToItineraryOptionVerificationForCanceledUserProfiles(Daily visits)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b04f64cf-26eb-4f05-9e19-8d9deca70d65</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AddVisitToItineraryOptionVerificationForCanceledUserProfiles(Event)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>83e7e265-1457-44d2-9078-c3be364645cc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AddVisitToItineraryOptionVerificationForCanceledUserProfiles(Off-Campus)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>afaa31f9-ea91-4737-a487-32a43b0e3aaa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AddVisitToItineraryOptionVerificationInRegistrantThreeDotMenuForRegistered,CheckInAndNotHereStatuses (Daily Visit)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>14cfc526-441e-49ac-a5ff-3ad57f325728</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AddVisitToItineraryOptionVerificationInRegistrantThreeDotMenuForRegistered,CheckInAndNotHereStatuses (Event)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>44e5992d-03e8-4017-8603-cf66576c9a15</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AddVisitToItineraryOptionVerificationInRegistrantThreeDotMenuForRegistered,CheckInAndNotHereStatuses (Off-Campus)</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -122,19 +122,19 @@
    <testCaseLink>
       <guid>02ad11c0-ea2d-46ad-98c1-4f0b5a24ca9f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AddVisitToItineraryTestForRegistrantTypes (Daily Visits)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cf65fe7f-5858-4318-8311-258753c57721</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AddVisitToItineraryVerificationOfQuestionsWhichArePreviouslyNotCaptured</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bac93a53-5cb5-4d05-88b6-b680616e9820</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AddVisitToItineraryWithChannelTestAndVerificationOfVisitAddingToTheItinerary</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -176,25 +176,25 @@
    <testCaseLink>
       <guid>1412ef36-185f-49b2-be13-0cf377991c8a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AddVisitToItineraryAllVisitTypesVerification</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5094b7f0-049b-43a2-b5e0-fb14f56585f0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SearchVisitTypeTestInAddVisitToItineraryModal</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cffef1ab-8e4c-43b9-8c71-2c06dd48215b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Login and Logout/Logout</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d5080088-1350-4820-8bf7-ce2e6c8253c0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CloseBrowser</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

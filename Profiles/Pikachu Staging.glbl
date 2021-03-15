@@ -111,12 +111,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>https://bais-pikachu.visitdays.vercel.app/ ,https://nacac-pikachu.visitdays.vercel.app/</description>
-      <initValue>'https://nacac-pikachu.visitdays.vercel.app/'</initValue>
+      <initValue>'https://bais-pikachu.visitdays.vercel.app/'</initValue>
       <name>studenturl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://nacac-pikachu.visitdays.vercel.app'</initValue>
+      <initValue>'https://bais-pikachu.visitdays.vercel.app'</initValue>
       <name>StudentUrlCheck</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -131,7 +131,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>nacac, bais</description>
-      <initValue>'nacac'</initValue>
+      <initValue>'bais'</initValue>
       <name>ConventionProvider</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
